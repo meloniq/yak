@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>test-edit-address-button</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-edit-address-button</td></tr>
+</thead><tbody>
+<tr>
+	<td>deleteAllVisibleCookies</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-product-weight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name='shipping_recipient' and @type!='hidden']</td>
+	<td>Joe Bloggs</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name='shipping_email' and @type!='hidden']</td>
+	<td>devtest1@afillyateit.com</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name='shipping_phone' and @type!='hidden']</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name='shipping_addr1' and @type!='hidden']</td>
+	<td>12 St Leonard's Road</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name='shipping_addr2' and @type!='hidden']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name='shipping_suburb' and @type!='hidden']</td>
+	<td>Testville</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name='shipping_city' and @type!='hidden']</td>
+	<td>Testington</td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>shipping_region_input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>//input[@name='shipping_postcode' and @type!='hidden']</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>assertSelected</td>
+	<td>//select[@name='shipping_country']</td>
+	<td>New Zealand</td>
+</tr>
+</tbody></table>
+</body>
+</html>

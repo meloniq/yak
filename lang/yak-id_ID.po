@@ -1,0 +1,286 @@
+# 
+# LANGUAGE (LOCALE) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK 3.1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2011-08-09 20:22+0700\n"
+"Last-Translator: Lutvi Avandi <admin@cafebisnis.com>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " - "
+msgstr " - "
+
+msgid "%LABEL% name"
+msgstr "Nama %LABEL%"
+
+msgid "%LABEL% number"
+msgstr "Nomor %LABEL%"
+
+msgid "&lt;&lt; Previous"
+msgstr "&lt;&lt; Sebelumnya"
+
+msgid "a recipient name is required"
+msgstr "nama penerima diwajibkan"
+
+msgid "Add to cart"
+msgstr "Tambahkan"
+
+msgid "Address Line 1"
+msgstr "Alamat Baris 1"
+
+msgid "address line 1 is required"
+msgstr "alamat baris 1 diwajibkan"
+
+msgid "Address Line 2"
+msgstr "Alamat Baris 2"
+
+msgid "an email address is required"
+msgstr "alamat email diwajibkan"
+
+msgid "baht"
+msgstr "baht"
+
+msgid "Billing Address"
+msgstr "Alamat Tagihan"
+
+msgid "Card Type"
+msgstr "Tipe Kartu"
+
+msgid "Cardholder's Name"
+msgstr "Nama Pemegang Kartu"
+
+msgid "Checkout"
+msgstr "Selesai Belanja"
+
+msgid "City"
+msgstr "Kota"
+
+msgid "city is required"
+msgstr "kota diwajibkan"
+
+msgid "Company Name"
+msgstr "Nama Perusahaan"
+
+msgid "Confirm order"
+msgstr "Konfirmasi Pesanan"
+
+msgid "Confirm your order"
+msgstr "Konfirmasi Pesanan Anda"
+
+msgid "Country"
+msgstr "Negara"
+
+msgid "Credit card has already expired"
+msgstr "Kartu Kredit telah kadaluarsa"
+
+msgid "Credit Card No."
+msgstr "No. Kartu Kredit"
+
+msgid "Currently out of online stock"
+msgstr "Stok Habis"
+
+msgid "Edit this address"
+msgstr "Ubah Alamat ini"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Email address is invalid"
+msgstr "Email tidak valid"
+
+msgid "Enter a new billing address"
+msgstr "Masukkan alamat tagihan baru"
+
+msgid "Enter a new shipping address"
+msgstr "Masukkan alamat pengiriman baru"
+
+msgid "Enter a promotion code, if you have one:"
+msgstr "Masukkan kode promosi, jika anda punya:"
+
+msgid "Error(s) have occurred validating the shipping address information you provided"
+msgstr "Terjadi Galat saat validasi alamat yang anda berikan"
+
+msgid "Error(s) in your account details"
+msgstr "Galat di detil akun anda"
+
+msgid "Error(s) in your credit card details"
+msgstr "Galat di detil kartu kredit anda"
+
+msgid "Expiry Date"
+msgstr "Tanggal Kadaluarsa"
+
+msgid "How would you like to pay?"
+msgstr "Membayar dengan apa?"
+
+msgid "Invalid promotion code"
+msgstr "Kode promosi salah"
+
+msgid "Item"
+msgstr "Item"
+
+msgid "Items in basket"
+msgstr "Item di keranjang"
+
+msgid "Name"
+msgstr "Nama"
+
+msgid "Next"
+msgstr "Berikutnya"
+
+msgid "Next &gt;&gt;"
+msgstr "Berikutnya &gt;&gt;"
+
+msgid "No account name provided"
+msgstr "Nama akun tidak diberikan"
+
+msgid "No account number provided"
+msgstr "Nomor akun tidak diberikan"
+
+msgid "No cardholder name provided"
+msgstr "Nama Pemeganng Kartu tidak diberikan"
+
+msgid "No security code provided"
+msgstr "Kode keamanan tidak diberikan"
+
+msgid "Note: You have a final chance to confirm/cancel the order on the following screen."
+msgstr "Catatan: Anda memiliki kesempatan terakhir untuk konfirmasi/membatalkan pesanan di layar berikutnya"
+
+msgid "Order Confirmation"
+msgstr "Konfirmasi Pesanan"
+
+msgid "Order Detail"
+msgstr "Detil Pesanan"
+
+msgid "Payment method"
+msgstr "Metode Pembayaran"
+
+msgid "phone is required"
+msgstr "telpon diwajibkan"
+
+msgid "Phone Number"
+msgstr "Nomor Telpon"
+
+msgid "Please enter your %LABEL% details"
+msgstr "Silakan masukkan detil %LABEL%"
+
+msgid "Please enter your credit card details"
+msgstr "Silahkan masukkan detil kartu kredit"
+
+msgid "postcode is required"
+msgstr "kodepos diwajibkan"
+
+msgid "Price"
+msgstr "Harga"
+
+msgid "Proceed to Checkout"
+msgstr "Selesai Belanja"
+
+msgid "Purchase is currently disabled, please try again later"
+msgstr "Belum menerima pesanan, silahkan coba lagi nanti"
+
+msgid "Qty"
+msgstr "Jml"
+
+msgid "Quantity"
+msgstr "Jumlah"
+
+msgid "Region"
+msgstr "Regional"
+
+msgid "Return to "
+msgstr "Kembali ke"
+
+msgid "Sales Tax"
+msgstr "Pajak"
+
+msgid "Security Code"
+msgstr "Kode keamanan"
+
+msgid "Select your shipping method"
+msgstr "Pilih Metode Pengiriman"
+
+msgid "Shipping Address"
+msgstr "Alamat pengiriman"
+
+msgid "Shipping costs"
+msgstr "Biaya Pengiriman"
+
+msgid "Sorry, but you do not have any items in your order."
+msgstr "Maaf, tapi anda tidak memiliki pesanan"
+
+msgid "Special Instructions"
+msgstr "Instruksi khusus"
+
+msgid "State"
+msgstr "Negara bagian"
+
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgid "Suburb"
+msgstr "Provinsi"
+
+msgid "The following email has been sent to"
+msgstr "Email berikut telah dikirim ke"
+
+msgid "the following email has been sent to "
+msgstr "email berikut telah dikirim ke"
+
+msgid "The transaction has been declined"
+msgstr "Transaksi dibatalkan"
+
+msgid "This item has been added to your shopping cart"
+msgstr "Item telah ditambahkan ke keranjang belanja"
+
+msgid "This item is already in your shopping cart"
+msgstr "Item sudah ada di keranjang belanja"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Total Discount (%s)"
+msgstr "Total Discount (%s)"
+
+msgid "Update"
+msgstr "Perbarui"
+
+msgid "Use shipping address as billing address"
+msgstr "Gunakan alamat seperti alamat tagihan"
+
+msgid "Use this address"
+msgstr "Gunakan alamat ini"
+
+msgid "We have a shortage of stock for one (or more) of your selections. The quantities in your basket have been altered accordingly."
+msgstr "Kami memiliki stok terbatas pada satu atau lebih pilihan anda. Jumlah di keranjang telah disesuaikan."
+
+msgid "You can select a maximum of %1 items"
+msgstr "Anda bisa memilih maksimum %1 item"
+
+msgid "You can select a minimum of %1 items"
+msgstr "Anda bisa memilih minimal %1 item"
+
+msgid "You don't have access to this promotion code"
+msgstr "Anda tidak memiliki akses kode promosi ini"
+
+msgid "You have no items in your shopping basket"
+msgstr "Keranjang belanja kosong"
+
+msgid "You haven't selected any items"
+msgstr "Anda belum memilih item apapun"
+
+msgid "Your purchased downloads"
+msgstr "Download yang anda beli"
+
+msgid "Your Shopping Basket"
+msgstr "Keranjang Belanja"
+
+msgid "Zip/Postcode"
+msgstr "Kode Pos"
+

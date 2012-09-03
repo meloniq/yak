@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>accounts-receivable</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">accounts-receivable</td></tr>
+</thead><tbody>
+<tr>
+	<td>deleteAllVisibleCookies</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Plugins</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//a[contains(@href, 'yak-ext-accrecv')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Pages</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a.add-new-h2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>title</td>
+	<td>Thanks for your order</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>content</td>
+	<td>Your order id is &lt;span id=&quot;order-id&quot;&gt;[yak_order_id]&lt;/span&gt;.<br /><br />Order value: &lt;span id=&quot;order-value&quot;&gt;[yak_order_value]&lt;/span&gt;</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>publish</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>payments-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name='payment_type_names[]' and @value='']</td>
+	<td>Accounts Receivable</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//table[@id='payment_types']/tbody/tr[4]/td[2]/select</td>
+	<td>label=SPECIAL: Accounts Receivable</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>yak_accrecv_landing_page</td>
+	<td>label=Thanks for your order</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_accrecv_label</td>
+	<td>IMS</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>payment_type</td>
+	<td>label=Accounts Receivable</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>accrecv_number</td>
+	<td>abcdefg</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>accrecv_name</td>
+	<td>Joe Bloggs Incorporated</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>5.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Your order id is</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Thanks for your order</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Details</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>IMS number</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>abcdefg</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>IMS name</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Joe Bloggs Incorporated</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>first-order</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">first-order</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-content/plugins/yak-for-wordpress/test/delete-cookies.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>deleteAllVisibleCookies</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Test Product #1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Test Product #1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_recipient</td>
+	<td>Joe Bloggs</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_email</td>
+	<td>devtest1@afillyateit.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_phone</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_addr1</td>
+	<td>12 St Leonard's Road</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_suburb</td>
+	<td>Testville</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_city</td>
+	<td>Testington</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_postcode</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>devtest1@afillyateit.com</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Joe Bloggs</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>12 St Leonard's Road</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>12345</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>New Zealand</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Payment method: Deposit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>50.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Thanks for your order</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Your order number is</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Please deposit the amount of $50.00</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://testhost/wordpress/" />
+<title>test-grouped-multiselect</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-grouped-multiselect</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add New</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>title</td>
+	<td>grouped multi-select options</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>content</td>
+	<td>test grouped multi-select options<br /><br />[yak_buy]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_price</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_multi_select</td>
+	<td>TITLE,this is a test1<br />option1,http://testhost/wordpress/wp-content/uploads/2010/10/thumbnail-119x150.jpg<br />option2,http://testhost/wordpress/wp-content/uploads/2010/10/thumbnail-119x150.jpg<br />option3,http://testhost/wordpress/wp-content/uploads/2010/10/thumbnail-119x150.jpg<br />option4,http://testhost/wordpress/wp-content/uploads/2010/10/thumbnail-119x150.jpg<br />TITLE,this is a test 2<br />optionA,http://testhost/wordpress/wp-content/uploads/2010/10/thumbnail-119x150.jpg<br />optionB,http://testhost/wordpress/wp-content/uploads/2010/10/thumbnail-119x150.jpg<br />optionC,http://testhost/wordpress/wp-content/uploads/2010/10/thumbnail-119x150.jpg</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_multi_select_min</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_multi_select_max</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>newtype_[]</td>
+	<td>label=default</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>newtype_qty_[]</td>
+	<td>10000</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>publish</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=View post</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>this is a test1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>this is a test 2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>multiselect1[]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@name='multiselect1[]' and @value='option2']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>multiselect2[]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>How would you like to pay?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@name='multiselect1[]' and @value='option2']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>How would you like to pay?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>option1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>optionA</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Details</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>grouped multi-select options item1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>grouped multi-select options item2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>option1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>optionA</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

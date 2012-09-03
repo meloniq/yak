@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>test-discount-in-dropdowns</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-discount-in-dropdowns</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//a[@id='priceqty-tab']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_auto_discount</td>
+	<td>0.9</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>yak_options_dropdown_price</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Posts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//a[@title='View “test-multi-type-product”']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>large ($121.50) medium ($112.50) small ($103.50) xx-large ($130.50)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//a[@id='priceqty-tab']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_auto_discount</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Posts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//a[@title='View “test-multi-type-product”']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>large ($135.00) medium ($125.00) small ($115.00) xx-large ($145.00)</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

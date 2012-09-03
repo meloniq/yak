@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>manual-credit-card</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">manual-credit-card</td></tr>
+</thead><tbody>
+<tr>
+	<td>openAndWait</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Plugins</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#yak-add-on-module-manual-credit-card-payment &gt; td.plugin-title &gt; div.row-actions-visible &gt; span.activate &gt; a.edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>payments-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name='payment_type_names[]' and @value='']</td>
+	<td>Credit Card (manual)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//table[@id='payment_types']/tbody/tr[5]/td[2]/select</td>
+	<td>label=SPECIAL: Credit Card</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>yak_cc_landing_page</td>
+	<td>label=Thanks for your order</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>payment_type</td>
+	<td>label=Credit Card (manual)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cc_number</td>
+	<td>4111111111111111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cc_security_code</td>
+	<td>000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cc_name</td>
+	<td>JOE BLOGGS</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>cc_expiry_year</td>
+	<td>label=2028</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Thanks for your order</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Your order id is</td>
+	<td></td>
+</tr>
+<tr>
+	<td>openAndWait</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Details</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Credit Card (manual)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Visa</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>4111111111111111</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>JOE BLOGGS</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>01/2028</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>funds_received[]</td>
+	<td>20</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>action[]</td>
+	<td>label=Send Stock</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_update</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>status</td>
+	<td>label=show fulfilled orders</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Details</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>exact:****************</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,200 @@
+# 
+# CZECH (CS) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK 1.0.0-rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2010-09-16 16:05+0100\n"
+"Last-Translator: test <tst@seznam.cz>\n"
+"Language-Team: Czech <houska@seznam.cz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+msgid "Add to cart"
+msgstr "Koupit"
+
+msgid "Address Line 1"
+msgstr "1. řádek adresy"
+
+msgid "Address Line 2"
+msgstr "2. řádek adresy"
+
+msgid "Billing Address"
+msgstr "Fakturační adresa"
+
+msgid "Card Type"
+msgstr "Typ karty"
+
+msgid "Cardholder's Name"
+msgstr "Jméno držitele karty"
+
+msgid "Checkout"
+msgstr "Odeslat"
+
+msgid "City"
+msgstr "Město/obec"
+
+msgid "Confirm order"
+msgstr "Potvrdit objednávku"
+
+msgid "Confirm your order"
+msgstr "Potvrďte Vaši objednávku"
+
+msgid "Country"
+msgstr "Stát"
+
+msgid "Credit Card No."
+msgstr "Číslo kreditní karty"
+
+msgid "Credit card has already expired"
+msgstr "Kreditní karta je po expiraci"
+
+msgid "Currently out of online stock"
+msgstr "Toto zboží je právě vyprodáno"
+
+msgid "Edit this address"
+msgstr "Editovat adresu"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Enter a new billing address"
+msgstr "Vložte novou fakturační adresu"
+
+msgid "Enter a new shipping address"
+msgstr "Vložte novou dodací adresu"
+
+msgid ""
+"Error(s) have occurred validating the shipping address information you "
+"provided"
+msgstr ""
+"Pri ověření­ platnosti dodací adresy, ktorou jste nám poskytli sme našli "
+"chyby"
+
+msgid "Error(s) in your credit card details"
+msgstr "Chyby v údajích o kreditní kartě"
+
+msgid "Expiry Date"
+msgstr "Datum expirace"
+
+msgid "How would you like to pay?"
+msgstr "jak budete platit?"
+
+msgid "Items in basket"
+msgstr "Obsah košíku"
+
+msgid "Name"
+msgstr "Jméno"
+
+msgid "No cardholder name provided"
+msgstr "Nezadali jste jméno držitele karty"
+
+msgid "Order Confirmation"
+msgstr "Potvrzení objednávky"
+
+msgid "Order Detail"
+msgstr "Údaje o objednávce"
+
+msgid "Phone Number"
+msgstr "Telefonní č­slo"
+
+msgid "Please enter your credit card details"
+msgstr "Vložte údaje o kretditní kartě"
+
+msgid "Postcode"
+msgstr "PSČ"
+
+msgid "Price"
+msgstr "Cena"
+
+msgid "Proceed to Checkout"
+msgstr "Přejít k objednávce"
+
+msgid "Purchased downloads"
+msgstr "Zaplacené soubory ke stažení"
+
+msgid "Qty"
+msgstr "Počet"
+
+msgid "Region"
+msgstr "Okres"
+
+msgid "Shipping Address"
+msgstr "Dodací adresa"
+
+msgid "Shipping costs"
+msgstr "Poštovné a balné"
+
+msgid "Subtotal"
+msgstr "Mezisoučet"
+
+msgid "Suburb"
+msgstr "3. řádek adresy"
+
+msgid "The following email has been sent to"
+msgstr "Nasledující e-mail byl zaslán na"
+
+msgid "This item has been added to your shopping cart"
+msgstr "Toto zboží jste vložili do košíku"
+
+msgid "This item is already in your shopping cart"
+msgstr "V košíku máte toto zboží"
+
+msgid "Item"
+msgstr "Název"
+
+msgid "Total"
+msgstr "Součet"
+
+msgid "Update"
+msgstr "Aktualizovat"
+
+msgid "Use shipping address as billing address"
+msgstr "Použijte dodací adresu jako fakturační"
+
+msgid "Use this address"
+msgstr "Použít tuto adresu"
+
+msgid ""
+"We have a shortage of stock for one (or more) of your selections. The "
+"quantities in your basket have been altered accordingly."
+msgstr ""
+"Momentálně máme nedostatek zboží jedné (a nebo více) položek z vašeho "
+"výběru. Podle toho jsme upravili množství ve Vašem košíku."
+
+msgid "You have no items in your shopping basket"
+msgstr "V nákupním košíku nemáte žádné zboží"
+
+msgid "Your Shopping Basket"
+msgstr "Váš nákup"
+
+msgid "Your purchased downloads"
+msgstr "Vaše zaplacené soubory na stažení"
+
+msgid "a recipient name is required"
+msgstr "jméno příjemce je povinný údaj"
+
+msgid "address line 1 is required"
+msgstr "1. řádek adresy je povinný údaj"
+
+msgid "an email address is required"
+msgstr "e-mailová adresa je povinný údaj"
+
+msgid "baht"
+msgstr "CZK"
+
+msgid "city is required"
+msgstr "Město/obec je povinný údaj"
+
+msgid "phone is required"
+msgstr "telefonní č­slo je povinný údaj"
+
+msgid "postcode is required"
+msgstr "PSČ je povinný údaj"

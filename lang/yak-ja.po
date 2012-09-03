@@ -1,0 +1,259 @@
+# 
+# LANGUAGE (LOCALE) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK 1.7.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2010-01-02 01:46+0900\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%LABEL% name"
+msgstr "%LABEL% お名前"
+
+msgid "%LABEL% number"
+msgstr "%LABEL% 番号"
+
+msgid "&lt;&lt; Previous"
+msgstr "&lt;&lt; 前へ"
+
+msgid "-"
+msgstr ""
+
+msgid "a recipient name is required"
+msgstr "受け取り人のお名前は必須項目です。"
+
+msgid "Add to cart"
+msgstr "買い物かごへ"
+
+msgid "Address Line 1"
+msgstr "住所1"
+
+msgid "address line 1 is required"
+msgstr "住所1は必須項目です。"
+
+msgid "Address Line 2"
+msgstr "住所2"
+
+msgid "an email address is required"
+msgstr "メールアドレスは必須項目です。"
+
+msgid "baht"
+msgstr "バーツ"
+
+msgid "Billing Address"
+msgstr "請求先住所"
+
+msgid "Buy"
+msgstr "購入"
+
+msgid "Card Type"
+msgstr "カードの種類"
+
+msgid "Cardholder's Name"
+msgstr "カード名義"
+
+msgid "Checkout"
+msgstr "お会計"
+
+msgid "City"
+msgstr "市区町村"
+
+msgid "city is required"
+msgstr "市区町村は必須項目です。"
+
+msgid "Confirm order"
+msgstr "上記内容で注文する"
+
+msgid "Confirm your order"
+msgstr "ご注文を確認"
+
+msgid "Country"
+msgstr "国"
+
+msgid "Credit card has already expired"
+msgstr "クレジットカードの有効期限が過ぎています。"
+
+msgid "Credit Card No."
+msgstr "カードの番号"
+
+msgid "Currently out of online stock"
+msgstr "現在在庫がありません。"
+
+msgid "Edit this address"
+msgstr "この住所を編集"
+
+msgid "Email"
+msgstr "メールアドレス"
+
+msgid "Enter a new billing address"
+msgstr "新しい請求先住所をご記入下さい。"
+
+msgid "Enter a new shipping address"
+msgstr "新しい商品送付先住所をご記入下さい。"
+
+msgid "Enter a promotion code, if you have one:"
+msgstr "もしプロモーションコードをお持ちであればご記入下さい。"
+
+msgid "Error(s) have occurred validating the shipping address information you provided"
+msgstr "送付先住所に関してエラーが発生しました。"
+
+msgid "Error(s) in your account details"
+msgstr "お客様のアカウントにエラーがございます。"
+
+msgid "Error(s) in your credit card details"
+msgstr "クレジットカードの詳細に関してエラーがございます。"
+
+msgid "Expiry Date"
+msgstr "終了日"
+
+msgid "How would you like to pay?"
+msgstr "支払い方法をお選び下さい。"
+
+msgid "Invalid promotion code"
+msgstr "プロモーションコードに誤りがございます。"
+
+msgid "Items in basket"
+msgstr "買い物かごの中の商品"
+
+msgid "Name"
+msgstr "お名前"
+
+msgid "Next"
+msgstr "次"
+
+msgid "Next &gt;&gt;"
+msgstr "次へ &gt;&gt;"
+
+msgid "No account name provided"
+msgstr "アカウント名が記入されていません。"
+
+msgid "No account number provided"
+msgstr "アカウント番号が記入されていません。"
+
+msgid "No cardholder name provided"
+msgstr "カード名義のお名前が記入されていません。"
+
+msgid "No security code provided"
+msgstr "セキュリティーコードが記入されていません。"
+
+msgid "Note: You have a final chance to confirm/cancel the order on the following screen."
+msgstr "記：以下の画面でご注文を取り消すことが可能です。"
+
+msgid "Order Detail"
+msgstr "ご注文の確認"
+
+msgid "Payment method"
+msgstr "お支払い方法"
+
+msgid "phone is required"
+msgstr "電話番号は必須項目です。"
+
+msgid "Phone Number"
+msgstr "電話番号"
+
+msgid "Please enter your %LABEL% details"
+msgstr "お客様の %LABEL% の詳細をご記入下さい。"
+
+msgid "Please enter your credit card details"
+msgstr "クレジットカードの詳細をご記入下さい。"
+
+msgid "postcode is required"
+msgstr "郵便番号は必須項目です。"
+
+msgid "Price"
+msgstr "価格"
+
+msgid "Purchased downloads"
+msgstr "購入されたダウンロード"
+
+msgid "Qty"
+msgstr "ご注文数"
+
+msgid "Region"
+msgstr "地域"
+
+msgid "Return to"
+msgstr "戻る"
+
+msgid "Security Code"
+msgstr "セキュリティコード"
+
+msgid "Shipping Address"
+msgstr "商品送付先住所"
+
+msgid "Shipping costs"
+msgstr "送料"
+
+msgid "Sorry, but you do not have any items in your order."
+msgstr "ご注文に商品がありません。"
+
+msgid "Special Instructions"
+msgstr "特記事項"
+
+msgid "State"
+msgstr "県名"
+
+msgid "Subtotal"
+msgstr "小計"
+
+msgid "Suburb"
+msgstr "区域"
+
+msgid "The following email has been sent to"
+msgstr "以下にメールいたしました。"
+
+msgid "This item has been added to your shopping cart"
+msgstr "商品が買い物かごに追加されました。"
+
+msgid "This item is already in your shopping cart"
+msgstr "この商品は既に買い物かごに入っております。"
+
+msgid "Item"
+msgstr "題名"
+
+msgid "Total"
+msgstr "合計"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Use shipping address as billing address"
+msgstr "送付先住所に請求先住所を使う。"
+
+msgid "Use this address"
+msgstr "この住所を使う"
+
+msgid "We have a shortage of stock for one (or more) of your selections. The quantities in your basket have been altered accordingly."
+msgstr "ご注文数に対する在庫がございません。在庫量に合わせて買い物かごの内容が変更されました。"
+
+msgid "You can select a maximum of %1 items"
+msgstr "最大%1個の商品を選択可能です。"
+
+msgid "You can select a minimum of %1 items"
+msgstr "最小%1個の商品を選択可能です。"
+
+msgid "You don't have access to this promotion code"
+msgstr "このプロモーションコードにアクセス出来ません。"
+
+msgid "You have no items in your shopping basket"
+msgstr "買い物かごに何もございません。"
+
+msgid "You haven't selected any items"
+msgstr "商品が何も選択されていません。"
+
+msgid "Your purchased downloads"
+msgstr "お客様が購入されたダウンロード商品"
+
+msgid "Your Shopping Basket"
+msgstr "お客様の買い物かご"
+
+msgid "Zip/Postcode"
+msgstr "郵便番号"
+

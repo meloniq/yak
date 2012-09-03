@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>add-multi-type-product</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">add-multi-type-product</td></tr>
+</thead><tbody>
+<tr>
+	<td>openAndWait</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add New</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>title</td>
+	<td>test-multi-type-product</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>content-html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>content</td>
+	<td>test multi type product<br /><br />[yak_price]<br /><br />[yak_buy]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_price</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>newtype_[]</td>
+	<td>label=default</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>newtype_qty_[]</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//table[@id='product_types_']/tbody/tr[3]/td[2]/button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='product_types_']/tbody/tr[3]/td[1]/input</td>
+	<td>large</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='product_types_']/tbody/tr[3]/td[3]/input</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='product_types_']/tbody/tr[4]/td[1]/input</td>
+	<td>medium</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='product_types_']/tbody/tr[4]/td[3]/input</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='product_types_']/tbody/tr[5]/td[1]/input</td>
+	<td>small</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='product_types_']/tbody/tr[5]/td[3]/input</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>publish</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertChecked</td>
+	<td>//label[text() = ' default']/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertChecked</td>
+	<td>//label[text() = ' large']/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertChecked</td>
+	<td>//label[text() = ' medium']/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertChecked</td>
+	<td>//label[text() = ' small']/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=View post</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$100.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertSelectOptions</td>
+	<td>//select[@name = 'category']</td>
+	<td>large,medium,small</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button' and contains(@onclick, 'removeExistingProductType') and contains(@onclick, '_4')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>publish</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertNotChecked</td>
+	<td>//label[text() = ' default']/input</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button' and contains(@onclick, 'newProductToggle')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@name, 'newtype_name_')]</td>
+	<td>x-large</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@name, 'newtype_qty_')]</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@name, 'newtype_price_')]</td>
+	<td>140</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@name, 'price') and contains(@name, '_7')]</td>
+	<td>130</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@name, 'price') and contains(@name, '_8')]</td>
+	<td>120</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@name, 'price') and contains(@name, '_9')]</td>
+	<td>110</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>content-html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>content</td>
+	<td>test multi type product<br /><br />small: [yak_price type=&quot;small&quot;]<br />medium: [yak_price type=&quot;medium&quot;]<br />large: [yak_price type=&quot;large&quot;]<br />x-large: [yak_price type=&quot;x-large&quot;]<br /><br />[yak_buy]</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>publish</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=View post</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>small: $110.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>medium: $120.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>large: $130.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>x-large: $140.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>(large)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-multi-type-product (large)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>category</td>
+	<td>label=small</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>(small)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[contains(@id, 'deletebutton_') and contains(@id, '_9')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[contains(@id, 'deletebutton_') and contains(@id, '_7')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>You have no items in your shopping basket</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

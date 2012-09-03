@@ -1,0 +1,216 @@
+# 
+# THAI (TH) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK 1.0.0-rc3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2009-11-01 17:21+1300\n"
+"Last-Translator: AB\n"
+"Language-Team: Thai\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=TIS-620\n"
+"Content-Transfer-Encoding: 16bit\n"
+
+msgid "a recipient name is required"
+msgstr "กรุณาใส่ชื่อผู้รับสินค้า"
+
+msgid "Add to cart"
+msgstr "ซื้อสินค้า"
+
+msgid "Address Line 1"
+msgstr "ที่อยู่ 1"
+
+msgid "address line 1 is required"
+msgstr "กรุณาใส่ที่อยู่ 1"
+
+msgid "Address Line 2"
+msgstr "ที่อยู่ 2"
+
+msgid "an email address is required"
+msgstr "กรุณาใส่อีเมล์"
+
+msgid "baht"
+msgstr "บาท"
+
+msgid "Billing Address"
+msgstr "ที่อยู่สำหรับใบเสร็จรับเงิน"
+
+msgid "Card Type"
+msgstr "ประเภทบัตรเครดิต"
+
+msgid "Cardholder's Name"
+msgstr "ชื่อเจ้าของบัตรเครดิต"
+
+msgid "Checkout"
+msgstr "ซื้อสินค้า"
+
+msgid "City"
+msgstr "อำเภอ/เขต"
+
+msgid "city is required"
+msgstr "กรุณาใส่จังหวัด"
+
+msgid "Confirm order"
+msgstr "ยืนยันการสั่งซื้อ"
+
+msgid "Confirm your order"
+msgstr "ยืนยันการสั่งซื้อ"
+
+msgid "Country"
+msgstr "ประเทศ"
+
+msgid "Credit card has already expired"
+msgstr "บัตรเครดิตของท่านหมดอายุ"
+
+msgid "Credit Card No."
+msgstr "หมายเลขบัตร"
+
+msgid "Currently out of online stock"
+msgstr "สินค้าหมดชั่วคราวค่ะ"
+
+msgid "Edit this address"
+msgstr "แก้ไขที่อยู่"
+
+msgid "Email"
+msgstr "อีเมล์"
+
+msgid "Enter a new billing address"
+msgstr "กรุณากรอกที่อยู่สำหรับใบเสร็จรับเงิน"
+
+msgid "Enter a new shipping address"
+msgstr "กรุณากรอกที่อยู่สำหรับจัดส่งสินค้า"
+
+msgid "Enter a promotion code, if you have one:"
+msgstr "กรุณาใส่รหัสโปรโมชั่น"
+
+msgid "Error(s) have occurred validating the shipping address information you provided"
+msgstr "เกิดความผิดพลาดในข้อมูลที่อยู่สำหรับจัดส่งสินค้า"
+
+msgid "Error(s) in your credit card details"
+msgstr "เกิดความผิดพลาดในข้อมูลบัตรเครดิต"
+
+msgid "Expiry Date"
+msgstr "วันหมดอายุ"
+
+msgid "How would you like to pay?"
+msgstr "กรุณาเลือกวิธีการชำระเงิน"
+
+msgid "Name"
+msgstr "ชื่อและนามสกุล"
+
+msgid "Next &gt;&gt;"
+msgstr "หน้าถัดไป &gt;&gt;"
+
+msgid "No cardholder name provided"
+msgstr "กรุณาใส่ชื่อเจ้าของบัตรเครดิต"
+
+msgid "Order Confirmation"
+msgstr "ยืนยันการสั่งซื้อ"
+
+msgid "Order Detail"
+msgstr "รายละเอียดการสั่งซื้อ"
+
+msgid "Payment method"
+msgstr "ชำระค่าสินค้า"
+
+msgid "phone is required"
+msgstr "กรุณาใส่หมายเลขโทรศัพท์"
+
+msgid "Phone Number"
+msgstr "หมายเลขโทรศัพท์"
+
+msgid "Please enter your credit card details"
+msgstr "กรุณาใส่รายละเอียดบัตรเครดิต"
+
+msgid "Postcode"
+msgstr "รหัสไปรษณีย์"
+
+msgid "postcode is required"
+msgstr "กรุณาใส่รหัสไปรษณีย์"
+
+msgid "&lt;&lt; Previous"
+msgstr "&lt;&lt; หน้าก่อน"
+
+msgid "Price"
+msgstr "ราคา"
+
+msgid "Purchase is currently disabled, please try again later"
+msgstr "กำลังปรับปรุงระบบ กรุณากลับมาใช้บริการใหม่ค่ะ"
+
+msgid "Purchased downloads"
+msgstr "สั่งซื้อสินค้าดาวน์โหลด"
+
+msgid "Qty"
+msgstr "จำนวน"
+
+msgid "Quantity"
+msgstr "จำนวน"
+
+msgid "Region"
+msgstr "จังหวัด"
+
+msgid "Select your shipping method"
+msgstr "กรุณาเลือกการขนส่ง"
+
+msgid "Shipping Address"
+msgstr "ที่อยู่สำหรับจัดส่งหนังสือ"
+
+msgid "Shipping costs"
+msgstr "ค่าขนส่ง"
+
+msgid "Subtotal"
+msgstr "ราคาไม่รวมค่าจัดส่ง"
+
+msgid "Suburb"
+msgstr "ตำบล/แขวง"
+
+msgid "The following email has been sent to"
+msgstr "ได้ส่งยืนยันการสั่งซื้อไปที่อีเมล์นี้เรียบร้อยแล้ว"
+
+msgid "This item has been added to your shopping cart"
+msgstr "สินค้ารายงานนี้อยู่ในรถเข็นของท่านเรียบร้อย"
+
+msgid "This item is already in your shopping cart"
+msgstr "ท่านได้สั่งซื้อสินค้ารายการนี้ไปแล้ว"
+
+msgid "Item"
+msgstr "ชื่อสินค้า"
+
+msgid "Total"
+msgstr "รวมราคาทั้งหมด"
+
+msgid "Total Discount (%s)"
+msgstr "ส่วนลดทั้งหมด (%s)"
+
+msgid "Update"
+msgstr "คำนวณ"
+
+msgid "Use shipping address as billing address"
+msgstr "ใช้ที่อยู่นี้ในการส่งใบเสร็จ"
+
+msgid "Use this address"
+msgstr "ใช้ที่อยู่นี้"
+
+msgid "We have a shortage of stock for one (or more) of your selections. The quantities in your basket have been altered accordingly."
+msgstr "ขออภัยในการเปลี่ยนแปลงค่ะ เนื่องจากสินค้าบางรายการในรถเข็นของท่านมีจำนวนไม่เพียงพอต่อการจัดส่ง"
+
+msgid "You can select a maximum of %1 items"
+msgstr "เลือกสินค้าได้ไม่เกิน %1 รายการ"
+
+msgid "You can select a minimum of %1 items"
+msgstr "ต้องเลือกสินค้าไม่ต่ำกว่า %1 รายการ"
+
+msgid "You have no items in your shopping basket"
+msgstr "ไม่มีสินค้าในรถเข็นของท่าน"
+
+msgid "You haven't selected any items"
+msgstr "คุณยังไม่ได้เลือกสินค้า"
+
+msgid "Your purchased downloads"
+msgstr "สินค้าดาวน์โหลดของท่าน"
+
+msgid "Zip/Postcode"
+msgstr "รหัสไปรษณีย์"

@@ -1,0 +1,1005 @@
+# 
+# LANGUAGE (LOCALE) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK Admin 3.4.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2009-10-09 17:21+1300\n"
+"Last-Translator: n/a\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 16bit\n"
+
+msgid "(First %s gm/Subsequent)"
+msgstr ""
+
+msgid "(First/Subsequent)"
+msgstr ""
+
+msgid "(Recommendation: at the very least, save the key in a file, add the file to an encrypted zip, then store on your local machine with a second copy on a USB key). Do not store on your web server!"
+msgstr ""
+
+msgid "[billing_address] for the billing address"
+msgstr ""
+
+msgid "[html_billing_address] for the billing address in html format"
+msgstr ""
+
+msgid "[html_order_detail] for the order detail in html table format"
+msgstr ""
+
+msgid "[html_shipping_address] for the shipping address in html format"
+msgstr ""
+
+msgid "[name] for the recipient name"
+msgstr ""
+
+msgid "[order_cost] for the total order cost"
+msgstr ""
+
+msgid "[order_detail] for the order detail"
+msgstr ""
+
+msgid "[order_id] for the order number"
+msgstr ""
+
+msgid "[payment_type] for the payment type"
+msgstr ""
+
+msgid "[phone] for the recipient\s phone number"
+msgstr ""
+
+msgid "[shipping_address] for the shipping address"
+msgstr ""
+
+msgid "[shipping_type] for the shipping type"
+msgstr ""
+
+msgid "[special_instructions] for any special instructions the customer entered"
+msgstr ""
+
+msgid "A list of shipping options (separated by newlines). These will be displayed in a dropdown from which the customer can select."
+msgstr ""
+
+msgid "A message containing a list of download URIs for purchased products ([downloads] is replaced with the URI list)"
+msgstr ""
+
+msgid "A message containing the download URI for the updated product ([downloads] is replaced with the URI - same as the standard downloads email)"
+msgstr ""
+
+msgid "About"
+msgstr ""
+
+msgid "About YAK for WordPress"
+msgstr ""
+
+msgid "Account"
+msgstr ""
+
+msgid "Accounts Receivable settings"
+msgstr ""
+
+msgid "Action"
+msgstr ""
+
+msgid "Add a new promotion"
+msgstr ""
+
+msgid "Add multiselect options"
+msgstr ""
+
+msgid "Add quantity input to buy button"
+msgstr ""
+
+msgid "Additional Information"
+msgstr ""
+
+msgid "Address"
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "Affiliation"
+msgstr ""
+
+msgid "AJAX Buy Button"
+msgstr ""
+
+msgid "Allow custom price entry"
+msgstr ""
+
+msgid "Allowed credit card types"
+msgstr ""
+
+msgid "Analytics Profile ID"
+msgstr ""
+
+msgid "API Login ID"
+msgstr ""
+
+msgid "API Password"
+msgstr ""
+
+msgid "API Signature"
+msgstr ""
+
+msgid "API Username"
+msgstr ""
+
+msgid "Authorize.net settings"
+msgstr ""
+
+msgid "Auto discount"
+msgstr ""
+
+msgid "Basic"
+msgstr ""
+
+msgid "Best sellers by month in %s"
+msgstr ""
+
+msgid "Best sellers for %s"
+msgstr ""
+
+msgid "Billing Address"
+msgstr ""
+
+msgid "Both Payment Data Transfer and Instant Payment Notification are used by paypal to let you know that a payment has been processed."
+msgstr ""
+
+msgid "CA State Tax"
+msgstr ""
+
+msgid "Cancel return Page"
+msgstr ""
+
+msgid "Check"
+msgstr ""
+
+msgid "Checkout redirect"
+msgstr ""
+
+msgid "Clear"
+msgstr ""
+
+msgid "Clear zones"
+msgstr ""
+
+msgid "Code"
+msgstr ""
+
+msgid "Code / Threshold"
+msgstr ""
+
+msgid "Comma-separated list of products for which this promotion is valid."
+msgstr ""
+
+msgid "Comma-separated list of users who can activate this promo."
+msgstr ""
+
+msgid "Company Name"
+msgstr ""
+
+msgid "Confirmation Email"
+msgstr ""
+
+msgid "Confirmation Message"
+msgstr ""
+
+msgid "Confirmation Subject"
+msgstr ""
+
+msgid "Cookie Lifetime (days)"
+msgstr ""
+
+msgid "Cost by weight for zone %s (first)"
+msgstr ""
+
+msgid "Cost by weight for zone %s (subsequent multiples of %s)"
+msgstr ""
+
+msgid "Cost per %s gm"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Country Tax"
+msgstr ""
+
+msgid "Coupon Set Name"
+msgstr ""
+
+msgid "Coupons"
+msgstr ""
+
+msgid "Currency"
+msgstr ""
+
+msgid "Custom \"Out of Stock\" message"
+msgstr ""
+
+msgid "Customer can enter the quantity they want to purchase before clicking the buy button."
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Date the promotion expires."
+msgstr ""
+
+msgid "Default Country"
+msgstr ""
+
+msgid "Default duplicate handling"
+msgstr ""
+
+msgid "Default special instructions"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Display an error message"
+msgstr ""
+
+msgid "Display if empty?"
+msgstr ""
+
+msgid "Display product options"
+msgstr ""
+
+msgid "Display product options drop-down if there is only a single option?"
+msgstr ""
+
+msgid "Display zero tax"
+msgstr ""
+
+msgid "Download"
+msgstr ""
+
+msgid "Download Email"
+msgstr ""
+
+msgid "Download Email address"
+msgstr ""
+
+msgid "Download uri"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Email address from which download messages are sent"
+msgstr ""
+
+msgid "Email address to use for the order confirmation. Leave this blank if you don't want to send a confirmation message."
+msgstr ""
+
+msgid "Empty basket message"
+msgstr ""
+
+msgid "Empty quantity considered unlimited"
+msgstr ""
+
+msgid "Enable sales tax"
+msgstr ""
+
+msgid "Enter a fraction, or 1 for no discount"
+msgstr ""
+
+msgid "Enter an override uri for the yak-dl.php file which will be sent to the customer. You only need to enter this if you use mod_rewrite (or equivalent) to change the actual path to the script. If that doesn't make sense to you, leave this blank."
+msgstr ""
+
+msgid "Enter suspect email addresses here - anyone using these addresses will get an error when trying to purchase. Separate each with a newline."
+msgstr ""
+
+msgid "Enter the affiliation (i.e. if you want to separate orders from your YAK store from orders through another mechanism)"
+msgstr ""
+
+msgid "Enter the content of the order confirmation - either plain text or html. If the html tag is found YAK will automatically send the message as html."
+msgstr ""
+
+msgid "Enter the fraction (i.e. 0.1) to use for tax calculation"
+msgstr ""
+
+msgid "Enter the number of decimal places to round to (e.g. 2 decimal places, or 0 for currencies that don't typically use smaller units -- thai baht being an example)"
+msgstr ""
+
+msgid "Enter the private key you've generated on YAK's payments settings screen."
+msgstr ""
+
+msgid "Enter the remote path to use in association with the [yak_get_remote...] tag. For example:  /wordpress or /mysite"
+msgstr ""
+
+msgid "Enter the remote server to use in association with the [yak_get_remote...] tag."
+msgstr ""
+
+msgid "Enter the shipping zone for %s"
+msgstr ""
+
+msgid "Enter the tax rate (as a fraction such as 0.125) for %s"
+msgstr ""
+
+msgid "Enter the url to use on hosts which require http proxying of remote requests (note: currently only setup to work with CURL (if your server doesn't have php-curl installed this won't work)."
+msgstr ""
+
+msgid "Error Page"
+msgstr ""
+
+msgid "Expiration date"
+msgstr ""
+
+msgid "Expiry"
+msgstr ""
+
+msgid "FAQ"
+msgstr ""
+
+msgid "Filename"
+msgstr ""
+
+msgid "Final page for a successful Accounts Receivable order."
+msgstr ""
+
+msgid "Final page for a successful credit card order through authorize.net"
+msgstr ""
+
+msgid "Final page for a successful credit card order."
+msgstr ""
+
+msgid "Final page for a successful order."
+msgstr ""
+
+msgid "Final page for an error."
+msgstr ""
+
+msgid "Final page for an unsuccessful credit card order through authorize.net"
+msgstr ""
+
+msgid "Find orders"
+msgstr ""
+
+msgid "Fixed Cost per item"
+msgstr ""
+
+msgid "Fixed shipping code for zone %s (first item)"
+msgstr ""
+
+msgid "Fixed shipping code for zone %s (no matter how many items)"
+msgstr ""
+
+msgid "Fixed shipping code for zone %s (subsequent items)"
+msgstr ""
+
+msgid "Fixed Total Cost"
+msgstr ""
+
+msgid "Funds Received"
+msgstr ""
+
+msgid "General Options"
+msgstr ""
+
+msgid "Generate this in the Settings admin area (usually 16 characters)"
+msgstr ""
+
+msgid "Get this from Settings, when you login to the Authorize.net admin area."
+msgstr ""
+
+msgid "Google Analytics"
+msgstr ""
+
+msgid "Google Analytics Profile ID. Make sure that you include the tracker code for this ID in your theme."
+msgstr ""
+
+msgid "Google settings"
+msgstr ""
+
+msgid "Handbook"
+msgstr ""
+
+msgid "Hide quantity input"
+msgstr ""
+
+msgid "Hide Update button"
+msgstr ""
+
+msgid "How long should the customer's address cookie be stored on their machine?"
+msgstr ""
+
+msgid "HTTP Proxy Address"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Identity token"
+msgstr ""
+
+msgid "If selected, the customer shipping address will be included in the details submitted to PayPal"
+msgstr ""
+
+msgid "If the coupon set name already exists should we replace the coupons, or just add to it?"
+msgstr ""
+
+msgid "Immediate confirmation"
+msgstr ""
+
+msgid "Include price in options dropdown"
+msgstr ""
+
+msgid "Include protocol, domain and port (e.g. http://www.myserver.com:8080)"
+msgstr ""
+
+msgid "Include Shipping Costs"
+msgstr ""
+
+msgid "Include shipping costs in order totals?"
+msgstr ""
+
+msgid "Increase the quantity"
+msgstr ""
+
+msgid "Installation"
+msgstr ""
+
+msgid "Item"
+msgstr ""
+
+msgid "Label"
+msgstr ""
+
+msgid "Label to use on the accounts receivable form (for example, IMS, Premium account, etc)"
+msgstr ""
+
+msgid "Landing Page"
+msgstr ""
+
+msgid "Leave blank if you don't need to include a T&amp;C's checkbox"
+msgstr ""
+
+msgid "Low stock email address"
+msgstr ""
+
+msgid "Low Stock Notification"
+msgstr ""
+
+msgid "Low stock notification email"
+msgstr ""
+
+msgid "Low stock notification threshold"
+msgstr ""
+
+msgid "Maintenance mode"
+msgstr ""
+
+msgid "Manual Credit Card settings"
+msgstr ""
+
+msgid "Merchant ID"
+msgstr ""
+
+msgid "Merchant Key"
+msgstr ""
+
+msgid "Minimum/maximum multi-select options"
+msgstr ""
+
+msgid "Misc Options"
+msgstr ""
+
+msgid "Miscellaneous"
+msgstr ""
+
+msgid "Month"
+msgstr ""
+
+msgid "Multi-select options"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Name of the coupon set."
+msgstr ""
+
+msgid "No caching"
+msgstr ""
+
+msgid "No coupons were inserted (either duplicates in the file, or pre-existing codes)"
+msgstr ""
+
+msgid "Not all coupons were inserted (either duplicates in the file, or pre-existing codes)"
+msgstr ""
+
+msgid "Note, the following tags can be used in the message"
+msgstr ""
+
+msgid "Note: enter a fraction (e.g. 0.75 for 25% discount)"
+msgstr ""
+
+msgid "Note: This will also save any changes you have currently made to these configuration settings."
+msgstr ""
+
+msgid "Notes about shipping to add to the bottom of the confirmation screen."
+msgstr ""
+
+msgid "Number of columns in the multi-select table"
+msgstr ""
+
+msgid "Number of orders: "
+msgstr ""
+
+msgid "Options"
+msgstr ""
+
+msgid "Order #"
+msgstr ""
+
+msgid "Order Details"
+msgstr ""
+
+msgid "Order Log"
+msgstr ""
+
+msgid "Order number type"
+msgstr ""
+
+msgid "Order numbers can be a basic sequence, or a randomised unique number."
+msgstr ""
+
+msgid "Order Value"
+msgstr ""
+
+msgid "Orders"
+msgstr ""
+
+msgid "Page/Post Title"
+msgstr ""
+
+msgid "Payment"
+msgstr ""
+
+msgid "Payment Type"
+msgstr ""
+
+msgid "Payment-Shipping Pairs"
+msgstr ""
+
+msgid "Payments"
+msgstr ""
+
+msgid "PayPal Pro settings"
+msgstr ""
+
+msgid "PayPal settings"
+msgstr ""
+
+msgid "Phone"
+msgstr ""
+
+msgid "Postcode/Zipcode"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Price rounding"
+msgstr ""
+
+msgid "Private key"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "Product category name"
+msgstr ""
+
+msgid "Product page size"
+msgstr ""
+
+msgid "Product Title"
+msgstr ""
+
+msgid "Products"
+msgstr ""
+
+msgid "Products list"
+msgstr ""
+
+msgid "Products price/quantity"
+msgstr ""
+
+msgid "Promotions"
+msgstr ""
+
+msgid "Public key"
+msgstr ""
+
+msgid "Pulishable Key"
+msgstr ""
+
+msgid "Qty"
+msgstr ""
+
+msgid "Quantity Input Size"
+msgstr ""
+
+msgid "Redirect on buy to"
+msgstr ""
+
+msgid "Redirect To"
+msgstr ""
+
+msgid "Redirects for Payment"
+msgstr ""
+
+msgid "Remote Grab Server"
+msgstr ""
+
+msgid "Remote Products"
+msgstr ""
+
+msgid "Replace existing set"
+msgstr ""
+
+msgid "Require Login"
+msgstr ""
+
+msgid "Require login to purchase this product"
+msgstr ""
+
+msgid "Resend DL"
+msgstr ""
+
+msgid "Return Page"
+msgstr ""
+
+msgid "Sales Reports"
+msgstr ""
+
+msgid "Sales Tax"
+msgstr ""
+
+msgid "Search"
+msgstr ""
+
+msgid "Secret Key"
+msgstr ""
+
+msgid "Select the credit card types you allow customers to purchase with."
+msgstr ""
+
+msgid "Select the downloadable product to re-send."
+msgstr ""
+
+msgid "Select the file containing coupon codes."
+msgstr ""
+
+msgid "Select the shopping cart page to redirect to when the customer clicks on the buy button (leave blank to disable redirection)"
+msgstr ""
+
+msgid "Send"
+msgstr ""
+
+msgid "Send email confirmation immediately, or once the credit card has been processed."
+msgstr ""
+
+msgid "Send shipping address?"
+msgstr ""
+
+msgid "Separate Billing Address"
+msgstr ""
+
+msgid "Set a short description"
+msgstr ""
+
+msgid "Set an override discount"
+msgstr ""
+
+msgid "Set Payment-Shipping Pairs"
+msgstr ""
+
+msgid "Set the display title"
+msgstr ""
+
+msgid "Set the minimum and maximum number of multi-select options"
+msgstr ""
+
+msgid "Set the price of your product"
+msgstr ""
+
+msgid "Set the test mode flag on - this allows you to test your website connection to the gateway without processing live transactions."
+msgstr ""
+
+msgid "Shipping Address"
+msgstr ""
+
+msgid "Shipping costs"
+msgstr ""
+
+msgid "Shipping Notes"
+msgstr ""
+
+msgid "Shipping Option:"
+msgstr ""
+
+msgid "Shipping options"
+msgstr ""
+
+msgid "Shipping Type"
+msgstr ""
+
+msgid "Shipping weight calculation value"
+msgstr ""
+
+msgid "Short Description"
+msgstr ""
+
+msgid "Short description of the promotion."
+msgstr ""
+
+msgid "Should a message be shown if a product is out of stock?"
+msgstr ""
+
+msgid "Should sales tax be calculated?"
+msgstr ""
+
+msgid "Should sales tax be displayed if the calculation came to zero?"
+msgstr ""
+
+msgid "Show \"Out of Stock\" message"
+msgstr ""
+
+msgid "show cancelled orders"
+msgstr ""
+
+msgid "show error orders"
+msgstr ""
+
+msgid "show fulfilled orders"
+msgstr ""
+
+msgid "show paid orders"
+msgstr ""
+
+msgid "show refunded orders"
+msgstr ""
+
+msgid "show unfulfilled orders"
+msgstr ""
+
+msgid "Special instructions appear on the final screen of the cart. Enter information for your customers here."
+msgstr ""
+
+msgid "Special options text"
+msgstr ""
+
+msgid "Specify an alternate out of stock message. Leave this blank to use the default."
+msgstr ""
+
+msgid "Specify how many digits are allowed in a quantity input box"
+msgstr ""
+
+msgid "Specify the pages where caching should be turned off (in other words the checkout/cart page). Use this to stop Internet Explorer displaying the message \"webpage is expired\"."
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Store this key (below) in a secure location. You'll use it to decrypt credit card details, so it is essential you don't lose it"
+msgstr ""
+
+msgid "Stripe settings"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Subject line for the email."
+msgstr ""
+
+msgid "Subject to use for the order confirmation. Leave this blank to use the default (localised) subject \"Order Confirmation\"."
+msgstr ""
+
+msgid "Subtotal"
+msgstr ""
+
+msgid "Suburb"
+msgstr ""
+
+msgid "Tax Calc"
+msgstr ""
+
+msgid "Terms &amp; conditions"
+msgstr ""
+
+msgid "Test confirmation message"
+msgstr ""
+
+msgid "Test email: "
+msgstr ""
+
+msgid "Test Mode"
+msgstr ""
+
+msgid "The API username if you're using PayPal Payments Pro."
+msgstr ""
+
+msgid "The buy button will use asynchronous javascript to submit (so the page won't reload when the customer hits the button)."
+msgstr ""
+
+msgid "The code for the promotion, or the name of a coupon set, or the threshold which triggers a promotion."
+msgstr ""
+
+msgid "The currency (including monetary format) to use in the cart"
+msgstr ""
+
+msgid "The identity token is used if you select PDT."
+msgstr ""
+
+msgid "The name of the category used for product posts (e.g. \"products\").  If you want a post to appear as a product you must use this category or a sub-category."
+msgstr ""
+
+msgid "The number of products that should appear on the product page before we start \"paging\" (i.e. add previous/next links)."
+msgstr ""
+
+msgid "The page to return to after a successful order."
+msgstr ""
+
+msgid "The page to return to if an error occurs during payments processing."
+msgstr ""
+
+msgid "The page to return to if the customer cancels their purchase."
+msgstr ""
+
+msgid "The page to return to on a successful purchase."
+msgstr ""
+
+msgid "The PayPal Pro API Password."
+msgstr ""
+
+msgid "The PayPal Pro API Signature."
+msgstr ""
+
+msgid "The public key is used to encrypt credit card details - the private key to decrypt"
+msgstr ""
+
+msgid "The publishable key provided by Stripe on your account page."
+msgstr ""
+
+msgid "The secret key provided by Stripe on your account page."
+msgstr ""
+
+msgid "The weight value, in grams, that should be used for calculating shipping cost. This defaults to 100gms if not set and is used for the \"shipping first\" calculation and then the subsequent \"per x grams\" calculation."
+msgstr ""
+
+msgid "These values will be split and used in a drop down box for the customer to select."
+msgstr ""
+
+msgid "Threshold trigger when a notification email should be sent"
+msgstr ""
+
+msgid "Tick the checkbox if you want blank (ie. no) quantity to be considered infinite/unlimited."
+msgstr ""
+
+msgid "Tick the checkbox if you want to hide the quantity input box on the cart."
+msgstr ""
+
+msgid "Tick the checkbox if you want to hide the Update button on the checkout."
+msgstr ""
+
+msgid "Tick the checkbox if you want to include the price in the buy button dropdown."
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Total Sales"
+msgstr ""
+
+msgid "Total Value"
+msgstr ""
+
+msgid "Transaction Key"
+msgstr ""
+
+msgid "Turn on maintenance mode to disable all buy buttons in the system"
+msgstr ""
+
+msgid "Type"
+msgstr ""
+
+msgid "Type Name"
+msgstr ""
+
+msgid "Type of order"
+msgstr ""
+
+msgid "Type of promotion."
+msgstr ""
+
+msgid "Update options"
+msgstr ""
+
+msgid "Update orders"
+msgstr ""
+
+msgid "Update products"
+msgstr ""
+
+msgid "Upload a new coupon file"
+msgstr ""
+
+msgid "US State Tax"
+msgstr ""
+
+msgid "Use mod_xsendfile to transmit the download files. Note that you will also need to change either .htaccess or your web server configuration (for advanced users)."
+msgstr ""
+
+msgid "Use PDT or IPN"
+msgstr ""
+
+msgid "Use special options text if you want to offer free gifts with a product (this will be the label next to the special options dropdown box presented to the customer). Add a custom field 'yak_special_options' to the product with values separated by new lines."
+msgstr ""
+
+msgid "Use SSL checkout"
+msgstr ""
+
+msgid "Use SSL during the checkout process (this will be automatically switched on if you choose credit card payment)."
+msgstr ""
+
+msgid "Use this page to re-send the download link to customers when you've updated the download file."
+msgstr ""
+
+msgid "Use X-SendFile"
+msgstr ""
+
+msgid "User list"
+msgstr ""
+
+msgid "Users"
+msgstr ""
+
+msgid "Value"
+msgstr ""
+
+msgid "Value of the promotion (fixed value or percentage, depending upon the type of promotion)."
+msgstr ""
+
+msgid "What country should be preselected in the dropdown?"
+msgstr ""
+
+msgid "What should happen when the customer tries to add a duplicate item to the cart?"
+msgstr ""
+
+msgid "When a customer selects a special option it is added to the meta data for the order."
+msgstr ""
+
+msgid "Year-Month-Day"
+msgstr ""
+
+msgid "You cannot delete this order - it must be either CANCELLED or in ERROR"
+msgstr ""
+
+msgid "Your account name is usually your email address."
+msgstr ""
+
+msgid "Zone"
+msgstr ""
+
+msgid "Zone %s"
+msgstr ""
+
+msgid "Zones"
+msgstr ""

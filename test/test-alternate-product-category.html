@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>test-alternate-product-category</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-alternate-product-category</td></tr>
+</thead><tbody>
+<tr>
+	<td>openAndWait</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>link=Categories</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Categories</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>tag-name</td>
+	<td>alt-product-cat</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>alt-product-cat</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>tag-name</td>
+	<td>another-default-prod</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>parent</td>
+	<td>label=alt-product-cat</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>another-default-prod</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>basic-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>yak_product_category_name</td>
+	<td>label=alt-product-cat</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add New</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>title</td>
+	<td>test-prod-alt-category</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>content-html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>content</td>
+	<td>test product with alternate products category<br /><br />[yak_price]<br /><br />[yak_buy]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_price</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>newtype_[]</td>
+	<td>label=another-default-prod</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>newtype_qty_[]</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>publish</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=View post</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$100.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>test-prod-alt-category</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>(another-default-prod)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[contains(@id, 'deletebutton_')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>basic-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>yak_product_category_name</td>
+	<td>label=products</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Categories</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>delete_tags[]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//input[@name='delete_tags[]' and @value='6']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>action</td>
+	<td>label=Delete</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>doaction</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

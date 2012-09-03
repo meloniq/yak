@@ -1,0 +1,824 @@
+# 
+# LANGUAGE (LOCALE) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK Admin 2.2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2010-07-22 18:37+0100\n"
+"Last-Translator: Romaric Drigon <romaric.drigon@gmail.com>\n"
+"Language-Team: french\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+msgid "(First/Subsequent)"
+msgstr "(Premier)"
+
+msgid "(Recommendation: at the very least, save the key in a file, add the file to an encrypted zip, then store on your local machine with a second copy on a USB key)"
+msgstr "(recommendation : au minimum, sauvegardez la clé dans un fichier, placez-le dans un zip crypté, que vous garderez sur votre ordinateur ainsi que sur une clé USB)"
+
+msgid "(So that you don't store plain text credit cards in a potentially insecure database -- particularly important in shared hosting environments)"
+msgstr "(pour ne pas stocker des numéros de CB en clair dans une base de donnée vulnérable - particulièrement important sur un serveur mutualisé)"
+
+msgid "1 decimal place"
+msgstr "1 décimale"
+
+msgid "2 decimal places"
+msgstr "2 décimales"
+
+msgid "3 decimal places"
+msgstr "3 décimales"
+
+msgid "[html_order_detail] for the order detail in html table format"
+msgstr "[html_order_detail] pour le détail de la commande sous forme d'un tableau html"
+
+msgid "[html_shipping_address] for the shipping address in html format"
+msgstr "[html_shipping_address] pour l'adresse de livraison en html"
+
+msgid "[name] for the recipient name"
+msgstr "[name] pour le nom du destinataire"
+
+msgid "[order_cost] for the total order cost"
+msgstr "[order_cost] pour le coût total de la commande"
+
+msgid "[order_detail] for the order detail"
+msgstr "[order_detail] pour le détail de la commande"
+
+msgid "[order_id] for the order number"
+msgstr "[order_cost] pour le coût total de la commande"
+
+msgid "[payment_type] for the payment type"
+msgstr "[payment_type] pour le type de paiement"
+
+msgid "[shipping_address] for the shipping address"
+msgstr "[shipping_address] pour l'adresse de livraison"
+
+msgid "A list of shipping options (separated by newlines). These will be displayed in a dropdown from which the customer can select."
+msgstr "Liste d'options de livraison. Sera affiché sous forme d'un menu déroulant où le client peut choisir."
+
+msgid "A message containing a list of download URIs for purchased products ([downloads] is replaced with the URI list)"
+msgstr "Message contenant la liste des adresses des produits achétés ([download] est remplacé par la liste d'adresses)"
+
+msgid "About"
+msgstr "A propos"
+
+msgid "About YAK for WordPress"
+msgstr "A propos de YAK for WordPress"
+
+msgid "Action"
+msgstr "Action"
+
+msgid "Add a new promotion"
+msgstr "Ajouter une nouvelle promotion"
+
+msgid "Add multiselect options"
+msgstr "Ajouter un choix multiple"
+
+msgid "Additional Information"
+msgstr "Information supplémentaire"
+
+msgid "Advanced"
+msgstr "Avancé"
+
+msgid "Advanced Options"
+msgstr "Options avancées"
+
+msgid "Affiliation"
+msgstr "Affiliation"
+
+msgid "Amount first, followed by symbol, no spacing (e.g. 500¥)"
+msgstr "Montant en 1er, suivi du symbole, pas d'espace (ex. 500¥)"
+
+msgid "Amount first, followed by symbol, with spacing (e.g. 500 บาท)"
+msgstr "Montant en 1er, suivi du symbole, avec un espace (ex. 500 €)"
+
+msgid "An alternate out of stock message. Leave blank to use the default."
+msgstr "Message personnalisé \"Stock épuisé\". Laisser vide pour la valeur par défaut."
+
+msgid "Analytics"
+msgstr "Analytics"
+
+msgid "Analytics Profile ID"
+msgstr "ID profil Analytics"
+
+msgid "Auto discount"
+msgstr "Remise automatique"
+
+msgid "Basic"
+msgstr "Général"
+
+msgid "Basic Sales Tax Options"
+msgstr "Réglage de base des taxes"
+
+msgid "Basic Settings"
+msgstr "Réglages généraux"
+
+msgid "Basic Shipping Settings"
+msgstr "Réglages livraison de base"
+
+msgid "Billing Address"
+msgstr "Adresse de facturation"
+
+msgid "CA State Tax"
+msgstr "Taxe état Canada"
+
+msgid "Canada State Taxes"
+msgstr "Taxes des états canadiens"
+
+msgid "Clear"
+msgstr "Effacer"
+
+msgid "Clear zones"
+msgstr "Effacer les zones"
+
+msgid "Code"
+msgstr "Code"
+
+msgid "Code / Threshold"
+msgstr "Code / Seuil"
+
+msgid "Comma-separated list of users who can activate this promo."
+msgstr "Liste des utilisateurs pouvant utiliser cette promotion, séparés par des virgules"
+
+msgid "Confirmation Email"
+msgstr "Email de confirmation"
+
+msgid "Confirmation Message"
+msgstr "Message de confirmation"
+
+msgid "Confirmation Subject"
+msgstr "Sujet"
+
+msgid "Cookie Lifetime (days)"
+msgstr "Durée de vie des cookies (jours)"
+
+msgid "Country"
+msgstr "Pays"
+
+msgid "Country Tax"
+msgstr "Taux nationaux"
+
+msgid "Country Taxes"
+msgstr "Taux par pays"
+
+msgid "Currency codes are: AUD, NZD, CAD, EUR, GBP, JPY or USD.  Enter a currency code that is valid for your payment provider, be it Google Checkout or PayPal"
+msgstr "Les codes devises sont : AUD, NZD, CAD, EUR, GBP, JPY ou USD. Entrez un code devise qui est reconnu par le fournisseur, Google Ckeckout ou Paypal"
+
+msgid "Currency Format"
+msgstr "Format devise"
+
+msgid "Currency Symbol"
+msgstr "Symbole devise"
+
+msgid "Custom \"Out of Stock\" message"
+msgstr "Message \"Stock épuisé\" personnalisé"
+
+msgid "Date"
+msgstr "Date"
+
+msgid "Date the promotion expires."
+msgstr "Date d'expiration de la promotion"
+
+msgid "Decimal point"
+msgstr "Séparateur entier-décimales"
+
+msgid "Default Country"
+msgstr "Pays par défaut"
+
+msgid "Default duplicate handling"
+msgstr "Gestion par défaut des doublons"
+
+msgid "Default special instructions"
+msgstr "Commentaire par défaut"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "Display an error message"
+msgstr "Afficher un message d'erreur"
+
+msgid "Display product options"
+msgstr "Afficher les options du produit"
+
+msgid "Display product options drop-down if there is only a single option?"
+msgstr "Afficher le menu déroulant de choix des options même s'il n'y en a qu'une seule ?"
+
+msgid "Display zero tax"
+msgstr "Afficher aucune taxe"
+
+msgid "Download"
+msgstr "Téléchargement"
+
+msgid "Download Email"
+msgstr "E-mail envoyé"
+
+msgid "Download Email address"
+msgstr "Expéditeur e-mail"
+
+msgid "Download settings"
+msgstr "Paramètres des produits téléchargeables"
+
+msgid "Download uri"
+msgstr "Adresse de téléchargement"
+
+msgid "Email address from which download messages are sent"
+msgstr "Adresse e-mail avec laquelle sont envoyés les messages"
+
+msgid "Empty basket message"
+msgstr "Message \"Panier vide\""
+
+msgid "Empty quantity considered unlimited"
+msgstr "Quantité infinie"
+
+msgid "Enable sales tax"
+msgstr "Calcul TVA"
+
+msgid "Enter a fraction, or 1 for no discount"
+msgstr "Entrez une fraction, ou 1 pour aucune remise"
+
+msgid "Enter an override uri for the yak-dl.php file which will be sent to the customer. You only need to enter this if you use mod_rewrite (or equivalent) to change the actual path to the script. If that doesn't make sense to you, leave this blank."
+msgstr "Imposer une adresse pour le fichier yak-dl.php qui sera envoyé au client. Nécessaire seulement si vous utilisez mod_rewrite (ou équivalent) pour changer le chemin du script. Si vous ne comprenez pas, laissez vide."
+
+msgid "Enter the affiliation (i.e. if you want to separate orders from your YAK store from orders through another mechanism)"
+msgstr "Entrez l'affiliation (cad si vous voulez séparer les commandes depuis cette boutique de celles à travers un autre système)"
+
+msgid "Enter the fraction (i.e. 0.1) to use for tax calculation"
+msgstr "Entrer le taux (par ex. 0.1) utilisé pour calculer les taxes."
+
+msgid "Enter the number of decimal places to round to (e.g. 2 decimal places, or 0 for currencies that don't typically use smaller units -- thai baht being an example)"
+msgstr "Entrez le nombre de décimales pour le calcul de l'arrondi"
+
+msgid "Expiration date"
+msgstr "Date d'expiration"
+
+msgid "Expiry"
+msgstr "Date d'expiration"
+
+msgid "External Currency code"
+msgstr "Code devise"
+
+msgid "Find orders"
+msgstr "Rechercher"
+
+msgid "Fixed Cost per item"
+msgstr "Coût fixe par produit"
+
+msgid "Fixed Total Cost"
+msgstr "Coût total fixe"
+
+msgid "Funds Received"
+msgstr "Fonds reçus"
+
+msgid "General settings"
+msgstr "Réglages généraux"
+
+msgid "Google Analytics"
+msgstr "Google Analytics"
+
+msgid "Google Analytics Profile ID. Make sure that you include the tracker code for this ID in your theme."
+msgstr "ID du profil Google Analytics. Assurez-vous de bien avoir inclus le code correspondant dans votre thème."
+
+msgid "How long should the customer's address cookie be stored on their machine?"
+msgstr "Combien de temps le cookie de l'adresse du client doit-il être stocké sur sa machine ?"
+
+msgid "How many digits are allowed in a quantity input box?"
+msgstr "Combien de chiffres au maximum dans le champ \"Quantité\" ?"
+
+msgid "HTTP Proxy Address"
+msgstr "Adresse proxy HTTP"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Include Address"
+msgstr "Inclure l'adresse"
+
+msgid "Include Company Name"
+msgstr "Inclure le nom de la société"
+
+msgid "Include Name"
+msgstr "Inclure le nom"
+
+msgid "Include Phone"
+msgstr "Inclure le N° de téléphone"
+
+msgid "Include price in options dropdown"
+msgstr "Afficher le prix dans les menus déroulants"
+
+msgid "Include protocol, domain and port (e.g. http://www.myserver.com:8080)"
+msgstr "Inclure le protocole, le domaine et le port (par ex.  http://www.myserver.com:8080)"
+
+msgid "Include Shipping Costs"
+msgstr "Inclure le port"
+
+msgid "Include shipping costs in order totals?"
+msgstr "Inclure le port dans le montant de la commande ?"
+
+msgid "Include Suburb"
+msgstr "Inclure l'arrondissement"
+
+msgid "Increase the quantity"
+msgstr "Augmenter la quantité"
+
+msgid "Key Generator"
+msgstr "Générateur de clé"
+
+msgid "Leave blank if you don't need to include a T&amp;C's checkbox"
+msgstr "Laisser vide si vous n'avez pas besoin de Conditions Générales de Vente (doivent être acceptées par le client)"
+
+msgid "Leave this blank to use the default (localised) subject \"Order Confirmation\"."
+msgstr "Laisser vide pour utiliser le sujet par défaut \"Confirmation de commande\""
+
+msgid "Low stock email address"
+msgstr "E-mail où sera envoyé la notification"
+
+msgid "Low Stock Notification"
+msgstr "Notification de stock bas"
+
+msgid "Low stock notification email"
+msgstr "E-mail stock bas"
+
+msgid "Low stock notification threshold"
+msgstr "Seuil stock bas"
+
+msgid "Minimum/maximum multi-select options"
+msgstr "Nombre minimum/maximum d'options sélectionnées"
+
+msgid "Money Format"
+msgstr "Format prix"
+
+msgid "Month"
+msgstr "Mois"
+
+msgid "Monthly Sales Figures"
+msgstr "Ventes mensuelles"
+
+msgid "Multi-select options"
+msgstr "Choix mutlippe"
+
+msgid "No caching"
+msgstr "Pas de cache"
+
+msgid "No decimal places"
+msgstr "Pas de décimales"
+
+msgid "Note, the following tags can be used in the message"
+msgstr "Note : les tags suivant peuvent être utilisés dans le message"
+
+msgid "Note: enter a fraction (e.g. 0.75 for 25% discount)"
+msgstr "Note : entrer une fraction (par exemple 0.75 pour 25% de remise)"
+
+msgid "Note: This will also save any changes you have currently made to these configuration settings."
+msgstr "Note : cela va également enregistrer toute modification faite aux réglages"
+
+msgid "Notes about shipping to add to the bottom of the confirmation screen."
+msgstr "Commentaire à propos de la livraison ajouté en bas de l'écran de confirmation"
+
+msgid "Option:"
+msgstr "Option:"
+
+msgid "Options"
+msgstr "Options"
+
+msgid "Order #"
+msgstr "Numéro"
+
+msgid "Order Details"
+msgstr "Détail de la commande"
+
+msgid "Order Log"
+msgstr "Historique de la commande"
+
+msgid "Order number type"
+msgstr "Type numéro commande"
+
+msgid "Order numbers can be a basic sequence, or a randomised unique number."
+msgstr "Les numéros des commandes peuvent être une suite, ou un numéro unique aléatoire."
+
+msgid "Order Value"
+msgstr "Montant commande"
+
+msgid "Page/Post Title"
+msgstr "Titre article associé"
+
+msgid "Payment Settings"
+msgstr "Réglages paiement"
+
+msgid "Payment Type"
+msgstr "Type de paiement"
+
+msgid "Payments"
+msgstr "Paiement"
+
+msgid "PayPal, Google, and Credit Card payment options, all require further configuration below."
+msgstr "Les modes Paypal, Google et CB requièrent une configuration supplémentaire ci-dessous"
+
+msgid "Price"
+msgstr "Prix"
+
+msgid "Price rounding"
+msgstr "Arrondi"
+
+msgid "Private Key"
+msgstr "Clé privée"
+
+msgid "Product category name"
+msgstr "Nom catégorie produit"
+
+msgid "Product page size"
+msgstr "Taille de la page produits"
+
+msgid "Product Title"
+msgstr "Titre produit"
+
+msgid "Products"
+msgstr "Produits"
+
+msgid "Products price/quantity"
+msgstr "Produits"
+
+msgid "Promotions"
+msgstr "Promotions"
+
+msgid "Public Key"
+msgstr "Clé publique"
+
+msgid "PublicKey Gen"
+msgstr "Générateur de clé"
+
+msgid "Qty"
+msgstr "Qté"
+
+msgid "Quantity Input Size"
+msgstr "Taille champ quantité"
+
+msgid "Redirect on buy to"
+msgstr "Rediriger lors de l'achat vers"
+
+msgid "Redirect To"
+msgstr "Rediriger vers"
+
+msgid "Redirects for Payment"
+msgstr "Rediriger pour les paiements"
+
+msgid "Remote Grab Server"
+msgstr "Serveur de mise à jour"
+
+msgid "Require Login"
+msgstr "Connexion nécessaire"
+
+msgid "Require login to purchase this product"
+msgstr "Connexion nécessaire pour commander ce produit :"
+
+msgid "Separate Billing Address"
+msgstr "Adresse de facturation séparée"
+
+msgid "Set an override discount"
+msgstr "Imposer une remise"
+
+msgid "Set the display title"
+msgstr "Titre (affiché) :"
+
+msgid "Set the minimum and maximum number of multi-select options"
+msgstr "Nombre minimum et maximum d'options pouvant être choisies à la fois :"
+
+msgid "Set the price of your product"
+msgstr "Prix :"
+
+msgid "Shipping Address"
+msgstr "Adresse de livraison"
+
+msgid "Shipping costs"
+msgstr "Port"
+
+msgid "Shipping Notes"
+msgstr "Commentaire livraison"
+
+msgid "Shipping Options"
+msgstr "Options de livraison"
+
+msgid "Shipping weight calculation value"
+msgstr "Poids pour le calcul du port"
+
+msgid "Shipping Zones"
+msgstr "Zones"
+
+msgid "Short description of the promotion."
+msgstr "Description courte de la promotion"
+
+msgid "Should a message be shown if a product is out of stock?"
+msgstr "Afficher un message si un produit est en rupture de stock ?"
+
+msgid "Should sales tax be calculated?"
+msgstr "Les taxes devront-elles êtes calculées ?"
+
+msgid "Should sales tax be displayed if the calculation came to zero?"
+msgstr "Les taxes devront-elles êtres affichées même si le montant est de 0 ?"
+
+msgid "Show \"Out of Stock\" message"
+msgstr "Afficher \"Stock épuisé\""
+
+msgid "Special"
+msgstr "Promotions"
+
+msgid "Special Options"
+msgstr "Offres promotionnelles"
+
+msgid "Special options text"
+msgstr "Descriptif offre"
+
+msgid "State"
+msgstr "Etat"
+
+msgid "Status"
+msgstr "Statut"
+
+msgid "Store this key in a secure location.  You'll use it to decrypt credit card details, so it is essential you don't lose it"
+msgstr "Stockez précieusement cette clé. Elle vous servira à décrypter les détails des CB, il est primordial de ne pas la perdre."
+
+msgid "Subtotal"
+msgstr "Sous-total"
+
+msgid "Symbol first, followed by amount, no spacing (e.g. $12.50)"
+msgstr "Symbole en 1er, suivi du montant, pas d'espace (ex. $12.50)"
+
+msgid "Symbol first, followed by amount, with spacing (e.g. kr 12.50)"
+msgstr "Symbole en 1er, suivi du montant, avec un espace (ex. kr 12.50)"
+
+msgid "Tax Calc"
+msgstr "Taux"
+
+msgid "Terms &amp; conditions"
+msgstr "Conditions Générales de Ventes"
+
+msgid "Test confirmation message"
+msgstr "Message de confirmation de test"
+
+msgid "The code for the promotion, or the threshold which triggers it."
+msgstr "Le code promotionnel, ou le seuil limite."
+
+msgid "The name of the category used for product posts (e.g. \"products\").  If you want a post to appear as a product you must use this category or a sub-category."
+msgstr "Le nom de la catégorie que vous allez utiliser pour vos produits (par ex. \"produits\"). Si vous voulez que vos articles apparaissent comme des produits vous devez utiliser cette catégorie."
+
+msgid "The number of products that should appear on the product page before we start \"paging\" (i.e. add previous/next links)."
+msgstr "Le nombre de produits devant apparaître sur la page produits avant le début de la pagination (cad liens précédents/suivants)."
+
+msgid "The public key will be used for encrypting important data (i.e. credit card numbers) - so you'll use this in YAK itself (see the payments tab)"
+msgstr "La clé publique sera utilisée pour crypter les données importantes (par ex. les numéros de CB) - vous l'utiliserez dans l'onglet \"Paiement\""
+
+msgid "The remote path to use in association with the [yak_get_remote...] tag. For example:  /wordpress or /mysite"
+msgstr "Le chemin distant à utiliser avec le mot-clé [yak_get_remote...]. Par exemple, /wordpress ou /mysite"
+
+msgid "The remote server to use in association with the [yak_get_remote...] tag."
+msgstr "Le serveur à utiliser en association avec le mot-clé [yak_get_remote...]."
+
+msgid "The url to use on hosts which require http proxying of remote requests (note: currently only setup to work with <a href=\"http://curl.haxx.se/\">curl</a> (if your server doesn't have <a href=\"http://www.php.net/curl\">php-curl</a> installed this won't work at the moment)."
+msgstr "L'URL a utiliser sur les serveurs qui requièrent le passage par un proxy Http des requêtes distantes (note : fontionne avec <a href=\"http://curl.haxx.se/\">curl</a> actuellement. Si votre serveur n'a pas <a href=\"http://www.php.net/curl\">php-curl</a> installé ne fonctionnera pas)."
+
+msgid "The weight value, in grams, that should be used for calculating shipping cost. This defaults to 100gms if not set and is used for the \"shipping first\" calculation and then the subsequent \"per x grams\" calculation."
+msgstr "Le poids, en gramme, qui sera utilisé pour calculer le port. Par défaut il est de 100 g."
+
+msgid "These values will be split and used in a drop down box for the customer to select."
+msgstr "Ces valeurs seront présentées dans un menu déroulant où le client pourra choisir."
+
+msgid "Thousands separator"
+msgstr "Séparateur des milliers"
+
+msgid "Threshold trigger when a notification email should be sent"
+msgstr "Seuil (de quantité du produit) où un e-mail de notification vous sera envoyé"
+
+msgid "Tick the checkbox if you want blank (ie. no) quantity to be considered infinite/unlimited."
+msgstr "Cochez la case si vous voulez qu'en absence de quantité définie (cad case vide) ellle soit considérée comme infinie"
+
+msgid "Tick the checkbox if you want to include the price in the buy button dropdown."
+msgstr "Cochez la case si vous voulez inclure le prix dans le bouton \"Acheter\""
+
+msgid "Item"
+msgstr "Titre"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Total #val#"
+msgstr "Total #val#"
+
+msgid "Total Sales"
+msgstr "Total ventes"
+
+msgid "Total Value"
+msgstr "Montant total"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "Type Name"
+msgstr "Nom du mode de paiement"
+
+msgid "Type of order"
+msgstr "Statut"
+
+msgid "Type of promotion."
+msgstr "Type de promotion"
+
+msgid "Update options"
+msgstr "Enregistrer les modifications"
+
+msgid "Update orders"
+msgstr "Enregistrer les modifications"
+
+msgid "Update products"
+msgstr "Enregistrer les modifications"
+
+msgid "US State Tax"
+msgstr "Taxe état US"
+
+msgid "US State Taxes"
+msgstr "Taxes des états américains"
+
+msgid "Use special options text if you want to offer free gifts with a product (the text to use as a label next to the special options dropdown box). Add a custom field \"yak_special_options\" to the product with values separated by new lines."
+msgstr "Utilisez ce commentaire si vous voulez offrir un cadeau avec un produit (sera affiché à côté du menu déroulant). Ajouter un champ personnalié \"yak_special_options\" au produit, les valeurs séparées par un retour chariot."
+
+msgid "Use SSL checkout"
+msgstr "Utiliser SSL"
+
+msgid "Use SSL during the checkout process (this will be automatically switched on if you choose credit card payment)."
+msgstr "Utiliser un cryptage SSL durant la commande (automatiquement activé si paiement par carte bleue)"
+
+msgid "Use this page if you want to generate a public key to use with manual credit card processing."
+msgstr "Utilisez cette page si vous voulez générer une clé publique pour les commandes par CB"
+
+msgid "Use this to stop Internet Explorer displaying the message \"webpage is expired\"."
+msgstr "Utilisez cette option pour empêcher Internet Explorer d'afficher l'erreur \"Cette page a expiré\""
+
+msgid "Users"
+msgstr "Utilisateurs"
+
+msgid "Value"
+msgstr "Montant"
+
+msgid "Value of the promotion (fixed value or percentage, depending upon the type of promotion)."
+msgstr "Montant de la promotion (valeur fixe ou pourcentage)"
+
+msgid "What country should be preselected in the dropdown?"
+msgstr "Quel pays doit être présélectionné dans le menu déroulant ?"
+
+msgid "What currency symbol should be used in prices?  e.g. $, baht, £, €, etc"
+msgstr "Quelle devise doit-elle être utilisée pour afficher les prix ?"
+
+msgid "What fields are required for shipping address (email is required by default)."
+msgstr "Quels champs sont requis pour l'adresse de livraison ? (l'e-mail est requis par défaut)"
+
+msgid "What pages should caching be turned off (in other words the checkout page or pages)?"
+msgstr "Pour quelles pages le cache doit-il être désactivé ? (par exemple la page de validation de commande, Checkout)."
+
+msgid "What should happen when the customer tries to add a duplicate item to the cart?"
+msgstr "Que doit-il se passer lorsque le client essaie d'ajouter à son panier un article déjà présent dedans ?"
+
+msgid "What symbol to use for the decimal point (if not entered, defaults to \".\")"
+msgstr "Quel symbole utiliser pour la virgule ? (par défaut, \".\")"
+
+msgid "What symbol to use for the thousands separator (if not entered, defaults to \",\")"
+msgstr "Quel symbole utiliser pour séparer les milliers ? (par défaut, \",\")"
+
+msgid "When a customer selects a special option it is added to the meta data for the order."
+msgstr "Quand un client choisit une option ceci est ajoutée aux métadonnées pour la commande."
+
+msgid "Year-Month-Day"
+msgstr "Année-Mois-Date"
+
+msgid "You cannot delete this order - it must be either CANCELLED or in ERROR"
+msgstr "Vous ne pouvez pas effacer cette commande - son statut doit être \"annulée\" ou \"erreur\""
+
+msgid "Zone"
+msgstr "Zone"
+
+msgid "Zones"
+msgstr "Zones"
+
+# ------------------------------------------------------------------------------------------------------------
+# Ajouté version 2.2.4
+# view-setting frag2
+msgid "Leave this blank if you don't want to send a confirmation message. If you want to use a name as well as an email address use the format: Name &lt;email&gt;, for example Sales &lt;sales@yourdomain.com&gt;."
+msgstr "Laissez vide si vous ne voulez pas envoyer un message de confirmation. Si vous voulez personnaliser l'expéditeur, utilisez le format : Nom &lt;e-mail&gt;"
+
+msgid "Either plain text or html. If the &lt;html&gt; tag is found YAK will automatically send the message as html."
+msgstr "Format texte ou html. Si la balise &lt;html&gt; est trouvée le message sera automatiquement envoyé en temps que html."
+
+msgid "An alternative message to be displayed if the customer selects checkout without having added anything to their basket. Leave blank to use the default message."
+msgstr "Message d'erreur si le client valide sa commande avec la panier vide. Laisser vide pour utiliser le message par défaut."
+
+msgid "Select the shopping cart page to redirect to when the customer clicks on the buy button (leave blank to disable redirection)"
+msgstr "Sélectionnez la page du panier, où sera redirigé le client après avoir acheté un article (laisser blanc pour désactiver)"
+
+msgid "Remote Grab Path"
+msgstr "Chemin distant"
+
+msgid "Demo Payments Gateway settings"
+msgstr "Mode démo paiement CB"
+
+msgid "Valid Credit Card Numbers"
+msgstr "N° CB valides"
+
+msgid "A list of credit card numbers that will result in a successful payment. Separate each with a new line"
+msgstr "Une liste de numéros CB qui seront acceptés comme valides. Un par ligne."
+
+msgid "Return Page"
+msgstr "Page Réussite"
+
+msgid "The page to return to on a successful purchase."
+msgstr "La page vers laquelle rediriger après un paiement accepté."
+
+msgid "Error Page"
+msgstr "Page Echec"
+
+msgid "The page to return to if an error occurs during payments processing."
+msgstr "La page vers laquelle rediriger si une erreur apparaît."
+
+msgid "Manual Credit Card settings"
+msgstr "CB mode manuel"
+
+msgid "Landing Page"
+msgstr "Rediriger vers"
+
+msgid "Final page for a successful credit card order."
+msgstr "Page où redriger après un paiement validé."
+
+msgid "Immediate confirmation"
+msgstr "Confirmation immédiate"
+
+msgid "Send email confirmation immediately, or once the credit card has been processed."
+msgstr "Envoyer l'e-mail de confirmation immédiatement, où seulement une fois que la CB a été débitée."
+
+msgid "Public key"
+msgstr "Clé publique"
+
+msgid "RSA public key to use to encrypt stored credit card details."
+msgstr "Clé RSA publique utilisée pour crypter les numéros de CB."
+
+msgid "PayPal Pro settings"
+msgstr "Réglages Paypal Pro"
+
+msgid "API Username"
+msgstr "Nom d'utilisateur API"
+
+msgid "The API username if you're using PayPal Payments Pro."
+msgstr "Le nom d'utilisateur API si vous utilisez Paypal Payments Pro."
+
+msgid "API Password"
+msgstr "Mot de passe API"
+
+msgid "The PayPal Pro API Password."
+msgstr "Le mot de passe API si vous utilisez Paypal Payments Pro."
+
+msgid "API Signature"
+msgstr "Signature API"
+
+msgid "The PayPal Pro API Signature."
+msgstr "La signature API si vous utilisez Paypal Payments Pro."
+
+msgid "The page to return to after a successful order."
+msgstr "La page vers laquelle rediriger après une commande validée."
+
+msgid "Send shipping address?"
+msgstr "Envoyer l'adresse de livraison ?"
+
+msgid "PayPal settings"
+msgstr "Réglages Paypal"
+
+msgid "Account"
+msgstr "Compte"
+
+msgid "Your account name is usually your email address."
+msgstr "Le nom du compte est habituellement votre adresse e-mail."
+
+msgid "Cancel return Page"
+msgstr "Page Annulation"
+
+msgid "The page to return to if the customer cancels their purchase."
+msgstr "La page vers laquelle rediriger si le client annule sa commande."
+
+msgid "Used if you select PDT."
+msgstr "Utilisé chez vous choisissez PDT."
+
+msgid "Use PDT or IPN"
+msgstr "PDT ou IPN ?"
+
+# view-shipping-options
+msgid "Shipping options"
+msgstr "Mode de livraison"
+
+msgid "Cost per %s gm"
+msgstr "Coût pour %s g"
+
+msgid "(First %s gm/Subsequent)"
+msgstr "(%s 1ers g et au-dessus)"
+
+# view-misc-options
+msgid "(this assumes a global tax rate... which is suboptimal and will need to be fixed in a future release)"
+msgstr ""
+

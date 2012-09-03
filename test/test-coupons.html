@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>test-coupons</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-coupons</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>link=Misc Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Misc Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#coupons-tab &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=coupon_set_name</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>coupon_file</td>
+	<td>/Users/jasonbriggs/Development/yak-for-wordpress/branches/working/test/coupons.txt</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update_coupons</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>coupon_set_1</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>total_1</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>used_1</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//a[@id='promotions-tab']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_code</td>
+	<td>test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_description</td>
+	<td>test coupon codes</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>new_promo_type</td>
+	<td>label=Coupon Codes Pricing %</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_value</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Downloadable product</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>abc1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>updatebutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>test coupon codes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-2.50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>test coupon codes</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-2.50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Downloadable product</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>abc1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>updatebutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Invalid promotion code</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Details</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>promo test discount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Coupon code</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>abc1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//a[@id='promotions-tab']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_code</td>
+	<td>test2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_description</td>
+	<td>test coupon codes2</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>new_promo_type</td>
+	<td>label=Coupon Codes Shipping Value</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_value</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Misc Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>coupon_set_name</td>
+	<td>test2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>coupon_file</td>
+	<td>/Users/jasonbriggs/Development/yak-for-wordpress/branches/working/test/coupons2.txt</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update_coupons</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>coupon_set_2</td>
+	<td>test2</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>total_2</td>
+	<td>4</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>used_2</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Downloadable product</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>code123</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>test coupon codes2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-5.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmorderbutton</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

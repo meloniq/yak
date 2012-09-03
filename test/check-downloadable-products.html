@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://testhost/wordpress/" />
+<title>check-downloadable-products</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">check-downloadable-products</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Plugins</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//a[contains(@href, 'wp_mail_smtp')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>mailer_smtp</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>smtp_host</td>
+	<td>${smtpHost}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>smtp_port</td>
+	<td>25</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>smtp_ssl_none</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>smtp_auth_true</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>smtp_user</td>
+	<td>${smtpUsername}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>smtp_pass</td>
+	<td>${smtpPassword}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//li[@id='menu-posts']/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add New</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>title</td>
+	<td>Downloadable product</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>content</td>
+	<td>Test downloadable product<br /><br />[yak_price]<br /><br />[yak_buy]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_price</td>
+	<td>25</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>newtype_[]</td>
+	<td>label=default</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>newtype_qty_[]</td>
+	<td>100000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>newtype_dl_file_[]</td>
+	<td>${testDownloadFile}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>publish</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>download-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_download_email</td>
+	<td>Test download email<br /><br />[downloads]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_download_email_address</td>
+	<td>joebloggs@test.com</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>payment_type</td>
+	<td>label=Credit Card (auth.net)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name='shipping_email']</td>
+	<td>${downloadEmail}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cc_number</td>
+	<td>4111111111111111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cc_security_code</td>
+	<td>000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cc_name</td>
+	<td>JOE BLOGGS</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>cc_expiry_year</td>
+	<td>label=2022</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-content/plugins/yak-test-mailer.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>yak-dl.php?uid=</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>status</td>
+	<td>label=show fulfilled orders</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#download-tab &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=yak_download_use_xsendfile</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=options_update4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Downloadable product</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>payment_type</td>
+	<td>label=Credit Card (auth.net)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name='shipping_email']</td>
+	<td>${downloadEmail}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cc_number</td>
+	<td>4111111111111111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cc_security_code</td>
+	<td>000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cc_name</td>
+	<td>JOE BLOGGS</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>cc_expiry_year</td>
+	<td>label=2022</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-content/plugins/yak-test-mailer.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>yak-dl.php?uid=</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,247 @@
+# 
+# LANGUAGE (LOCALE) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK 1.7.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2009-10-08 10:33+0100\n"
+"Last-Translator: Joern Hagen <hallo@hzs.de>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%LABEL% name"
+msgstr "%LABEL% Name"
+
+msgid "%LABEL% number"
+msgstr "%LABEL% Nummer"
+
+msgid "&lt;&lt; Previous"
+msgstr "&lt;&lt; Zurück"
+
+msgid "-"
+msgstr "x"
+
+msgid "a recipient name is required"
+msgstr "Bitte den Namen des Empfängers angeben"
+
+msgid "Add to cart"
+msgstr "In meinen Korb"
+
+msgid "Address Line 1"
+msgstr "Strasse"
+
+msgid "address line 1 is required"
+msgstr "Bitte geben Sie die Strasse an"
+
+msgid "Address Line 2"
+msgstr "Adress-Zusatz"
+
+msgid "an email address is required"
+msgstr "Bitte geben Sie Ihre Email-Adresse an"
+
+msgid "baht"
+msgstr "Baht"
+
+msgid "Billing Address"
+msgstr "Rechnungsadresse"
+
+msgid "Buy"
+msgstr "Jetzt Bestellen"
+
+msgid "Card Type"
+msgstr "Karten-Typ"
+
+msgid "Cardholder's Name"
+msgstr "Name des Karteninhabers"
+
+msgid "Checkout"
+msgstr "Einkaufskorb/Kasse"
+
+msgid "City"
+msgstr "Wohnort"
+
+msgid "city is required"
+msgstr "Bitte den Wohnort angeben"
+
+msgid "Confirm order"
+msgstr "Bestellung abschicken"
+
+msgid "Confirm your order"
+msgstr "Bestätigen Sie Ihre Bestellung"
+
+msgid "Country"
+msgstr "Staat"
+
+msgid "Credit card has already expired"
+msgstr "Diese Kreditkarte ist nicht mehr gültig"
+
+msgid "Credit Card No."
+msgstr "Kreditkarten-Nummer"
+
+msgid "Currently out of online stock"
+msgstr "Derzeit online leider nicht verfügbar"
+
+msgid "Edit this address"
+msgstr "Diese Adresse ändern"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Enter a new billing address"
+msgstr "Eine neue Rechnungsadresse hier eingeben"
+
+msgid "Enter a new shipping address"
+msgstr "Eine neue Lieferadresse hier eingeben"
+
+msgid "Enter a promotion code, if you have one:"
+msgstr "Wenn vorhanden, Sparstern-Code hier eingeben:"
+
+msgid "Error(s) have occurred validating the shipping address information you provided"
+msgstr "Es ergaben sich Fehler bei der Verifizierung der übermittelten Adress-Daten"
+
+msgid "Error(s) in your account details"
+msgstr "Es ergaben sich Fehler in Ihren Kontodaten"
+
+msgid "Error(s) in your credit card details"
+msgstr "Es ergaben sich Fehler in Ihren Kreditkarten-Daten"
+
+msgid "Expiry Date"
+msgstr "Gültigkeitsdatum"
+
+msgid "How would you like to pay?"
+msgstr "Auf welche Weise möchten Sie zahlen?"
+
+msgid "Invalid promotion code"
+msgstr "Ungültiger SparStern-Code"
+
+msgid "Items in basket"
+msgstr "Artikel im Korb"
+
+msgid "Name"
+msgstr "Name"
+
+msgid "Next"
+msgstr "Weiter"
+
+msgid "Next &gt;&gt;"
+msgstr "Weiter &gt;&gt;"
+
+msgid "No account name provided"
+msgstr "Kein Name zum Konto angegeben"
+
+msgid "No account number provided"
+msgstr "Keine Kontonummer angegeben"
+
+msgid "No cardholder name provided"
+msgstr "Kein Karteninhaber angegeben"
+
+msgid "No security code provided"
+msgstr "Kein Sicherheits-Code angegeben"
+
+msgid "Order Detail"
+msgstr "Ihre Bestellung"
+
+msgid "Payment method"
+msgstr "Zahlungsmethode"
+
+msgid "phone is required"
+msgstr "Bitte eine Telefonnummer angeben (für evt. Rückfragen)"
+
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+msgid "Please enter your %LABEL% details"
+msgstr "Bitte geben Sie Ihre %LABEL%-Daten ein"
+
+msgid "Please enter your credit card details"
+msgstr "Bitte geben Sie Ihre Kreditkarten-Daten ein"
+
+msgid "postcode is required"
+msgstr "Bitte die Postleitzahl des Wohnortes angeben"
+
+msgid "Price"
+msgstr "Einzelpreis"
+
+msgid "Purchased downloads"
+msgstr "Gekaufte Downloads"
+
+msgid "Qty"
+msgstr "Anzahl"
+
+msgid "Region"
+msgstr "Region"
+
+msgid "Return to"
+msgstr "Zurück zu"
+
+msgid "Security Code"
+msgstr "Sicherheitscode"
+
+msgid "Shipping Address"
+msgstr "Lieferadresse"
+
+msgid "Shipping costs"
+msgstr "Versandkosten"
+
+msgid "Sorry, but you do not have any items in your order."
+msgstr "Leider sind keine Artikel in Ihrer Bestellung."
+
+msgid "Special Instructions"
+msgstr "Zusätzliche Informationen"
+
+msgid "State"
+msgstr "Bundesland"
+
+msgid "Subtotal"
+msgstr "Summe"
+
+msgid "Suburb"
+msgstr "Ortsteil"
+
+msgid "The following email has been sent to"
+msgstr "Die nachfolgende Email wurde versandt an"
+
+msgid "This item has been added to your shopping cart"
+msgstr "Dies haben Sie gerade in Ihren Einkaufskorb gelegt"
+
+msgid "This item is already in your shopping cart"
+msgstr "Dieser Artikel liegt bereits in Ihrem Korb"
+
+msgid "Item"
+msgstr "Artikel"
+
+msgid "Total"
+msgstr "Gesamtsumme"
+
+msgid "Update"
+msgstr "Neu berechnen"
+
+msgid "Use shipping address as billing address"
+msgstr "Versandadresse auch als Rechnungsadresse verwenden"
+
+msgid "Use this address"
+msgstr "Diese Adresse verwenden"
+
+msgid "We have a shortage of stock for one (or more) of your selections. The quantities in your basket have been altered accordingly."
+msgstr "Leider haben wir nicht alle bestellten Artikel auf Lager. Die Mengen im Warenkorb wurden angepaßt."
+
+msgid "You don't have access to this promotion code"
+msgstr "Sie haben keinen Schlüssel für diesen SparStern-Code"
+
+msgid "You have no items in your shopping basket"
+msgstr "**<br><strong>Sie haben noch nichts in Ihrem Einkaufs-Korb</strong><br>**<br>Schauen Sie sich in Ruhe auf der Seite um und wenn Sie etwas gefunden und in den Korb gelegt haben, sehen Sie an dieser Stelle mehr * "
+
+msgid "Your purchased downloads"
+msgstr "Ihre gekauften Downloads"
+
+msgid "Your Shopping Basket"
+msgstr "Im Einkaufskorb"
+
+msgid "Zip/Postcode"
+msgstr "Postleitzahl"
+

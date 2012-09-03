@@ -1,0 +1,271 @@
+# 
+# LANGUAGE (LOCALE) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK 2.3.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2010-11-28 18:46-0800\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid " - "
+msgstr " - "
+
+msgid "%LABEL% name"
+msgstr "%LABEL% nom"
+
+msgid "%LABEL% number"
+msgstr "%LABEL% numero"
+
+msgid "&lt;&lt; Previous"
+msgstr "&lt;&lt; Précédent"
+
+msgid "a recipient name is required"
+msgstr "Le nom du destinataire est obligatoire"
+
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+msgid "Address Line 1"
+msgstr "Adresse Ligne 1"
+
+msgid "address line 1 is required"
+msgstr "Adresse Ligne 1 est obligatoire"
+
+msgid "Address Line 2"
+msgstr "Adresse Ligne 2"
+
+msgid "an email address is required"
+msgstr "Une adresse email est obligatoire"
+
+msgid "baht"
+msgstr ""
+
+msgid "Billing Address"
+msgstr "Adresse de facturation"
+
+msgid "Card Type"
+msgstr "Type de carte"
+
+msgid "Cardholder's Name"
+msgstr "Nom sur la carte"
+
+msgid "Checkout"
+msgstr "Passer la commande"
+
+msgid "City"
+msgstr "Ville"
+
+msgid "city is required"
+msgstr "Ville est obligatoire"
+
+msgid "Company Name"
+msgstr "Nom de la société"
+
+msgid "Confirm order"
+msgstr "Confirmer la commande"
+
+msgid "Confirm your order"
+msgstr "Confirmer votre commande"
+
+msgid "Country"
+msgstr "Pays"
+
+msgid "Credit card has already expired"
+msgstr "La carte a expiré"
+
+msgid "Credit Card No."
+msgstr "N° carte de crédit"
+
+msgid "Currently out of online stock"
+msgstr "Stock épuisé"
+
+msgid "Edit this address"
+msgstr "Editer cette adresse"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Email address is invalid"
+msgstr "Adresse email invalide"
+
+msgid "Enter a new billing address"
+msgstr "Entrer une nouvelle adresse de facturation"
+
+msgid "Enter a new shipping address"
+msgstr "Entrer une nouvelle adresse de livraison"
+
+msgid "Enter a promotion code, if you have one:"
+msgstr "Entrer votre code de promotion si vous en avez un:"
+
+msgid "Error(s) have occurred validating the shipping address information you provided"
+msgstr "Une erreur s'est produite en validant l'adresse de livraison fournie"
+
+msgid "Error(s) in your account details"
+msgstr "Erreur(s) dans les informations de votre compte"
+
+msgid "Error(s) in your credit card details"
+msgstr "Erreur(s) dans les informations de votre carte de crédit"
+
+msgid "Expiry Date"
+msgstr "Date d'expiration"
+
+msgid "How would you like to pay?"
+msgstr "Comment souhaitez-vous régler ?"
+
+msgid "Invalid promotion code"
+msgstr "Code promo invalide"
+
+msgid "Item"
+msgstr "Article"
+
+msgid "Items in basket"
+msgstr "Article dans votre panier"
+
+msgid "Name"
+msgstr "Nom"
+
+msgid "Next"
+msgstr "Suivant"
+
+msgid "Next &gt;&gt;"
+msgstr "Suivant &gt;&gt;"
+
+msgid "No account name provided"
+msgstr "Aucun nom de compte fourni"
+
+msgid "No account number provided"
+msgstr "Aucun numéro de compte fourni"
+
+msgid "No cardholder name provided"
+msgstr "Aucun propriétaire de la carte fourni"
+
+msgid "No security code provided"
+msgstr "Aucun code de sécurité fourni"
+
+msgid "Note: You have a final chance to confirm/cancel the order on the following screen."
+msgstr "Note : Vous avez une dernière chance de confirmer ou annuler votre commande sur la page suivante."
+
+msgid "Order Detail"
+msgstr "Détail de la commande"
+
+msgid "Payment method"
+msgstr "Méthode de paiement"
+
+msgid "phone is required"
+msgstr "Un numéro de téléphone est obligatoire"
+
+msgid "Phone Number"
+msgstr "Numéro de téléphone"
+
+msgid "Please enter your %LABEL% details"
+msgstr "Merci d'entrer vos informations de %LABEL%"
+
+msgid "Please enter your credit card details"
+msgstr "Merci d'entrer les informations de votre carte de crédit"
+
+msgid "postcode is required"
+msgstr "Un code postal est obligatoire"
+
+msgid "Price"
+msgstr "Prix"
+
+msgid "Proceed to Checkout"
+msgstr "Passer la Commande"
+
+msgid "Purchased downloads"
+msgstr "Téléchargements commandés"
+
+msgid "Qty"
+msgstr "Qté"
+
+msgid "Region"
+msgstr "Région"
+
+msgid "Return to "
+msgstr "Retourner à"
+
+msgid "Sales Tax"
+msgstr "Taxes"
+
+msgid "Security Code"
+msgstr "Code de sécurité"
+
+msgid "Select your shipping method"
+msgstr "Choisir votre méthodes de livraison "
+
+msgid "Shipping Address"
+msgstr "Adresse de livraison"
+
+msgid "Shipping costs"
+msgstr "Frais de port"
+
+msgid "Sorry, but you do not have any items in your order."
+msgstr "Désolé, votre panier est vide."
+
+msgid "Special Instructions"
+msgstr "Instructions spécifiques"
+
+msgid "State"
+msgstr "Etat"
+
+msgid "Subtotal"
+msgstr "Sous-total"
+
+msgid "Suburb"
+msgstr "Quartier"
+
+msgid "The following email has been sent to"
+msgstr "L'email suivant a été envoyé à"
+
+msgid "This item has been added to your shopping cart"
+msgstr "Cet article a été ajouté à votre panier"
+
+msgid "This item is already in your shopping cart"
+msgstr "Cet article est déjà dans votre panier"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Update"
+msgstr "Mettre à jour"
+
+msgid "Use shipping address as billing address"
+msgstr "Utiliser l'adresse de livraison comme adresse de facturation"
+
+msgid "Use this address"
+msgstr "Utiliser cette adresse"
+
+msgid "We have a shortage of stock for one (or more) of your selections. The quantities in your basket have been altered accordingly."
+msgstr "Le stock est limité pour un ou plusieurs de vos articles. Les quantités de votre panier ont été ajusté en fonction."
+
+msgid "You can select a maximum of %1 items"
+msgstr "Vous pouvez sélectionner un maximum de %1 articles"
+
+msgid "You can select a minimum of %1 items"
+msgstr "Vous pouvez sélectionner un mimimum de %1 articles"
+
+msgid "You don't have access to this promotion code"
+msgstr "Vous n'avez pas droit à ce code promo"
+
+msgid "You have no items in your shopping basket"
+msgstr "Vous n'avez aucun article dans votre panier"
+
+msgid "You haven't selected any items"
+msgstr "Vous n'avez sélectionner aucun article"
+
+msgid "Your purchased downloads"
+msgstr "Vos téléchargements commandés"
+
+msgid "Your Shopping Basket"
+msgstr "Votre Panier"
+
+msgid "Zip/Postcode"
+msgstr "Code postal"
+

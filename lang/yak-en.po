@@ -1,0 +1,288 @@
+# 
+# LANGUAGE (LOCALE) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK 3.2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2009-10-09 17:21+1300\n"
+"Last-Translator: n/a\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 16bit\n"
+
+msgid " - "
+msgstr ""
+
+msgid "%LABEL% name"
+msgstr ""
+
+msgid "%LABEL% number"
+msgstr ""
+
+msgid "&lt;&lt; Previous"
+msgstr ""
+
+msgid "a recipient name is required"
+msgstr ""
+
+msgid "Add to cart"
+msgstr ""
+
+msgid "Address Line 1"
+msgstr ""
+
+msgid "address line 1 is required"
+msgstr ""
+
+msgid "Address Line 2"
+msgstr ""
+
+msgid "an email address is required"
+msgstr ""
+
+msgid "baht"
+msgstr ""
+
+msgid "Billing Address"
+msgstr ""
+
+msgid "Card Type"
+msgstr ""
+
+msgid "Cardholder's Name"
+msgstr ""
+
+msgid "Checkout"
+msgstr ""
+
+msgid "City"
+msgstr ""
+
+msgid "city is required"
+msgstr ""
+
+msgid "Company Name"
+msgstr ""
+
+msgid "Confirm order"
+msgstr ""
+
+msgid "Confirm your order"
+msgstr ""
+
+msgid "Country"
+msgstr ""
+
+msgid "Credit card has already expired"
+msgstr ""
+
+msgid "Credit Card No."
+msgstr ""
+
+msgid "Currently out of online stock"
+msgstr ""
+
+msgid "Edit this address"
+msgstr ""
+
+msgid "Email"
+msgstr ""
+
+msgid "Email address is invalid"
+msgstr ""
+
+msgid "Enter a new billing address"
+msgstr ""
+
+msgid "Enter a new shipping address"
+msgstr ""
+
+msgid "Enter a promotion code, if you have one:"
+msgstr ""
+
+msgid "Error(s) have occurred validating the shipping address information you provided"
+msgstr ""
+
+msgid "Error(s) in your account details"
+msgstr ""
+
+msgid "Error(s) in your credit card details"
+msgstr ""
+
+msgid "Expiry Date"
+msgstr ""
+
+msgid "How would you like to pay?"
+msgstr ""
+
+msgid "Invalid promotion code"
+msgstr ""
+
+msgid "Item"
+msgstr ""
+
+msgid "Items in basket"
+msgstr ""
+
+msgid "Name"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "Next &gt;&gt;"
+msgstr ""
+
+msgid "No account name provided"
+msgstr ""
+
+msgid "No account number provided"
+msgstr ""
+
+msgid "No cardholder name provided"
+msgstr ""
+
+msgid "No security code provided"
+msgstr ""
+
+msgid "Note: You have a final chance to confirm/cancel the order on the following screen."
+msgstr ""
+
+msgid "Order Confirmation"
+msgstr ""
+
+msgid "Order Detail"
+msgstr ""
+
+msgid "Payment method"
+msgstr ""
+
+msgid "phone is required"
+msgstr ""
+
+msgid "Phone Number"
+msgstr ""
+
+msgid "Please enter your %LABEL% details"
+msgstr ""
+
+msgid "Please enter your credit card details"
+msgstr ""
+
+msgid "postcode is required"
+msgstr ""
+
+msgid "Price"
+msgstr ""
+
+msgid "Proceed to Checkout"
+msgstr ""
+
+msgid "Purchase is currently disabled, please try again later"
+msgstr ""
+
+msgid "Qty"
+msgstr ""
+
+msgid "Quantity"
+msgstr ""
+
+msgid "Region"
+msgstr ""
+
+msgid "Remove"
+msgstr ""
+
+msgid "Return to "
+msgstr ""
+
+msgid "Sales Tax"
+msgstr ""
+
+msgid "Security Code"
+msgstr ""
+
+msgid "Select your shipping method"
+msgstr ""
+
+msgid "Shipping Address"
+msgstr ""
+
+msgid "Shipping costs"
+msgstr ""
+
+msgid "Sorry, but you do not have any items in your order."
+msgstr ""
+
+msgid "Special Instructions"
+msgstr ""
+
+msgid "State"
+msgstr ""
+
+msgid "Subtotal"
+msgstr ""
+
+msgid "Suburb"
+msgstr ""
+
+msgid "The following email has been sent to"
+msgstr ""
+
+msgid "the following email has been sent to "
+msgstr ""
+
+msgid "The transaction has been declined"
+msgstr ""
+
+msgid "This item has been added to your shopping cart"
+msgstr ""
+
+msgid "This item is already in your shopping cart"
+msgstr ""
+
+msgid "Total"
+msgstr ""
+
+msgid "Total Discount (%s)"
+msgstr ""
+
+msgid "Update"
+msgstr ""
+
+msgid "Use shipping address as billing address"
+msgstr ""
+
+msgid "Use this address"
+msgstr ""
+
+msgid "We have a shortage of stock for one (or more) of your selections. The quantities in your basket have been altered accordingly."
+msgstr ""
+
+msgid "You can select a maximum of %1 items"
+msgstr ""
+
+msgid "You can select a minimum of %1 items"
+msgstr ""
+
+msgid "You don't have access to this promotion code"
+msgstr ""
+
+msgid "You have no items in your shopping basket"
+msgstr ""
+
+msgid "You haven't selected any items"
+msgstr ""
+
+msgid "Your purchased downloads"
+msgstr ""
+
+msgid "Your Shopping Basket"
+msgstr ""
+
+msgid "Zip/Postcode"
+msgstr ""

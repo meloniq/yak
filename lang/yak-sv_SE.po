@@ -1,0 +1,247 @@
+# 
+# LANGUAGE (LOCALE) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK 1.7.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2009-09-11 01:30+0100\n"
+"Last-Translator: Marco Izzo <marco@marcoizzo.com>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%LABEL% name"
+msgstr "%LABEL% namn"
+
+msgid "%LABEL% number"
+msgstr "%LABEL% nummer"
+
+msgid "&lt;&lt; Previous"
+msgstr "&lt;&lt; Föregående"
+
+msgid "-"
+msgstr "-"
+
+msgid "a recipient name is required"
+msgstr "namn måste anges"
+
+msgid "Add to cart"
+msgstr "Lägg i varukorgen"
+
+msgid "Address Line 1"
+msgstr "Adressrad 1"
+
+msgid "address line 1 is required"
+msgstr "Adressrad 1 måste anges"
+
+msgid "Address Line 2"
+msgstr "Adressrad 2"
+
+msgid "an email address is required"
+msgstr "epost måste anges"
+
+msgid "baht"
+msgstr "kronor"
+
+msgid "Billing Address"
+msgstr "Faktureringsadress"
+
+msgid "Buy"
+msgstr "Köp"
+
+msgid "Card Type"
+msgstr "Korttyp"
+
+msgid "Cardholder's Name"
+msgstr "Kortinnehavarens Namn"
+
+msgid "Checkout"
+msgstr "Kassan"
+
+msgid "City"
+msgstr "Ort"
+
+msgid "city is required"
+msgstr "ort måste anges"
+
+msgid "Confirm order"
+msgstr "Bekräfta beställningen"
+
+msgid "Confirm your order"
+msgstr "Bekräfta din beställning"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Credit card has already expired"
+msgstr "Kontokortet har gått ut"
+
+msgid "Credit Card No."
+msgstr "Kontokortsnummer"
+
+msgid "Currently out of online stock"
+msgstr "Finns för tillfället inte i lager"
+
+msgid "Edit this address"
+msgstr "Ändra denna adress"
+
+msgid "Email"
+msgstr "Epost"
+
+msgid "Enter a new billing address"
+msgstr "Ange en ny faktureringsadress"
+
+msgid "Enter a new shipping address"
+msgstr "Ange en ny leveransadress"
+
+msgid "Enter a promotion code, if you have one:"
+msgstr "Ange en rabattkod om du har någon:"
+
+msgid "Error(s) have occurred validating the shipping address information you provided"
+msgstr "Fel har uppstått angående leveransadressen du angav"
+
+msgid "Error(s) in your account details"
+msgstr "Fel i ditt kontos detaljer "
+
+msgid "Error(s) in your credit card details"
+msgstr "Fel i ditt kontokorts detaljer"
+
+msgid "Expiry Date"
+msgstr "Giltighetsdatum"
+
+msgid "How would you like to pay?"
+msgstr "Hur skulle du vilja betala?"
+
+msgid "Invalid promotion code"
+msgstr "Ogiltig rabattkod"
+
+msgid "Items in basket"
+msgstr "Artiklar i varukorgen"
+
+msgid "Name"
+msgstr "Namn"
+
+msgid "Next"
+msgstr "Nästa"
+
+msgid "Next &gt;&gt;"
+msgstr "Nästa &gt;&gt;"
+
+msgid "No account name provided"
+msgstr "Inget kontonamn har angetts"
+
+msgid "No account number provided"
+msgstr "Inget kontonummer har angetts"
+
+msgid "No cardholder name provided"
+msgstr "Inget namn på kortinnehavaren har angetts"
+
+msgid "No security code provided"
+msgstr "Ingen säkerhetskod har angetts"
+
+msgid "Order Detail"
+msgstr "Beställningsöversikt"
+
+msgid "Payment method"
+msgstr "Betalningssätt"
+
+msgid "phone is required"
+msgstr "telefon måste anges"
+
+msgid "Phone Number"
+msgstr "Telefon"
+
+msgid "Please enter your %LABEL% details"
+msgstr "Var god ange dina %LABEL% detaljer"
+
+msgid "Please enter your credit card details"
+msgstr "Var god ange dina kreditkorts detaljer"
+
+msgid "postcode is required"
+msgstr "postnummer måste anges"
+
+msgid "Price"
+msgstr "Pris"
+
+msgid "Purchased downloads"
+msgstr "Köpta nedladdningar"
+
+msgid "Qty"
+msgstr "Antal"
+
+msgid "Region"
+msgstr ""
+
+msgid "Return to"
+msgstr "Gå tillbaka till"
+
+msgid "Security Code"
+msgstr "Säkerhetskod"
+
+msgid "Shipping Address"
+msgstr "Leveransadress"
+
+msgid "Shipping costs"
+msgstr "Fraktkostnader"
+
+msgid "Sorry, but you do not have any items in your order."
+msgstr "Du har inga artiklar i din beställning."
+
+msgid "Special Instructions"
+msgstr "Särskilda Anvisningar"
+
+msgid "State"
+msgstr ""
+
+msgid "Subtotal"
+msgstr "Delsumma"
+
+msgid "Suburb"
+msgstr ""
+
+msgid "The following email has been sent to"
+msgstr "Följande epost har skickats till"
+
+msgid "This item has been added to your shopping cart"
+msgstr "Denna artikel har lagts i varukorgen"
+
+msgid "This item is already in your shopping cart"
+msgstr "Denna artikel finns redan i varukorgen"
+
+msgid "Item"
+msgstr "Titel"
+
+msgid "Total"
+msgstr "Totalt"
+
+msgid "Update"
+msgstr "Updatera"
+
+msgid "Use shipping address as billing address"
+msgstr "Använd leveransadress som faktureringsadress"
+
+msgid "Use this address"
+msgstr "Använd denna adress"
+
+msgid "We have a shortage of stock for one (or more) of your selections. The quantities in your basket have been altered accordingly."
+msgstr "Vi har för tillfället inte produkten/produkterna du valt i lager. Antalet i varukorgen har anpassat därefter."
+
+msgid "You don't have access to this promotion code"
+msgstr "Du har inte tillgång till denna rabattkod"
+
+msgid "You have no items in your shopping basket"
+msgstr "Du har inga artiklar i din varukorg"
+
+msgid "Your purchased downloads"
+msgstr "Dina beställda nedladdningar"
+
+msgid "Your Shopping Basket"
+msgstr "Din Varukorg"
+
+msgid "Zip/Postcode"
+msgstr "Postnummer"
+

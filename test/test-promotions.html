@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>test-promotions</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-promotions</td></tr>
+</thead><tbody>
+<tr>
+	<td>deleteAllVisibleCookies</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>link=Users</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Users</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a.add-new-h2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_login</td>
+	<td>tester</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>email</td>
+	<td>devtest4@afillyateit.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>noconfirmation</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>createusersub</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Users</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=tester</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>pass1</td>
+	<td>p@55w0rd</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>pass2</td>
+	<td>p@55w0rd</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Users</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a.add-new-h2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_login</td>
+	<td>tester2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>email</td>
+	<td>invalid2@zxyabc111.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>noconfirmation</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>createusersub</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Users</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=tester2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>pass1</td>
+	<td>p@55w0rd</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>pass2</td>
+	<td>p@55w0rd</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>promotions-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_code</td>
+	<td>sh1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_description</td>
+	<td>shipping %</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_value</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_code</td>
+	<td>sh2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_description</td>
+	<td>shipping val</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>new_promo_type</td>
+	<td>label=Shipping Value</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_value</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_code</td>
+	<td>pr1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_description</td>
+	<td>price %</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>new_promo_type</td>
+	<td>label=Pricing %</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_value</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_code</td>
+	<td>pr2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_description</td>
+	<td>price val</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>new_promo_type</td>
+	<td>label=Pricing Value</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_value</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_code</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_users</td>
+	<td>tester</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_description</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_value</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-product-weight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>PR1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_recipient</td>
+	<td>Joe Bloggs</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_email</td>
+	<td>devtest1@afillyateit.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_phone</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_addr1</td>
+	<td>12 St Leonard's Road</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_suburb</td>
+	<td>Testville</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_city</td>
+	<td>Testington</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_postcode</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=New Zealand</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount (price %)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-2.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$23.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>PR2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount (price val)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-5.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$20.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>SH1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount (shipping %)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-0.50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$24.50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>SH2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount (shipping val)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-5.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$20.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>You don't have access to this promotion code</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=← Back to Test Blog</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>You don't have access to this promotion code</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-login.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_login</td>
+	<td>tester</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_pass</td>
+	<td>p@55w0rd</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>wp-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>You don't have access to this promotion code</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount (user)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-0.50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$24.50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log out</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

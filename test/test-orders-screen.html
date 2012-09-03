@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>test-orders-screen</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-orders-screen</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>year_order_date</td>
+	<td>currentYear</td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$50.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$100.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>funds_received[]</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>action[]</td>
+	<td>label=Send Stock</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_update</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>status</td>
+	<td>label=show fulfilled orders</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$50.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>STOCK SENT</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>funds_received[]</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>status</td>
+	<td>label=show unfulfilled orders</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>action[]</td>
+	<td>label=Cancel Order</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_update</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>status</td>
+	<td>label=show cancelled orders</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$100.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertValue</td>
+	<td>funds_received[]</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>CANCELLED</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>status</td>
+	<td>label=show unfulfilled orders</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>/wordpress/wp-content/plugins/yak-for-wordpress/yak-orders-dl.php?type=csv&amp;n=723757&amp;status=&amp;year=${currentYear}&amp;month=00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>order id,order number,order date,order value,recipient,email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>devtest1@afillyateit.com</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>action[]</td>
+	<td>label=Delete</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_update</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>You cannot delete this order - it must be either CANCELLED or in ERROR</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>status</td>
+	<td>label=show cancelled orders</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>action[]</td>
+	<td>label=Delete</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_update</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>You cannot delete this order - it must be either CANCELLED or in ERROR</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

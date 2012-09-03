@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>second-payment-option</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">second-payment-option</td></tr>
+</thead><tbody>
+<tr>
+	<td>openAndWait</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Pages</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=a.add-new-h2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>title</td>
+	<td>Pay By Cheque</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>content-html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>content</td>
+	<td>Please deposit the amount of [yak_order_value] into the following account:<br /><br />ACC DETAILS HERE</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>comment_status</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>ping_status</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>publish</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>payments-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name='payment_type_names[]' and @value='']</td>
+	<td>Cheque</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//table[@id='payment_types']/tbody/tr[3]/td[2]/select</td>
+	<td>label=PAGE: Pay By Cheque</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertSelectOptions</td>
+	<td>//select[@name='payment_type']</td>
+	<td>Deposit,Cheque</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>payment_type</td>
+	<td>label=Cheque</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Payment method: Cheque</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Pay By Cheque</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Please deposit the amount of $50.00 into the following account</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

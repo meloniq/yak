@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://testhost/wordpress/" />
+<title>test-product-promotions</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-product-promotions</td></tr>
+</thead><tbody>
+<tr>
+	<td>deleteAllVisibleCookies</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>openAndWait</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_login</td>
+	<td>admin</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_pass</td>
+	<td>p@55w0rd</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>wp-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=All Posts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Test Product #1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>post_ID</td>
+	<td>firstPostId</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=All Posts</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-multi-type-product</td>
+	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>post_ID</td>
+	<td>secondPostId</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#promotions-tab &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=new_promo_code</td>
+	<td>prodprice</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=new_promo_description</td>
+	<td>product price promotion</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=new_promo_products</td>
+	<td>${firstPostId},${secondPostId}</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=new_promo_type</td>
+	<td>label=Pricing %</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=new_promo_value</td>
+	<td>25</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=new_promo_code</td>
+	<td>prodship</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=new_promo_description</td>
+	<td>product shipping promotion</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=new_promo_products</td>
+	<td>${firstPostId}</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=new_promo_type</td>
+	<td>label=Shipping %</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=new_promo_value</td>
+	<td>25</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-product-weight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=promo_code</td>
+	<td>prodprice</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=updatebutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>Total Discount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[contains(@id, 'deletebutton_')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-multi-type-product</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=promo_code</td>
+	<td>prodprice</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=updatebutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-33.75</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-product-weight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-33.75</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[contains(@id, 'deletebutton_')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>Total Discount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[contains(@id, 'deletebutton_')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Test Product #1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=promo_code</td>
+	<td>prodship</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=updatebutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>id=total_discount</td>
+	<td>-1.25</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$53.75</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-product-weight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=promo_code</td>
+	<td>prodship</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>Total Discount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=promotions-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select[@name='promo_products_inclusion[]'])[10]</td>
+	<td>label=exclude</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select[@name='promo_products_inclusion[]'])[11]</td>
+	<td>label=exclude</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-product-weight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=promo_code</td>
+	<td>prodprice</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=updatebutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[contains(@id, 'deletebutton_')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-multi-type-product</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=promo_code</td>
+	<td>prodprice</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=updatebutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>Total Discount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=promotions-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select[@name='promo_products_inclusion[]'])[10]</td>
+	<td>label=include</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select[@name='promo_products_inclusion[]'])[11]</td>
+	<td>label=include</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=options_update7</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

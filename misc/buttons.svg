@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   sodipodi:docbase="/home/jason/svn/yak/trunk"
+   sodipodi:docname="buttons.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="375"
+     inkscape:cy="624.72449"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1280"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#fbc442;fill-opacity:1;stroke:black;stroke-width:0.64523268;stroke-opacity:1"
+       id="rect1901"
+       width="95.354767"
+       height="19.354767"
+       x="257.16638"
+       y="333.68481"
+       rx="7.7453327"
+       ry="7.7453327" />
+    <rect
+       style="fill:#fbc442;fill-opacity:1;stroke:black;stroke-width:0.64523268;stroke-opacity:1"
+       id="rect2772"
+       width="95.354767"
+       height="19.354767"
+       x="257.16638"
+       y="453.18478"
+       rx="7.7453327"
+       ry="7.7453327" />
+    <rect
+       style="fill:#fbc442;fill-opacity:1;stroke:black;stroke-width:0.64523268;stroke-opacity:1"
+       id="rect1872"
+       width="95.354767"
+       height="19.354767"
+       x="257.16638"
+       y="395.18478"
+       rx="7.7453327"
+       ry="7.7453327" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       x="266.41797"
+       y="409.16003"
+       id="text2760"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2762"
+         x="266.41797"
+         y="409.16003">Confirm Order</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       x="274.53027"
+       y="467.1571"
+       id="text2766"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2768"
+         x="274.53027"
+         y="467.1571">Add to Cart</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       x="294.10938"
+       y="346.39441"
+       id="text2776"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2778"
+         x="294.10938"
+         y="346.39441">Buy</tspan></text>
+    <rect
+       style="fill:#fbc442;fill-opacity:1;stroke:black;stroke-width:0.64523268;stroke-opacity:1"
+       id="rect2780"
+       width="95.354767"
+       height="19.354767"
+       x="257.16638"
+       y="364.68478"
+       rx="7.7453327"
+       ry="7.7453327" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       x="285.26465"
+       y="377.46472"
+       id="text2782"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2784"
+         x="285.26465"
+         y="377.46472">Update</tspan></text>
+    <rect
+       style="fill:#fbc442;fill-opacity:1;stroke:black;stroke-width:0.64523268;stroke-opacity:1"
+       id="rect2786"
+       width="95.354767"
+       height="19.354767"
+       x="257.16638"
+       y="484.68478"
+       rx="7.7453327"
+       ry="7.7453327" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       x="259.55664"
+       y="498.58386"
+       id="text2788"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2790"
+         x="259.55664"
+         y="498.58386">Use this Address</tspan></text>
+    <rect
+       style="fill:#fbc442;fill-opacity:1;stroke:black;stroke-width:0.64523268;stroke-opacity:1"
+       id="rect2810"
+       width="95.354767"
+       height="19.354767"
+       x="257.16638"
+       y="519.68481"
+       rx="7.7453327"
+       ry="7.7453327" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       x="283.91406"
+       y="533.58386"
+       id="text2812"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2814"
+         x="283.91406"
+         y="533.58386">Confirm</tspan></text>
+    <rect
+       style="fill:#fbc442;fill-opacity:1;stroke:black;stroke-width:0.64523268;stroke-opacity:1"
+       id="rect2816"
+       width="95.354767"
+       height="19.354767"
+       x="257.16638"
+       y="553.68481"
+       rx="7.7453327"
+       ry="7.7453327" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Arial"
+       x="285.91211"
+       y="567.58386"
+       id="text2818"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan2820"
+         x="285.91211"
+         y="567.58386">Submit</tspan></text>
+  </g>
+</svg>

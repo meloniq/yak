@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://testhost/wordpress/" />
+<title>test-custom-price-entry</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-custom-price-entry</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add New</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=title</td>
+	<td>custom price entry</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=content</td>
+	<td>Enter the amount of your donation below:<br /><br />[yak_buy]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=yak_price</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=yak_custom_price</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=button.image-button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=newtype_[]</td>
+	<td>label=default</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=newtype_qty_[]</td>
+	<td>1000000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=newtype_weight_[]</td>
+	<td>0</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=publish</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=View post</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementPresent</td>
+	<td>yak_custom_price</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=yak_custom_price</td>
+	<td>155</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>custom price entry</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>155.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=payment_type</td>
+	<td>label=Credit Card (manual)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=cc_number</td>
+	<td>4111111111111111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=cc_security_code</td>
+	<td>000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=cc_name</td>
+	<td>JOE BLOGGS</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=cc_expiry_year</td>
+	<td>label=2031</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=confirmbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Your order id is</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$157.50</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

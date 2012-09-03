@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://testhost/wordpress/" />
+<title>test-strip-payment</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-strip-payment</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Plugins</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//a[contains(@href, 'stripe')]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#payments-tab &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>xpath=(//input[@name='payment_type_names[]'])[10]</td>
+	<td>Credit Card (stripe)</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>xpath=(//select[@name='payment_type_redirects[]'])[10]</td>
+	<td>label=SPECIAL: Stripe</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=yak_stripe_landing_page</td>
+	<td>label=Thanks for your order</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=yak_stripe_error_page</td>
+	<td>label=Error</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_stripe_secret_key</td>
+	<td>${stripeSecretKey}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_stripe_public_key</td>
+	<td>${stripePublicKey}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=payment_type</td>
+	<td>label=Credit Card (stripe)</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=card-number</td>
+	<td>4000000000000002</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=card-cvc</td>
+	<td>000</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=card-expiry-year</td>
+	<td>label=2031</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=confirmbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>id=confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>declined</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=back_to_credit_card</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=card-number</td>
+	<td>4242424242424242</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=card-cvc</td>
+	<td>000</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=card-expiry-year</td>
+	<td>label=2031</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=confirmbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForTextPresent</td>
+	<td>Confirm your order</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Thanks for your order</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>name=orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Credit Card (stripe)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Details</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyTextPresent</td>
+	<td>Stripe transaction was successfully processed</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

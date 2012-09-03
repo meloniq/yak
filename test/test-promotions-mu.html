@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>test-promotions-mu</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-promotions-mu</td></tr>
+</thead><tbody>
+<tr>
+	<td>deleteAllVisibleCookies</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//li[@id='menu-users']/div[3]/ul/li[2]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Yak</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='tabs']/ul/li[9]/a/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code[]</td>
+	<td>sh1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_description[]</td>
+	<td>shipping %</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_value[]</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button' and @onclick=&quot;javascript:copyRow('#promotions')&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[3]/td[1]/input[1]</td>
+	<td>sh2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[3]/td[2]/input</td>
+	<td>shipping val</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//table[@id='promotions']/tbody/tr[3]/td[3]/select</td>
+	<td>label=Shipping Value</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[3]/td[4]/input</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button' and @onclick=&quot;javascript:copyRow('#promotions')&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[4]/td[1]/input[1]</td>
+	<td>pr1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[4]/td[2]/input</td>
+	<td>price %</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//table[@id='promotions']/tbody/tr[4]/td[3]/select</td>
+	<td>label=Pricing %</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[4]/td[4]/input</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button' and @onclick=&quot;javascript:copyRow('#promotions')&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[5]/td[1]/input[1]</td>
+	<td>pr2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[5]/td[2]/input</td>
+	<td>price val</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//table[@id='promotions']/tbody/tr[5]/td[3]/select</td>
+	<td>label=Pricing Value</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[5]/td[4]/input</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button' and @onclick=&quot;javascript:copyRow('#promotions')&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[6]/td[1]/input[1]</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[6]/td[1]/input[3]</td>
+	<td>tester</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[6]/td[2]/input</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//table[@id='promotions']/tbody/tr[6]/td[4]/input</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>options_update9</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>addbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>PR1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_recipient</td>
+	<td>Joe Bloggs</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_email</td>
+	<td>devtest1@afillyateit.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_phone</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_addr1</td>
+	<td>12 St Leonard's Road</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_suburb</td>
+	<td>Testville</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_city</td>
+	<td>Testington</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_postcode</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount (pr1 - price %)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-2,00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$23,00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>PR2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount (pr2 - price val)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-5,00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$20,00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>SH1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount (sh1 - shipping %)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-0,50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$24,50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>SH2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount (sh2 - shipping val)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-5,00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$20,00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>You don't have access to this promotion code</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log out</td>
+	<td></td>
+</tr>
+<tr>
+	<td>openAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>You don't have access to this promotion code</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-login.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_login</td>
+	<td>tester</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_pass</td>
+	<td>p@55w0rd</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>wp-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>openAndWait</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>promo_code</td>
+	<td>user</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>You don't have access to this promotion code</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Total Discount (user - user)</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-0,50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$24,50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Log out</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

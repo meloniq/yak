@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>test-sales-tax</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-sales-tax</td></tr>
+</thead><tbody>
+<tr>
+	<td>deleteAllVisibleCookies</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Plugins</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#yak-add-on-module-sales-tax &gt; td.plugin-title &gt; div.row-actions-visible &gt; span.activate &gt; a.edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Shipping Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//a[@id='zones-tab']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_AU_zone</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_CA_zone</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_US_zone</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sales Tax</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>yak_enable_sales_tax</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//a[@id='cty-tax-tab']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_cty_tax_NZ</td>
+	<td>0.125</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_cty_tax_US</td>
+	<td>0.1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update2</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//a[@id='us-tax-tab']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_us_tax_CA</td>
+	<td>0.1</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//a[@id='ca-tax-tab']/span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ca_tax_BC</td>
+	<td>0.15</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update4</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-product-weight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Sales Tax</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>sales-tax</td>
+	<td>2.50</td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>grand_total</td>
+	<td>$27.50</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$27.50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Details</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>2.50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Sales Tax:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-product-weight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=Australia</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>Sales Tax</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>sales-tax</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=United States</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>sales-tax</td>
+	<td>2.00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$32.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Details</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>2.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Sales Tax:</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-product-weight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=United States</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_state_input</td>
+	<td>label=California</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>sales-tax</td>
+	<td>4.00</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=Canada</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextNotPresent</td>
+	<td>Sales Tax</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertElementNotPresent</td>
+	<td>sales-tax</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=Canada</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_ca_state_input</td>
+	<td>label=British Columbia</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>sales-tax</td>
+	<td>3.00</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sales Tax</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>yak_display_zero_tax_calc</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_ca_state_input</td>
+	<td>label=Alberta</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Sales Tax</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>sales-tax</td>
+	<td>0.00</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Sales Tax</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>yak_enable_sales_tax</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>yak_display_zero_tax_calc</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update1</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

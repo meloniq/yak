@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>paypal-sandbox-init</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">paypal-sandbox-init</td></tr>
+</thead><tbody>
+<tr>
+	<td>setTimeout</td>
+	<td>180000</td>
+	<td></td>
+</tr>
+<tr>
+	<td>openAndWait</td>
+	<td>https://developer.paypal.com</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>login_email</td>
+	<td>${paypalUsername}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>login_password</td>
+	<td>${paypalPassword}</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Plugins</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#yak-add-on-module-paypal-pro-payment &gt; td.plugin-title &gt; div.row-actions-visible &gt; span.activate &gt; a.edit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>payments-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name='payment_type_names[]' and @value='']</td>
+	<td>PayPal Std</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//table[@id='payment_types']/tbody/tr[8]/td[2]/select</td>
+	<td>label=SPECIAL: PayPal (Sandbox)</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_paypal_account</td>
+	<td>${paypalStandardAccount}</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>yak_paypal_return_url</td>
+	<td>label=Thanks for your order</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>yak_paypal_include_shipping</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@name='payment_type_names[]' and @value='']</td>
+	<td>PayPal Pro</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>//table[@id='payment_types']/tbody/tr[9]/td[2]/select</td>
+	<td>label=SPECIAL: PayPal Payments Pro (Sandbox)</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_paypal_api_username</td>
+	<td>${paypalProAPIUsername}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_paypal_api_password</td>
+	<td>${paypalProAPIPassword}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_paypal_api_signature</td>
+	<td>${paypalProAPICertificate}</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>yak_paypal_pro_return_url</td>
+	<td>label=Thanks for your order</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>yak_paypal_pro_error_url</td>
+	<td>label=Error</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

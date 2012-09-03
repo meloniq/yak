@@ -1,0 +1,184 @@
+# 
+# NORWEGIAN (NO) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK 1.0.0-rc1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2008-12-04 11:52+0100\n"
+"Last-Translator: Tom Boersma <tom.i.aurland@gmail.com>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "a recipient name is required"
+msgstr "Navn må fylles ut"
+
+msgid "Add to cart"
+msgstr "Legg i handlekurven"
+
+msgid "Address Line 1"
+msgstr "Vei/gate 1"
+
+msgid "address line 1 is required"
+msgstr "Vei/gate må fylles ut"
+
+msgid "Address Line 2"
+msgstr "Vei/gate 2"
+
+msgid "an email address is required"
+msgstr "Epost adresse må fylles ut"
+
+msgid "baht"
+msgstr "baht"
+
+msgid "Billing Address"
+msgstr "Fakturaadresse"
+
+msgid "Buy"
+msgstr "Kjøp"
+
+msgid "Card Type"
+msgstr "Kort type"
+
+msgid "Cardholder's Name"
+msgstr "Navn på korteier"
+
+msgid "City"
+msgstr "By/poststed"
+
+msgid "city is required"
+msgstr "By/poststed må fylles ut"
+
+msgid "Confirm your order"
+msgstr "Bekreft din bestilling"
+
+msgid "Confirm order"
+msgstr "Bekreft bestilling"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Credit card has already expired"
+msgstr "Kredittkortet er utløpt"
+
+msgid "Credit Card No."
+msgstr "Kreditkort nummer"
+
+msgid "Currently out of online stock"
+msgstr "Utsolgt"
+
+msgid "Email"
+msgstr "E-post"
+
+msgid "Enter a new billing address"
+msgstr "Legg inn ny faktura adresse"
+
+msgid "Enter a new shipping address"
+msgstr "Legg inn ny leveringsadresse"
+
+msgid "Error(s) have occurred validating the shipping address information you provided"
+msgstr "Feil har oppstått m.h.t. din leveringsadresse "
+
+msgid "Error(s) in your credit card details"
+msgstr "Feil i detaljer på kredittkortet"
+
+msgid "Expiry Date"
+msgstr "Utløpsdato"
+
+msgid "How would you like to pay?"
+msgstr "Hvordan vil du betale?"
+
+msgid "Name"
+msgstr "Navn"
+
+msgid "Next &gt;&gt;"
+msgstr "Neste &gt;&gt;"
+
+msgid "No cardholder name provided"
+msgstr "Navn på korteier mangler"
+
+msgid "Order Confirmation"
+msgstr "Bekreft ordren"
+
+msgid "Order Detail"
+msgstr "Bestillingsoversikt "
+
+msgid "phone is required"
+msgstr "Telefon må fylles ut"
+
+msgid "Phone Number"
+msgstr "Telefon"
+
+msgid "Please enter your credit card details"
+msgstr "fyll ut detaljer på kredittkortet"
+
+msgid "Postcode"
+msgstr "Postnummer"
+
+msgid "postcode is required"
+msgstr "Postnummer må fylles ut"
+
+msgid "&lt;&lt; Previous"
+msgstr "&lt;&lt; Siste"
+
+msgid "Price"
+msgstr "Pris"
+
+msgid "Purchased downloads"
+msgstr "Bestillte nedlastinger"
+
+msgid "Qty"
+msgstr "Antall"
+
+msgid "Region"
+msgstr "Fylke"
+
+msgid "Shipping Address"
+msgstr "Leveringsadresse"
+
+msgid "Shipping costs"
+msgstr "Fraktkostnader"
+
+msgid "Subtotal"
+msgstr "Subtotalt"
+
+msgid "Suburb"
+msgstr "Bydel"
+
+msgid "The following email has been sent to"
+msgstr "Denne eposten er sendt til"
+
+msgid "This item has been added to your shopping cart"
+msgstr "Denne artikkelen er lagt i handlekurven"
+
+msgid "This item is already in your shopping cart"
+msgstr "Denne artikkelen finnes allerede i handlekurven din"
+
+msgid "Item"
+msgstr "Tittel"
+
+msgid "Total"
+msgstr "Totalt"
+
+msgid "Update"
+msgstr "Oppdater"
+
+msgid "Use shipping address as billing address"
+msgstr "Bruk leveringsadresse som fakturaadresse"
+
+msgid "Use this address"
+msgstr "Bruk denne adressen"
+
+msgid "We have a shortage of stock for one (or more) of your selections. The quantities in your basket have been altered accordingly."
+msgstr "Vi har for lite på lager av noe du har valgt. Mengdene i handlevognen er tilpasset. "
+
+msgid "You have no items in your shopping basket"
+msgstr "Du har ikke noe i handlekurven"
+
+msgid "Your purchased downloads"
+msgstr "Dine bestillte nedlastinger"
+

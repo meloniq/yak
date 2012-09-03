@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>test-confirmation-message</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-confirmation-message</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>basic-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_confirmation_email</td>
+	<td>${downloadEmail}</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_confirmation_subject</td>
+	<td>Thanks for your order</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_confirmation_message</td>
+	<td>Name: [name]<br /><br />Order ID: [order_id]<br /><br />Cost: [order_cost]<br /><br />Payment Type: [payment_type]<br /><br />Shipping Type: [shipping_type]<br /><br />Shipping Cost: [shipping_cost]<br /><br />[order_detail]<br /><br />[shipping_address]</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>test-confirmation-email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_confirmation_message</td>
+	<td>&lt;html&gt;<br />&lt;body&gt;<br />&lt;p&gt;Name: [name]&lt;/p&gt;<br /><br />&lt;p&gt;Order ID: [order_id]&lt;/p&gt;<br /><br />&lt;p&gt;Cost: [order_cost]&lt;/p&gt;<br /><br />&lt;p&gt;Payment Type: [payment_type]&lt;/p&gt;<br /><br />&lt;p&gt;Shipping Type: [shipping_type]&lt;/p&gt;<br /><br />&lt;br /&gt;<br />[html_order_detail]<br /><br />&lt;br /&gt;<br />[html_shipping_address]<br />&lt;/body&gt;<br />&lt;/html&gt;</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>test-confirmation-email</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-content/plugins/yak-test-mailer.php</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=5</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Name: Joe Test</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>Name: Joe Test</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

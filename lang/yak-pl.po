@@ -1,0 +1,207 @@
+# 
+# POLISH (PL) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK 1.1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2006-02-05 17:21+1300\n"
+"Last-Translator: Maciej Wolfart (wolf4jc@gmail.com)\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 16bit\n"
+
+msgid "&lt;&lt; Previous"
+msgstr "&lt;&lt; Poprzedni"
+
+msgid "-"
+msgstr "-"
+
+msgid "a recipient name is required"
+msgstr "Proszę wypełnić polę odbiorcy"
+
+msgid "Add to cart"
+msgstr "Dodaj do koszyka"
+
+msgid "Address Line 1"
+msgstr "Adres"
+
+msgid "address line 1 is required"
+msgstr "Proszę podać adres"
+
+msgid "Address Line 2"
+msgstr "Adres - c.d."
+
+msgid "an email address is required"
+msgstr "Proszę podać adres e-mail"
+
+msgid "baht"
+msgstr "PLN"
+
+msgid "Billing Address"
+msgstr "Adres do faktury"
+
+msgid "Buy"
+msgstr "Kupuj"
+
+msgid "Card Type"
+msgstr "Typ karty"
+
+msgid "Cardholder's Name"
+msgstr "Imię i nazwisko posiadacza karty"
+
+msgid "City"
+msgstr "Miejscowość"
+
+msgid "city is required"
+msgstr "Proszę podać miejscowość"
+
+msgid "Confirm"
+msgstr "Potwierdź"
+
+msgid "Confirm order"
+msgstr "Potwierdź zamówienie"
+
+msgid "Confirm your order"
+msgstr "Prosimy o potwierdzenie zamówienia"
+
+msgid "Country"
+msgstr "Kraj"
+
+msgid "Credit card has already expired"
+msgstr "Ważność karty wygasła"
+
+msgid "Credit Card No."
+msgstr "Nr karty kredytowej"
+
+msgid "Currently out of online stock"
+msgstr "Towar chwilowo niedostępny online"
+
+msgid "Email"
+msgstr "Adres e-mail"
+
+msgid "Enter a new $prefix address"
+msgstr "Proszę podać nowy adres do faktury"
+
+msgid "Enter a promotion code, if you have one:"
+msgstr "Proszę wpisać kod promocyjny, jeśli dostępny"
+
+msgid "Error(s) have occurred validating the shipping address information you provided"
+msgstr "Nie mogliśmy potwierdzić Państwa adresu do wysyłki"
+
+msgid "Error(s) in your credit card details"
+msgstr "Nieprawidłowy numer karty kredytowej"
+
+msgid "Expiry Date"
+msgstr "Data ważności"
+
+msgid "How would you like to pay?"
+msgstr "Proszę podać preferowany sposób płatności"
+
+msgid "Invalid promotion code"
+msgstr "Nieprawidłowy numer kodu promocyjnego"
+
+msgid "Name"
+msgstr "Nazwisko"
+
+msgid "Next &gt;&gt;"
+msgstr "Następny &gt;&gt;"
+
+msgid "No cardholder name provided"
+msgstr "Proszę podać imię i nazwisko posiadacza karty"
+
+msgid "No security code provided"
+msgstr "Proszę podać kod weryfikacyjny"
+
+msgid "Order Confirmation"
+msgstr "Potwierdzenie zamówienia"
+
+msgid "Order Detail"
+msgstr "Szczegóły zamówienia"
+
+msgid "Payment method"
+msgstr "Sposób płatności"
+
+msgid "phone is required"
+msgstr "Proszę podać nr telefonu"
+
+msgid "Phone Number"
+msgstr "Numer telefonu"
+
+msgid "Please enter your credit card details"
+msgstr "Prosimy podać informacje o karcie kredytowej"
+
+msgid "Postcode"
+msgstr "Kod pocztowy"
+
+msgid "postcode is required"
+msgstr "Proszę podać kod pocztowy"
+
+msgid "Price"
+msgstr "Cena"
+
+msgid "Purchased downloads"
+msgstr "Zakupione pliki do pobrania"
+
+msgid "Qty"
+msgstr "Ilość"
+
+msgid "Quantity"
+msgstr "Ilość"
+
+msgid "Region"
+msgstr "Województwo"
+
+msgid "Security Code"
+msgstr "Kod weryfikacyjny"
+
+msgid "Shipping Address"
+msgstr "Adres do wysyłki"
+
+msgid "Shipping costs"
+msgstr "Koszt wysyłki"
+
+msgid "Sorry, but you do not have any items in your order."
+msgstr "Niestety, nie masz jeszcze niczego w koszyku"
+
+msgid "Subtotal"
+msgstr "Suma częściowa"
+
+msgid "Suburb"
+msgstr ""
+
+msgid "The following email has been sent to"
+msgstr "Niniejszy e-mail został wysłany do"
+
+msgid "This item has been added to your shopping cart"
+msgstr "Przedmiot dodano do koszyka"
+
+msgid "This item is already in your shopping cart"
+msgstr "Ten przedmiot jest już w koszyku"
+
+msgid "Item"
+msgstr "Nazwa artykułu"
+
+msgid "Total"
+msgstr "Suma"
+
+msgid "Update"
+msgstr "Uaktualnij"
+
+msgid "Use shipping address as billing address"
+msgstr "Adres do wysyłki ten sam, co do faktury"
+
+msgid "Use this address"
+msgstr "Użyj tego adresu"
+
+msgid "We have a shortage of stock for one (or more) of your selections. The quantities in your basket have been altered accordingly."
+msgstr "Obecnie nie mamy na stanie jednego lub więcej artykułów dodanych do koszyka. Państwa koszyk został uaktualniony zgodnie z posiadaną ilością wybranych artykułów"
+
+msgid "You have no items in your shopping basket"
+msgstr "Nie masz jeszcze niczego w koszyku"
+
+msgid "Your purchased downloads"
+msgstr "Zakupione pliki do pobrania"

@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>test-threshold-promotions</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-threshold-promotions</td></tr>
+</thead><tbody>
+<tr>
+	<td>deleteAllVisibleCookies</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_login</td>
+	<td>admin</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>user_pass</td>
+	<td>p@55w0rd</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>wp-submit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>promotions-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_code</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_description</td>
+	<td>shipping % threshold</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>new_promo_type</td>
+	<td>label=Shipping % (Threshold)</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_value</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_code</td>
+	<td>200</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_description</td>
+	<td>shipping val threshold</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>new_promo_type</td>
+	<td>label=Shipping Value (Threshold)</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_value</td>
+	<td>20</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_code</td>
+	<td>300</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_description</td>
+	<td>price % threshold</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>new_promo_type</td>
+	<td>label=Pricing % (Threshold)</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_value</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_code</td>
+	<td>400</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_description</td>
+	<td>price val threshold</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>new_promo_type</td>
+	<td>label=Pricing Value (Threshold)</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>new_promo_value</td>
+	<td>100</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update7</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=test-product-weight</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id, 'item_')]</td>
+	<td>6</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>updatebutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_recipient</td>
+	<td>Joe Bloggs</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_email</td>
+	<td>jasonrbriggs@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_phone</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_addr1</td>
+	<td>12 St Leonard's Road</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_suburb</td>
+	<td>Testville</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_city</td>
+	<td>Testington</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_region_input</td>
+	<td>Test</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>shipping_postcode</td>
+	<td>12345</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=New Zealand</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>shipping % threshold</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-8.75</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$128.75</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id, 'item_')]</td>
+	<td>11</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>updatebutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>shipping val threshold</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-20.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$230.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id, 'item_')]</td>
+	<td>16</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>updatebutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>price % threshold</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-160.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>price % threshold</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-160.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$202.50</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[contains(@id, 'item_')]</td>
+	<td>21</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>updatebutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>price val threshold</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-100.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>price val threshold</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-100.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$375.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>confirmorderbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$375.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Orders</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>orders_query</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Details</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>$375.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>promo 400 discount</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>-100.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//li[@id='wp-admin-bar-logout']/a</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

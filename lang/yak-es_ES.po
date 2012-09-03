@@ -1,0 +1,433 @@
+#
+# LANGUAGE (ES) translation for YAK.
+# See yak-for-wordpress.php for information and license terms
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: YAK 1.0.0-a2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2006-02-05 17:21+1300\n"
+"PO-Revision-Date: 2008-09-14 11:48+0100\n"
+"Last-Translator: JoJoC <josepjc@gmail.com>\n"
+"Language-Team: Spanish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "%1$s is the order number"
+msgstr "%1$s es el número de pedido"
+
+msgid "%2$s is the order detail"
+msgstr "%2$s es el detalle del pedido"
+
+msgid "%3$s is the total order cost"
+msgstr "%3$s es el total del pedido"
+
+msgid "%4$s is the payment type"
+msgstr "%4$s es el modo de pago"
+
+msgid "%5$s is the shipping address"
+msgstr "%5$s es la dirección de envío"
+
+msgid "A fraction -- or 1 for no discount"
+msgstr "Una fracción -- o 1 para no descuento"
+
+msgid "A message containing a list of download uris for purchased products (%1$s is the uri list)"
+msgstr "Un mensaje conteniendo una lista de uri de descarga para los productos comprados (%1$s es la lista de uri)"
+
+msgid "a recipient name is required"
+msgstr "un nombre de recipiente es requerido"
+
+msgid "Account"
+msgstr "Cuenta"
+
+msgid "Action"
+msgstr "Acción"
+
+msgid "Additional Information"
+msgstr "Información adicional"
+
+msgid "Address Line 1"
+msgstr "Dirección Línea 1"
+
+msgid "address line 1 is required"
+msgstr "dirección línea 1 requerida"
+
+msgid "Address Line 2"
+msgstr "Dirección Línea 2"
+
+msgid "All new posts get this price (leave blank, if you don't want the price automatically set)"
+msgstr "Pone este precio en todos los nuevos post (dejar en blanco, si no quiere poner el precio automáticamente)"
+
+msgid "All new posts get this quantity"
+msgstr "Todos los nuevos post tendrán esta cantidad"
+
+msgid "an email address is required"
+msgstr "se requiere una dirección de email"
+
+msgid "Auto discount"
+msgstr "Auto descuento"
+
+msgid "Auto price"
+msgstr "Auto precio"
+
+msgid "Auto quantity"
+msgstr "Auto cantidad"
+
+msgid "Automatic setup of products"
+msgstr "Configuración automática de productos"
+
+msgid "baht"
+msgstr "baht"
+
+msgid "Basic Settings"
+msgstr "Ajustes básicos"
+
+msgid "Billing Address"
+msgstr "Dirección de cobro"
+
+msgid "Buy image"
+msgstr "Comprar imagen"
+
+msgid "Cancel return url"
+msgstr "Cancelar url de retorno"
+
+msgid "Card Type"
+msgstr "Tipo de tarjeta"
+
+msgid "Cardholder's Name"
+msgstr "Nombre titular de la tarjeta"
+
+msgid "Cart Images"
+msgstr "Cart Images"
+
+msgid "City"
+msgstr "Ciudad"
+
+msgid "city is required"
+msgstr "ciudad es requerido"
+
+msgid "Confirm order"
+msgstr "Confirmar pedido"
+
+msgid "Confirm your order"
+msgstr "Confirme su pedido"
+
+msgid "Confirmation Email"
+msgstr " Email de confirmación"
+
+msgid "Confirmation Message"
+msgstr "Mensaje de confirmación"
+
+msgid "Cookie Lifetime (days)"
+msgstr "Vida de la cookie (días)"
+
+msgid "Country"
+msgstr "País"
+
+msgid "Credit card has already expired"
+msgstr "La tarjeta de crédito ha expirado"
+
+msgid "Credit Card No."
+msgstr "Nº Tarjeta de crédito"
+
+msgid "Currency code"
+msgstr "Código de moneda"
+
+msgid "Currency Format"
+msgstr "Formato de moneda"
+
+msgid "Currency Symbol"
+msgstr "Símbolo de moneda"
+
+msgid "Currently out of online stock"
+msgstr "Actualmente sin stock"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Default Country"
+msgstr "País por defecto"
+
+msgid "Default shipping amount"
+msgstr "Importe envío por defecto"
+
+msgid "Display product options"
+msgstr "Mostrar opciones del producto"
+
+msgid "Display product options drop-down if there is only a single option?"
+msgstr "¿Mostrar opciones de productos desplegable si sólo hay una única opción?"
+
+msgid "Download Email"
+msgstr "Email de descarga"
+
+msgid "Download Email address"
+msgstr "Dirección de email de descarga"
+
+msgid "Download file"
+msgstr "Descargar fichero"
+
+msgid "Download settings"
+msgstr "Ajustes de descarga"
+
+msgid "Download uri"
+msgstr "uri de descarga"
+
+msgid "e.g."
+msgstr "por ejemplo"
+
+msgid "e.g. $, baht, £, €, etc"
+msgstr "por ejemplo $, baht, £, €, etc"
+
+msgid "e.g. AUD, CAD, EUR, GBP, JPY or USD"
+msgstr "por ejemplo AUD, CAD, EUR, GBP, JPY or USD"
+
+msgid "Email"
+msgstr "Email"
+
+msgid "Email address from which download messages are sent"
+msgstr "Dirección de email desde donde se envían los mensajes de descarga"
+
+msgid "Enter a new billing address"
+msgstr "Entrar una nueva dirección de cobro"
+
+msgid "Enter a new shipping address"
+msgstr "Entrar una nueva dirección de envío"
+
+msgid "Enter page or post id (for example, the id \"6\"), or leave blank"
+msgstr "Entrar una página o post id (por ejemplo, la id \"6\"), o dejar en blanco"
+
+msgid "Error(s) have occurred validating the shipping address information you provided"
+msgstr "Error(es) en la validación de la dirección de envío que ha proporcionado"
+
+msgid "Error(s) in your credit card details"
+msgstr "Error(es) en los datos de su tarjeta"
+
+msgid "Expiry Date"
+msgstr "Fecha de vencimiento"
+
+msgid "For dollar amounts (2 decimal places) try %01.2f"
+msgstr "Para cantidades en dólares (2 decimales) probar %01.2f"
+
+msgid "Funds Received"
+msgstr "Fondos recibidos"
+
+msgid "How long should the customer's address cookie be stored on their machine?"
+msgstr "¿Cuánto tiempo debe permanecer la cookie del domicilio del cliente cookie en su máquina?"
+
+msgid "How would you like to pay?"
+msgstr "¿Cómo querría pagar?"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Identity token"
+msgstr "Identidad token"
+
+msgid "Include Shipping Costs"
+msgstr "Incluye gastos de envío"
+
+msgid "Include shipping costs in order totals?"
+msgstr "¿Incluir los costes de envío en el total del pedido?"
+
+msgid "Instant Payment Notification or Payment Data Transfer"
+msgstr "Notificación de Pago Inmediata o Transferencia de Datos de Pago"
+
+msgid "Is a phone number required (as well as address)?"
+msgstr "¿Se requiere un número de teléfono (así como la dirección)?"
+
+msgid "Leave blank to not send confirmation"
+msgstr "Dejar en blanco para no enviar la confirmación"
+
+msgid "Leave blank to use default"
+msgstr "Dejar en blanco para valor por defecto"
+
+msgid "Money Format"
+msgstr "Formato de moneda"
+
+msgid "Name"
+msgstr "Nombre"
+
+msgid "No cardholder name provided"
+msgstr "No puso ningún nombre de titular de tarjeta"
+
+msgid "Number of digits allowed in input box"
+msgstr "Número de dígitos permitidos en el campo de entrada"
+
+msgid "Order #"
+msgstr "Pedido #"
+
+msgid "Order Confirmation"
+msgstr "Confirmación de pediodo"
+
+msgid "Order Detail"
+msgstr "Detalle del pedido"
+
+msgid "Order Details"
+msgstr "Detalles del pedido"
+
+msgid "Order Log"
+msgstr "Orden de registro"
+
+msgid "Order Value"
+msgstr "Valor de pedido"
+
+msgid "Payment Settings"
+msgstr "Ajustes de pago"
+
+msgid "Payment Type"
+msgstr "Tipo de pago"
+
+msgid "PayPal settings"
+msgstr "Ajustes de PayPal"
+
+msgid "phone is required"
+msgstr "Se requiere el teléfono"
+
+msgid "Phone Number"
+msgstr "Teléfono"
+
+msgid "Please enter your credit card details"
+msgstr "Por favor, introduzca los detalles de su tarjeta de crédito"
+
+msgid "Post Title"
+msgstr "Títul del Post"
+
+msgid "Postcode"
+msgstr "Código postal"
+
+msgid "postcode is required"
+msgstr "Código postal requerido"
+
+msgid "Price"
+msgstr "Precio"
+
+msgid "Price rounding"
+msgstr "Price redondeado"
+
+msgid "Purchased downloads"
+msgstr "Descargas compradas"
+
+msgid "Qty"
+msgstr "Cant."
+
+msgid "Quantity"
+msgstr "Cantidad"
+
+msgid "Quantity Input Size"
+msgstr "Tamaño de entrada de Cantidad"
+
+msgid "Query"
+msgstr "Query"
+
+msgid "Redirect on buy to"
+msgstr "Redireccionar al comprar a"
+
+msgid "Redirect URLs for Payment"
+msgstr "URLs de redireccionamiento para Pago"
+
+msgid "Region"
+msgstr "Región"
+
+msgid "Require Phone Number"
+msgstr "Requiere número de teléfono"
+
+msgid "Return url"
+msgstr "url de retorno"
+
+msgid "Send shipping address"
+msgstr "Enviar dirección de envío"
+
+msgid "Shipping Address"
+msgstr "Dirección de envío"
+
+msgid "Shipping costs"
+msgstr "Costes de envío"
+
+msgid "Shipping Notes"
+msgstr "Notas de envío"
+
+msgid "Show \"Out of Stock\""
+msgstr "Mostrar \"Sin Stock\""
+
+msgid "Status"
+msgstr "Estado"
+
+msgid "Subtotal"
+msgstr "Subtotal"
+
+msgid "Suburb"
+msgstr "Barrio"
+
+msgid "The following email has been sent to"
+msgstr "El siguiente email ha sido enviado a"
+
+msgid "The number of decimal places to round to (e.g. 2 decimal places, or 0 for currencies that don't typically use smaller units -- thai baht being an example)"
+msgstr "Número de decimales al redondear (Por ejemplo 2 decimales, o 0 para monedas  que no suelen utilizar estas unidades pequeñas -- thai baht es un ejemplo)"
+
+msgid "The uri of the yak-dl.php file (e.g. http://yourhost.com/wp-content/plugins/yak/yak-dl.php)"
+msgstr "La uri del fichero yak-dl.php (Por ejemplo http://yourhost.com/wp-content/plugins/yak/yak-dl.php)"
+
+msgid "This item has been added to your shopping cart"
+msgstr "Este producto ha sido añadido a su carrito de la compra"
+
+msgid "This item is already in your shopping cart"
+msgstr "Este producto ya está en su carrito de la compra"
+
+msgid "Item"
+msgstr "Título"
+
+msgid "Total"
+msgstr "Total"
+
+msgid "Type"
+msgstr "Tipo"
+
+msgid "Update image"
+msgstr "Actualizar imagen"
+
+msgid "Update options"
+msgstr "Actualizar opciones"
+
+msgid "Update orders"
+msgstr "Actualizar pedidos"
+
+msgid "Update products"
+msgstr "Actualizar productos"
+
+msgid "Use address image"
+msgstr "Utilizar dirección de la imagen"
+
+msgid "Use PDT or IPN"
+msgstr "Usar PDT o IPN"
+
+msgid "Use shipping address as billing address"
+msgstr "Usar dirección de envío como dirección de cobro"
+
+msgid "Usually your email address"
+msgstr "Normalmente su dirección de email"
+
+msgid "We have a shortage of stock for one (or more) of your selections. The quantities in your basket have been altered accordingly."
+msgstr "Tenemos escasez de existencias para una (o más) de sus selecciones. Las cantidades en su cesta se han modificado en consecuencia."
+
+msgid "Weight"
+msgstr "Peso"
+
+msgid "Where %1$s is the amount and %2$s is the symbol ($100.00 would be %2$s%1$s)"
+msgstr "Donde %1$s es la cantidad y %2$s es el símbolo ($100.00 sería %2$s%1$s)"
+
+msgid "YAK Options"
+msgstr "YAK Opciones"
+
+msgid "Yak Orders"
+msgstr "Yak Pedidos"
+
+msgid "Yak Products"
+msgstr "Yak Productos"
+
+msgid "You have no items in your shopping basket"
+msgstr "No tiene productos en el carrito de la compra"
+
+msgid "Your purchased downloads"
+msgstr "Descargas compradas"
+

@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>test-shipping-calc</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">test-shipping-calc</td></tr>
+</thead><tbody>
+<tr>
+	<td>deleteAllVisibleCookies</td>
+	<td></td>
+	<td></td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>waitForElementPresent</td>
+	<td>link=Shipping Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Shipping Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>options-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_1_fixed</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_2_fixed</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_3_weightfirst</td>
+	<td>3.5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_3_weight</td>
+	<td>3.5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_4_weightfirst</td>
+	<td>2.5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_4_weight</td>
+	<td>2.5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_6_fixed</td>
+	<td>50</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=General Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>advanced-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>addSelection</td>
+	<td>yak_no_caching[]</td>
+	<td>label=Checkout</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update6</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add New</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>title</td>
+	<td>test-product-weight</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>content-html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>content</td>
+	<td>testing product weight (shipping calc)<br /><br />[yak_price]<br /><br />[yak_buy]</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_price</td>
+	<td>20</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//button[@type='button']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>newtype_[]</td>
+	<td>label=default</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>newtype_qty_[]</td>
+	<td>1000</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>newtype_weight_[]</td>
+	<td>300</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>publish</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=View post</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//button[@name='addbutton']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>shipping_cost</td>
+	<td>7.50</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=United States</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>shipping_cost</td>
+	<td>10.50</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=Antarctica</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>shipping_cost</td>
+	<td>50.00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=Belgium</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>shipping_cost</td>
+	<td>10.00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>//input[@value=&quot;1&quot;]</td>
+	<td>2</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>updatebutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>shippingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>shipping_cost</td>
+	<td>10.00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=Antarctica</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>shipping_cost</td>
+	<td>50.00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=New Zealand</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>shipping_cost</td>
+	<td>15.00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=Canada</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>shipping_cost</td>
+	<td>21.00</td>
+</tr>
+<tr>
+	<td>open</td>
+	<td>wp-admin</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//li[@id='menu-settings']/div[2]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Shipping Options</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>options-tab</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_6_fixed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_6_fixeditemfirst</td>
+	<td>10</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_6_fixeditem</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_2_fixed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_2_fixeditemfirst</td>
+	<td>8</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_2_fixeditem</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>yak_ship_default_4_weightfirst</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>options_update3</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Visit Site</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=Belgium</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>shipping_cost</td>
+	<td>13.00</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=New Zealand</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>shipping_cost</td>
+	<td>17.50</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Checkout</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>buybutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>editaddress</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>shipping_country_input</td>
+	<td>label=Argentina</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>billingbutton</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertText</td>
+	<td>shipping_cost</td>
+	<td>15.00</td>
+</tr>
+</tbody></table>
+</body>
+</html>

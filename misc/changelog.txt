@@ -1,0 +1,949 @@
+CHANGELOG
+=========
+
+Version 1.6.0
+-------------
+
+ * Remove auto_set_quantity -- doesn't make sense since you can now perform all product setup from the edit post page.
+ 
+ * Remove link back to project page.
+ 
+ * Add custom "Out of Stock" message
+
+ * Changes required so that YAK will work with WordPress MU
+ 
+ * Move language files into "lang" subdirectory
+
+
+Version 1.5.2
+-------------
+
+ * Remove help from YAK settings page.  Moved to the WordPress Extend page: http://wordpress.org/extend/plugins/yak-for-wordpress/installation/
+ 
+ * Add links to the plugin row
+ 
+ * Fix bug in orders screen (hitting update doesn't requery)
+
+ * Set the priority of YAK's post processing (can be changed by modifying the DEFINE in yak-static.php)
+
+
+Version 1.5.1
+-------------
+
+ * Fix bug in sales report screen
+
+
+Version 1.5.0
+-------------
+
+ * Fix shipping address in confirmation email, so that email and phone aren't included
+ 
+ * Add translation hooks for admin interface.  There are now two base translation files: yak-XX.po and yak-admin-XX.po
+   Most translators will probably only want to translate the customer interface (yak).  Those who want to translate the
+   entire interface can also translate the admin interface as well (yak-admin).
+ 
+ * Fix confirmation email for credit card orders and accounts receivable
+
+ * Change accounts receivable button to "Next" rather than "Confirm", since it isn't the last page in the flow.
+
+ * Fix translation bug in address screen
+
+ * Add placeholder for third party integration. When order payment comes in, a function can be called which can (in turn)
+   call third party scripts.  Basically, add a script yak_third_party.php in the yak plugin direction.  Add a function as follows:
+   
+    function yak_check_order_3p($order_id, $email, $recipient) {
+        // your 3rd party integration here
+    }
+ 
+ * Add order export to Excel
+
+ * Change the order screen so that it doesn't display orders without clicking the query button
+
+
+Version 1.4.6
+-------------
+
+ * Add override for the shipping weight calculator value -- you can specify the value that is used for the first X grams
+   in shipping calculation, and then the subsequent X grams.
+ 
+
+Version 1.4.5.1
+---------------
+
+ * Missed a Git collision marker in yak-settings.php
+
+
+Version 1.4.5
+-------------
+
+ * Localisation fix for the product page (patch provided by DjZoNe)
+
+ * Fix a problem with the tests
+ 
+ * Add facility to set session.cache_limiter to private for specific pages (such as checkout). This stops
+   the "webpage has expired" messages in Internet Explorer.
+ 
+ * Add promotion code access (specify a comma-separated list of user[name]s who are allowed to access a promotion)
+ 
+
+Version 1.4.4
+-------------
+
+ * [html_shipping_address] no longer includes email address
+ 
+ * billing address is now passed to PayPal Standard (shipping address was being sent through before)
+
+ * add Portuguese translation provided by Álvaro
+
+
+Version 1.4.3
+-------------
+
+ * wrong order for product type columns
+
+
+11 May 2009
+-----------
+
+ * new tags for html emails: [html_order_detail] and [html_shipping_address] both of which output in html
+   friendly format
+   
+ * format value sent to Authorize.net to enforce 2 decimal places
+
+
+10 May 2009
+-----------
+
+ * add override for confirmation email subject
+ 
+ * fix problem with checkboxes on settings screen
+
+
+9 May 2009
+----------
+
+ * add [yak_back_to_cc] and [yak_back_to_address] tags to be used on an authorize.net or paypal error page (when payment
+   processing returns an error)
+
+ * add initial support for Google Analytics (including new tag [yak_google_analytics] for the final confirmation page).
+ 
+ * add support for html confirmation emails
+
+
+7 May 2009
+----------
+
+ * removed __autoload which was colliding with another plugin
+
+
+4 May 2009
+----------
+
+ * add proper monetary formatting to total on cart
+ 
+ * european money formatting was breaking the orders page
+ 
+ * add facility to override the message displayed when the customer's basket is empty
+ 
+ * add facility to embed customer details in the final confirmation page (after confirming order).
+   The following tags are now available:
+   
+   [yak_customer_name]
+   [yak_customer_phone]
+   [yak_customer_address]
+
+
+28 Apr 2009
+-----------
+
+ * initial version of current order widget
+ 
+ RELEASE 1.3.7
+
+
+27 Apr 2009
+-----------
+
+ * fix bug with updating product quantity - updproduct function is being fired twice causing an incorrect
+   quantity to be applied
+
+
+23 Apr 2009
+-----------
+ 
+ * fix bug in quantity tag
+ 
+ * fix bug in shipping settings
+ 
+ * add test for enabled countries
+
+RELEASE 1.3.6
+
+
+17 Apr 2009
+-----------
+
+ * Add options to specify decimal point symbol (i.e. dot or comma) and thousands separator in money formatting.
+ 
+
+14 Apr 2009
+-----------
+
+ * Add facility special instructions (main part of code provided by 52teas.com).  Basically, enter default special
+   instructions in Yak settings, and an input box will appear on the final shopping cart confirmation screen,
+   to allow a customer to enter additional shipping instructions, or other info pertinent to the order.
+
+
+13 Apr 2009
+-----------
+
+ * Change shipping to allow for first and subsequent items, and to extend the default options.  The new 
+   shipping values are thus:
+ 
+        + default total fixed shipping for order
+        + default fixed shipping per item (first item and subsequent items)
+        + default shipping by weight (first 100 grams and subsequently per 100 grams)
+        + total fixed shipping for order by country
+        + fixed shipping per item (first and subsequent items) by country
+        + shipping by weight (first 100 grams and subsequently per 100 grams) by country
+
+   If you've already set shipping by weight values, please record them before updating to the latest version. The 
+   current values will vanish after the upgrade because the attribute names are changing.
+
+ * Add "Edit this address" button to the address entry form.  This takes a previously entered address and copies
+   the values to the new address input boxes -- so in the event of a minor change, a customer doesn't have to re-enter
+   all their details.
+
+
+12 Apr 2009
+-----------
+
+ * Add parameter to buy button so you can specify the post/product id in the same was as you can do in the yak_price
+   and quantity tags.  For example, both of the following are now valid.
+   
+        [yak_buy]
+    
+        [yak_buy 10]
+    
+   This means that the split buy-button tags need to change.  So if you use these tags, they now change to:
+   
+        [yak_sbuy_begin]
+        [yak_sbuy_content]
+        [yak_sbuy_end]
+
+
+11 Apr 2009
+-----------
+
+ * fix nasty problem with the [yak_product_page] function, add selenium test
+
+
+10 Apr 2009
+-----------
+
+ * Add install instructions to settings page.
+ 
+ * Release 1.3.3
+
+
+9 Apr 2009
+----------
+
+ * Left some PHP5-only code in place.  Changed to PHP4 friendly version.
+
+
+3 Apr 2009
+----------
+
+ * Fix a problem with single-quotes (') in addresses
+
+ * Add Selenium tests for automating the test process (finally!!!)
+ 
+
+2 Apr 2009
+----------
+
+ * Change the wording of the button on the CC form to "Next" rather than "Confirm", as the latter may imply that
+   it's the final step of the order flow, instead of the second-to-last.
+   
+ * Bug fix for new product type entry, so it's not displayed on editing the page
+ 
+ * Change [yak_quantity] and [yak_price] tags so that they take params. The existing style was either [yak_quantity] or 
+   [yak_quantity_PRODUCTYPE] (e.g. [yak_quantity_large]).  The new param method takes the type and (optionally)
+   the product id (to override the current product, if necessary).  The following tags are now accepted:
+   
+   [yak_quantity]
+   [yak_quantity TYPE]          (e.g. [yak_quantity large])
+   [yak_quantity TYPE PRODUCTID]   (e.g. [yak_quantity large 21])
+   
+   [yak_price]
+   [yak_price TYPE]             (e.g. [yak_price large])
+   [yak_price TYPE PRODUCTID]      (e.g. [yak_price large 21])
+
+   (note: where PRODUCTID is the page or post id for your product)
+   
+   Added yak_std_price back in for non-discounted prices (you can now use [yak_std_price] in the same
+   way as [yak_price])
+
+
+1 Apr 2009
+----------
+
+ * Add facility to choose the type of order number: either generated (randomised) or plain sequence (linked to
+   the order record). No, this isn't an April Fool's Joke, someone did actually ask for it.
+
+ * Fix a problem with PayPal Pro -- requires address and name details now (didn't seem to before)
+
+ * If the customer is logged into WordPress, record the user_id against the order
+
+ * Fix zero total orders (don't submit to the payment gateway, rather redirect to success url)
+   Note: this won't work for Google Checkout at the moment.
+
+
+30 Mar 2009
+-----------
+
+ * Add polish translation provided by Marciej
+ 
+ * New facility to add product types from the Products screen and when editing a post
+ 
+ * Remove old sql files, tidy up translation resources, and re-order resource 
+   files such as javascript and stylesheet files
+
+
+
+22 Mar 2009
+-----------
+
+ * Update swedish translation provided by Marco
+
+
+
+21 Mar 2009
+-----------
+
+ * remove unneeded yak_empty function (replace with php empty)
+ 
+ * fix charset/collation on YAK tables so they're consistent with WP
+
+
+
+12 Mar 2009
+-----------
+
+ * fix incorrect billing/shipping address message
+ 
+ * add Swedish translation, fix minor product title problem
+
+
+
+28 Feb 2009
+-----------
+
+ * fixed state handling for Canada shipping addresses (problems in PayPal)
+ 
+ * fixed county handling for UK shipping addresses (again, problems in PayPal)
+
+
+
+11 Feb 2009
+-----------
+
+ * Fix broken address handling (again).  State code was being sent thru to PayPal, no matter what.
+
+
+
+01 Feb 2009
+-----------
+
+ * send state and zip code to PayPal for US addresses
+
+ * add state to address form
+
+ * add more filtering to order admin (filter by date, and order number)
+
+ * added Norwegian translation, provided by Tom Boersma
+
+ * added updated French translation provided by Romaric Drigon
+ 
+ * Fix dodgy address handling, explicitly store country codes (shipping+billing), 
+   which was causing a problem in PayPal
+
+
+
+13 Dec 2008
+-----------
+
+ * add basic xml feed for yak products
+
+ * add yak_get_remote function for retrieving the content of a product from another yak store.  The basic usage is:
+
+    [yak_get_remote_n] where "n" is the number of the post.
+    
+    For example:
+    
+    [yak_get_remote_9]
+    
+    The limitations of this function are:
+    
+        a) it will probably only work if you have libcurl enabled in PHP (especially if you are using permalinks) and, 
+        b) because there is no affiliate functionality in YAK, there is no way to redirect back to the calling site.
+
+ * add check for referrer, so clicking on a buy button from a remotely displayed product will then display "Back to [blogtitle]"
+   on the checkout
+    
+ * add Accounts Receivable payment type.  You can specify a special type of Accounts Receivable, and a landing page.  
+   A simple form is displayed during the checkout process which allows the customer to enter their A/R number and name.  
+   After that (similar to the basic credit card processing) you manually process the payment.
+    
+ * add initial support for the Authorize.net payments gateway
+
+ * add initial support for PayPal Payments Pro
+
+ * fix price formatting in confirmation message
+
+ * fix minor problem in reports
+
+ * fix minor layout issue with out of stock message
+
+ * fix minor problem with WP2.7 layout
+
+
+
+02 Oct 2008
+-----------
+
+ * add Czech translation provided by Frank
+ 
+ * add override price functionality for product types
+ 
+ * tidy up column classes in checkout
+ 
+ * add promotional code functionality
+ 
+ * add Spanish translation, provided by Josep
+
+ * Fix security flaw in cart with shipping
+ 
+ * Fix minor issue with page products and the override price functionality
+
+
+
+14 Jul 2008
+-----------
+
+ * "Hard-code" the PayPal IPN page.  This means you don't need to create it manually.  Instead
+   just specify:
+     
+        http://yourdomain.com/wordpress/wp-content/plugins/yak-for-wordpress/yak-paypal-ipn.php
+
+ * Add Italian translation, provided by Roberto Mogliotti
+ 
+ * Change download message to use a tag [downloads] rather than a code.
+ 
+ * Change email confirmation to use tags rather than codes.
+
+ * Fix nasty problem zeroing price and alternate title when commenting on a product.
+
+ * Fix problem with random order number.
+
+
+
+10 Jul 2008
+-----------
+
+
+ * Add https support
+ 
+ * Add first cut of Google Checkout integration.  
+ 
+ * Tidy up setting payment types.  Add credit card landing page.
+ 
+ * Add support for tags with square brackets [ ].  The html-comment version of tags will be removed in
+   an upcoming release.
+
+ * Fix non-unique order id (wasn't very useful).
+
+
+
+06 Sep 2007 (and older)
+-----------------------
+
+ * added traditional Chinese message file (provided by Ronny).
+ 
+ * added new about page
+ 
+ * new special options -- use for offers of free gifts with certain products
+
+ * configurable shipping address (turn on/off name, phone number, address and separate billing address)
+ 
+ * http proxy for curl backend requests (such as PayPal).  Useful for hosts such as GoDaddy (for which the
+   proxy address should apparently be set to: "http://proxy.shr.secureserver.net:3128")
+     
+ * update to Thai language file
+ 
+ * change all syslog references to error_log (so debugging messages end up in the apache log file)
+ 
+ * added Slovak translation file (provided by František Malina)
+
+ * fix reports to show figures for stock sent orders (instead of everything)
+ 
+ * fix a problem using a page as a product
+ 
+ * fix problems with sending email confirmations (was using the wrong email address for download notifications)
+ 
+ * fix problem with products having a quantity of null (causes weird issues if a customer already has that product in
+   their basket and the quantity is set to an empty value)
+
+-----------
+
+ * new shipping options -- now 2 ways to specify shipping costs:
+ 
+        a) fixed cost. ie. one fixed price no matter how much a customer buys
+        b) by weight.  calculated based on the weight of the products
+     
+   note: this also means that you now need to specify a weight for your products
+
+ * added placeholder for using a customer's name in the confirmation email
+   (see the yak options page for more info).
+     
+ * hide product types on the yak products screen, to make dealing with large numbers
+   of products easier.
+     
+ * title sort order on Yak Products screen.
+ 
+ * add yak.js to yak_head instead of including in specific admin pages
+ 
+ * flexible list of payment types -- where payments before were fixed to Deposit, Cheque,
+   Credit Card, and Paypal.  Now these are completely flexible, although this now means
+   you need to enter these by hand.
+ 
+ * tidy up the options screen
+
+ * add a 'note' input box to yak orders -- so you can add comments to the order log.
+
+ * consolidated admin screens into one (now with 4 sub menus)
+
+ * new reports screen showing total sales, sales by month, top 5 best sellers for the year,
+   and top 5 best sellers per month 
+
+ * removed internationalisation code from the admin screens.  adding a new language should now require
+   less effort on the part of the translator.  see yak-XX.po for a list of the keys.
+
+ * added Japanese translation file (contributed by Ronny at mobitemple.net)
+
+ * fix problem with product posts which have no alternate title
+ 
+ * complete compatibility changes for WP2.1
+ 
+ * change confirmation mail function back to using standard php mail() rather than wp_mail
+
+ * missing weight column in create statement for product details table
+
+
+-----------
+
+
+ * added delete button for products in the shopping cart (requires javascript)
+
+ * change cart buttons to use an html <button> tag, rather than <input type="image">.  This means button text
+   can be easily localised, colors changed, etc.
+   
+   For example, if you want to change the default orange background buttons with plain (default) grey,
+   replace the button style in yak.css:
+   
+        button {
+            background-color: #fbc442;
+            border-top: 1px solid lightgrey;
+            border-left: 1px solid lightgrey;
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        
+   with:
+   
+        button {
+        }
+   
+   If you want buttons with a black background (using an image for example), change the style to the following:
+   
+        button {
+            border: 0px;
+            background: url('images/blackbg.png');
+            border-left: lightgrey;
+            border-right: lightgrey;
+            background-color: transparent;
+            color: white;
+        }
+        
+ * added German translation files provided by MK.
+        
+ * fix download filename in IE
+
+ * fix problem with download emails not being sent when updating the received funds in the yak orders screen.
+
+ * fix problem with shipping cost being zeroed when the available quantity of a product is less than the order quantity.
+
+
+-----------
+
+
+ * Add new non-unique order id
+ 
+ * Move javascript on cart off page and into separate script.  split javascript into generic and admin specific
+   files -- to stop problems with (missing) jquery on the wp pages.
+     
+ * Add warning message for people with session.auto_start turned on.
+ 
+ * Integrate YAK back into the WordPress menu structure.  The top-level menu was a nice idea, but it's inconsistent
+   with all other plugins (plus isn't recommended, according to the WP devs).  You can now get to YAK's options
+   through Settings->Yak, and to Orders/Products/Sales Reports from the Manage menu.
+
+ * Fix PHP4 problem with the view products screen
+ 
+
+-----------
+
+
+ * Frank Malina's new look-and-feel.
+ 
+ * French translation (provided by Charles Dixon-Spain).
+ 
+ * Change money format and currency format to be simpler drop down boxes.
+ 
+ * Change the download url from the settings screen so it is now an override (i.e. optional).
+
+ * Add new data input on the post/page edit screen for yak price and title (replacing the old
+   method of using custom fields).
+ 
+ * Remove the "Auto Set Price" option (doesn't make a huge amount of sense now).
+ 
+ * Fix the Auto Set Quantity so it works with selected categories.
+ 
+ * Tidy up the stylesheet.
+ 
+ * Add a hidden link to the checkout and to the buy button form -- vain hope that this might drive
+   more search engine traffic to the YAK plugin page -- if you don't want the link included, it can
+   be switched off on the Basic settings page.
+    
+ * Change the product category (settings page) from an input box to a dropdown.
+ 
+ * Change the redirect on buy (setting page) from an input box to a dropdown.
+ 
+ * Change the return and cancel urls on the PayPal settings page to a dropdown so you can select a page
+   rather than having to type a url.
+
+ * Problem with table creation.
+ 
+ * Country options not saving properly.
+ 
+ * Fix an odd problem with globals.
+
+ * The return URL appears to be broken with PayPal IPN.  PDT works fine, but IPN seems to wind up back at the 
+   home page of the blog.  Added a fix to cleanup the order from the shopping cart when this happens.
+
+
+-----------
+
+
+ * automatically set status to STOCK SENT when received all funds for a PayPal order, if the order contains
+   only downloadable items
+
+ * change directory structure to yak-for-wordpress, rather than just yak, as this is what the WordPress plugin site
+   automatically generates in the download file.
+
+   Reinstallation now requires:
+
+           a) backup your full wp installation
+           b) deactivate old version of YAK from the plugins page
+           c) remove old directory "yak"
+           d) extract contents of new distribution (directory "yak-for-wordpress" is created)
+           e) reactivate YAK
+
+ * Remove 'default' category from products drop down.  This means you can still turn the drop-down on by default
+   for products with more than one option, and the products that are tagged as 'default', won't include the dropdown.
+
+ * Tidied up the confirmation email -- removed the table structure which wasn't working for most people, and replaced
+   with a simpler list.
+
+ * fix problem with apostrophes in yak title, download and confirmation email
+
+ * fix problem with PayPal shipping on multiple items
+
+ * fix problem with PayPal verification (item names need to be properly encoded)
+
+ * another go at fixing PayPal shipping
+
+ * fixed invalid reference to yak.php on activation. 
+
+
+-----------
+
+
+ * update YAK to be compatible with WP2.3
+ 
+ * add paging to the "Products page"
+ 
+ * add facility for available countries to be switched on and off from the options page
+ 
+ * add <!--yak_quantity--> tag for displaying the quantity of a product to a customer
+ 
+ * fix problem with shipping cost zeroed on a credit card order
+
+
+-----------
+
+
+ * new method to support talking to paypal (or potentially other providers) using CURL or fsockopen (if CURL is not available).
+ 
+ * cancel an order on the order page, and the item quantities are added back to the quantity-available for each product.
+ 
+ * tidied up order page, adding a button for showing more detail plus added log info for orders.
+ 
+ * new credit card payment form (for shops which don't use a 3rd party to process credit card purchases)
+   NOTE: if you cancel or send stock from the orders screen, the credit card number is blanked out (to stop long term
+   storage of credit card details -- which is, after all, a potential security risk).
+ 
+ * yak_quantity function has been removed -- it doesn't make sense with multi-option products.
+ 
+ * removed requirement for using the execphp / phpexec plugins.  this was causing some layout problems (putting <br />'s 
+   where I didn't want them), and adds unnecessary overhead if it's not needed for anything else.  This basically changes
+   all <?php function_call() ?> code in pages & posts to <!--function_call-->.  The documentation will be updated 
+   to reflect the new way to include YAK functionality.
+   
+ * added shipping address to confirmation email
+   
+ * fix for Sourceforge bug #1594909 (redirect under IIS results in blank page)
+ 
+ * fix for various problems with paypal notifications
+ 
+ * fix for Sourceforge bug #1583319 (hosts with no support for CURL)
+ 
+ * problem with one create table statement
+ 
+ * changed the order_value function to use a session var rather than url parameter.  The old method allowed anyone to
+   view an order value (i.e. they can see exactly how much each order was, just by knowing the order id numbers).
+   
+ * finally remembered to update the version number in the plugin header... sigh
+ 
+ * added facility to switch of product options drop down if only 1 product
+   option is available
+
+ * fix problem with auto pricing
+ 
+ * more easily configurable button images
+ 
+ * add missing create table to upgrade script (not really necessary, but more complete if there)
+ 
+ * begin work to make YAK compatible with WordPress 2.1
+
+
+-----------
+
+
+ * added facility for specifying PayPal currency codes
+ 
+ * yak_install is now called only once, on plugin activation
+ 
+ * initial work adding filtering to orders page (at the moment, just showing fulfilled and unfulfilled orders)
+ 
+ * change paypal pdt to use mc_gross rather than payment_gross as payment_gross is deprecated (yak code still checks for
+   payment_gross field, if mc_gross isn't present for some reason)
+   
+ * fixed issue where posts weren't appearing on the products page even when the set default option was set
+ 
+ * problem with default "now()" for tables.  This is not supported in older versions of MySQL
+ 
+ * tidy up code, adding function_exists
+ 
+ * problem with "Allowed memory size" on certain default installs of PHP.  The answer seems to be to add
+   "ini_set" to the beginning of the script -- but not sure if this is the right solution.
+   
+ * products attached to pages (i.e. static content) were not clickable in the shopping cart (basically it
+   would try to go to a post with that id, rather than a page)
+
+ * shipping cost wasn't being included in the order value (function wp_yak_get_order_value)
+
+
+-----------
+
+
+ * yak_price now used as the required field for whether to display a post as a product or not
+ 
+ * yak_title is now optional.  if not present, the post title is used
+
+ * added the ability to automatically set a default price and quantity for all newly -published- posts.
+   If you turn these options on, you'll have to specifically delete the custom fields (yak_price, yak_quantity)
+   for posts that you don't want to be products.
+ 
+ * added the payment type to the order table and displayed in the order screen
+ 
+ * added facility for download content
+
+ * fixed problem, on some versions of WP, where the products screen was failing with a SQL error message.
+ 
+ * information messages on the Options screen were a bit 'screwy'
+
+ 
+-----------
+
+
+ * Added css class (yak_order) to shopping cart "confirm" screen for the table.  Added same to yak.css
+
+ * Added confirmation message (for email confirmation)
+ 
+ * Added phone number to address screen, plus new option to specify whether this field should be optional
+     or mandatory.
+
+ * Remove javascript dependence for validating shipping addresses
+ 
+ * Re-layout of confirmation email (still not brilliant... but perhaps slightly better)
+ 
+ * Products with an apostrophe in the yak_title field were failing to insert.  Added a function to call the mysql escaping function.
+
+ * Fix spelling mistake (recipient was spelled incorrectly)
+
+
+-----------
+
+
+ * Removed requirement to specify parameters for buy button.
+
+ * Add support for pages as well as posts
+
+ * New functions yak_price and yak_quantity to retrieve that data and include it in an entry (rather than specify the price as a custom field as well as in a post)
+
+ * Moved configuration to separate php file
+
+ * Added shipping cost into order table (it was missing)
+
+ * New online payment option (PayPal)
+
+ * Order log table (not currently viewable from within WP)
+
+ * New functions yak_get_order_value (to get the value of an order) and yak_get_order_id (to
+   display the order ID/number)
+
+
+
+26 May 2006
+-----------
+
+ * Remove javascript dependence for validating shipping addresses
+
+ * Re-layout confirmation email (still not brilliant...)
+
+
+
+17 May 2006
+-----------
+
+ * Added phone number to address screen, plus new option to specify whether this field should be optional
+   or mandatory.
+
+
+
+15 May 2006
+-----------
+
+ * Added confirmation message (for email confirmation)
+
+
+
+30 Apr 2006
+-----------
+
+  * Add css class (yak_order) to shopping cart "confirm" screen for the table.  Added same to yak.css
+
+
+
+28 Apr 2006
+-----------
+
+* Added options page for most options currently set in yak_config.php.
+
+* Removed yak_config.php
+
+
+
+25 Apr 2006
+-----------
+
+ * Moved "yak orders" to the "Manage" pages
+
+ * Added a new "yak products" management page.  After a product is added it will appear here.  This provides 
+   a shortcut, when updating quantities/prices/titles, so that you don't need to go from post to post. 
+
+ * Added email notification for orders
+
+
+
+23 Apr 2006
+-----------
+
+* Remove <p> tags from buy button, so it works in different layouts better.  Changed to a span with a class
+  of yak_buyerror.  Also split the buy button function into 3 (a begin -- which writes out the beginning of the
+  form, content -- which writes the actual button image, and end -- which closes the form).  You can still use
+  the yak_buybutton() function, but if you have layout problems (like I'm getting), you can split the calls
+  up and use:
+
+     <?php yak_buybutton_begin(); ?>
+
+     ... more content here ...
+
+     <?php yak_buybutton_content(); ?> (the actual button)
+
+     ... more content ...
+
+     <?php yak_buybutton_end(); ?>
+
+* Added new product page function, for displaying all products in the system
+
+* added AUTO_DISCOUNT constant if you want to automatically discount the price of your products sold online.
+  yak_price now shows the discounted price, unless you call yak_price(false)
+
+* Changed the default 'Add to Shopping Cart' button to the small shopping cart icon, as someone suggested it
+  looked better.
+
+
+
+04 Apr 2006
+-----------
+
+ * Function paypal_idn is renamed to paypal_ipn (as it should have been originally)
+
+ * Added PDT (Payment Data Transfer) for PayPal notifications
+
+ * Fixed problem with quantity not submitting correctly to PayPal (introduced in the last exp release)
+
+
+
+31 Mar 2006
+-----------
+
+ * Refactor view code into separate view files
+
+ * Add anchor so buy button stays in view when clicked on
+
+
+
+30 Mar 2006
+-----------
+
+ * Fixed problem where "Out of Stock" message was display even on items with no yak_* fields set
+
+ * Removed the requirement to manual include the stylesheet in the header
+
+
+
+29 Mar 2006
+-----------
+
+ * Page ID is no longer needed for the checkout function.
+
+ * Added some more detail to the order options page (subtotals, shipping cost, price)
+
+ * Fixed problem with redirects failing on WP2.
+
+ * Fixed problem with quantity not being updated correctly
+

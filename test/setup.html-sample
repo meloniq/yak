@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="" />
+<title>setup</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">setup</td></tr>
+</thead><tbody>
+<tr>
+	<td>store</td>
+	<td>[AUTHORIZE.NET API LOGIN]</td>
+	<td>authorizenetLogin</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[AUTHORIZE.NET TRANSACTION KEY]</td>
+	<td>authorizenetTransactionKey</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[PAYPAL SANDBOX USERNAME]</td>
+	<td>paypalUsername</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[PAYPAL SANDBOX PASSWORD]</td>
+	<td>paypalPassword</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[PAYPAL STANDARD ACC USERNAME]</td>
+	<td>paypalStandardAccount</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[PAYPAL PRO API USERNAME]</td>
+	<td>paypalProAPIUsername</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[PAYPAL PRO API PASSWORD]</td>
+	<td>paypalProAPIPassword</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[PAYPAL PRO API CERTIFICATE]</td>
+	<td>paypalProAPICertificate</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[SMTP HOST]</td>
+	<td>smtpHost</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[SMTP USERNAME]</td>
+	<td>smtpUsername</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[SMTP PASSWORD]</td>
+	<td>smtpPassword</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[DOWNLOAD FILE]</td>
+	<td>testDownloadFile</td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>[DOWNLOAD EMAIL ADDRESS]</td>
+	<td>downloadEmail</td>
+</tr>
+</tbody></table>
+</body>
+</html>
