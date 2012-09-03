@@ -291,7 +291,10 @@ If you need help with this or any other YAK module, you can purchase a support t
 If YAK has been recently updated, try deactivating and reactivating YAK first. If that doesn't help, have you installed a new plugin or theme lately? Or have you updated any other plugins? Try disabling any recently updated or installed plugins, to see if there is an incompatibility issue. Try using the default theme to see if your theme has caused the incompatibility issue.
 
 = What's the history of YAK? =
-The first version of YAK was created in 2005. The sourceforge project was registered in March, 2006 but moved to the present WordPress.org Plugins site in '09.
+The first version of YAK was created in 2005. The sourceforge project was registered in March, 2006 but moved to the present WordPress.org Plugins site in '09. The source code has bounced around: first on Sourceforge, for a while in a privately hosted Mercurial repo, and then in WordPress's subversion repository. The latest stable version is still in subversion, but the working repository is now on [Github](https://github.com/kwoli/yak-for-wordpress).
+
+= I've found a bug. Where can I report it? =
+Either in the WordPress [support forums](http://wordpress.org/support/plugin/yak-for-wordpress), or raise an issue on Github [here](https://github.com/kwoli/yak-for-wordpress/issues).
 
 = Why doesn't the cart translate to my language properly? =
 Try checking the following:
