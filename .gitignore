@@ -2,3 +2,4 @@ copy.sh
 test/setenv.sh
 test/setup.html
 .svn
+subversion
