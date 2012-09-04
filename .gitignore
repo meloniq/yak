@@ -3,3 +3,4 @@ test/setenv.sh
 test/setup.html
 .svn
 subversion
+.DS_Store
