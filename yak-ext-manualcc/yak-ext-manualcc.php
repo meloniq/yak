@@ -2,7 +2,7 @@
 /*
 Plugin Name: YAK Add-on Module - Manual Credit Card Payment
 Description: Manual Credit Card add-on module for YAK-for-WordPress
-Version: 3.3.5
+Version: 3.3.6
 Author: a filly ate it
 Author URI: http://afillyateit.com
 
@@ -31,6 +31,14 @@ if (file_exists(ABSPATH . 'wp-content/plugins/yak-for-wordpress/yak-creditcard.p
     require_once(ABSPATH . 'wp-content/plugins/yak-for-wordpress/yak-creditcard.php');
 }
 
+function yak_manualcc_check_ssl_error() {
+    $ret = '';
+    while ($msg = openssl_error_string()) {
+        $ret .= $msg . "\n";
+    }
+    return $ret;
+}
+
 function yak_manualcc_decrypt($content) {
     if (!empty($_REQUEST['private-key'])) {
         $pkey = openssl_pkey_get_private($_REQUEST['private-key']);
@@ -38,7 +46,7 @@ function yak_manualcc_decrypt($content) {
         if (openssl_private_decrypt(base64_decode($content), $output, $pkey)) {
             return $output;
         }
-        yak_log("ERROR: Unable to decrypt content");
+        yak_log("ERROR: Unable to decrypt content: " . yak_manualcc_check_ssl_error());
     }
     return $content;
 }

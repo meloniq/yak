@@ -1,9 +1,9 @@
 === Plugin Name ===
 Contributors: jasonrbriggs
 Tags: shop, e-commerce, shopping, cart, commerce, selling, shopping cart, credit cards, payments
-Requires at least: 3.2
-Tested up to: 3.4.1
-Stable tag: v3.3.5
+Requires at least: 3.4
+Tested up to: 3.4.2
+Stable tag: v3.3.6
 Donate link: http://afillyateit.com/forums/topic/693
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -73,6 +73,11 @@ When a credit card order is submitted, the number will be encrypted using this p
 
 == Changelog ==
 
+= Version 3.3.6 =
+
+* Add logging of SSL encryption/decryption error message.
+
+
 = Version 3.3.5 =
 
 * Update readme with more info, add screenshots
@@ -100,6 +105,8 @@ When a credit card order is submitted, the number will be encrypted using this p
 
 == Upgrade Notice ==
 
-= 3.3.5 =
+= 3.3.6 =
+Non-essential update, logging any errors with encryption/decryption of secure credit card details (for diagnostic purposes).
 
+= 3.3.5 =
 Upgrading to this version is not mandatory. There are no code changes in this release (instruction/information changes only).
