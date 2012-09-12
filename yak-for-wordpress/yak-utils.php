@@ -491,21 +491,6 @@ if (!function_exists('yak_calc_version_number')) {
 
 
 /**
- * Return true if a column exists on a table
- */
-if (!function_exists('yak_column_exists')) {
-    function yak_column_exists($table, $column) {
-        global $wpdb;
-        return $wpdb->get_var("select count(*)
-                            from information_schema.columns 
-                            where table_name = '$table' 
-                            and column_name = '$column' 
-                            and table_schema = schema()") == 1;
-    }
-}
-
-
-/**
  * return the number of digits in a string
  */
 if (!function_exists('yak_count_digits')) {

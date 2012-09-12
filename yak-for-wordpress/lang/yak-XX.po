@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: YAK 3.4.4\n"
+"Project-Id-Version: YAK 3.4.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-02-05 17:21+1300\n"
 "PO-Revision-Date: 2009-10-09 17:21+1300\n"

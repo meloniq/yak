@@ -1,8 +1,8 @@
 === Plugin Name ===
 Contributors: jrbriggs
 Tags: shop, e-commerce, shopping, cart, commerce, selling, paypal, shopping cart, authorize.net, google checkout, stripe, mastercard, MiGS, accounts-receivable
-Requires at least: 3.2
-Tested up to: 3.4.1
+Requires at least: 3.4
+Tested up to: 3.4.2
 Stable tag: v3.4.6
 Donate link: http://afillyateit.com/forums/topic/693
 License: GPLv2 or later
@@ -441,7 +441,7 @@ If you experience this issue, perform the following steps:
 
 = Version 3.4.6 =
 
-*
+* Fix for possible truncation issue with order meta storage
 
 
 = Version 3.4.5 =

@@ -66,13 +66,13 @@ msgstr ""
     out.close()
 
 paths = [ '.', 
-          '../../../yak/yak-ext-accrecv/branches/working',
-          '../../../yak/yak-ext-authorizenet/branches/working',
-          '../../../yak/yak-ext-google-checkout/branches/working',
-          '../../../yak/yak-ext-manualcc/branches/working',
-          '../../../yak/yak-ext-paypal-pro/branches/working',
-          '../../../yak/yak-ext-salestax/branches/working',
-          '../../../yak/yak-ext-stripe/branches/working',
+          '../yak-ext-accrecv',
+          '../yak-ext-authorizenet',
+          '../yak-ext-google-checkout',
+          '../yak-ext-manualcc',
+          '../yak-ext-paypal-pro',
+          '../yak-ext-salestax',
+          '../yak-ext-stripe',
          ]
 
 resources = { }

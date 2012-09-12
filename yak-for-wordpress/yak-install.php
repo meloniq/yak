@@ -9,6 +9,32 @@ global $wpdb, $order_table, $order_detail_table, $order_detail_index, $order_num
         $order_meta_index, $order_dl_table, $product_table, $product_detail_table, $coupon_table, $coupon_set_table, $coupon_set_index,
         $coupon_index, $promo_table, $promo_index, $promo_users_table, $address_table;
 
+if (!function_exists('yak_column_exists')) {
+    /**
+     * Return true if a column exists on a table
+     */
+    function yak_column_exists($table, $column) {
+        global $wpdb;
+        return $wpdb->get_var("select count(*)
+                            from information_schema.columns 
+                            where table_name = '$table' 
+                            and column_name = '$column' 
+                            and table_schema = schema()") == 1;
+    }
+}
+
+if (!function_exists('yak_column_size')) {
+    function yak_column_size($table, $column) {
+        global $wpdb;
+        return $wpdb->get_var("select character_maximum_length
+                            from information_schema.columns 
+                            where table_name = '$table' 
+                            and column_name = '$column' 
+                            and table_schema = schema()");
+    }
+}
+
+
 if ($wpdb->has_cap('collation')) {
 	if (!empty($wpdb->charset)) {
 		$charset_collate = "DEFAULT CHARACTER SET $wpdb->charset";
@@ -432,6 +458,11 @@ if (!yak_column_exists($product_table, 'custom_price')) {
 // updates for version 3.4.5
 if (!yak_column_exists($promo_table, 'products_inclusion')) {
     $wpdb->query("alter table $promo_table add products_inclusion tinyint default 1");
+}
+
+// updates for version 3.4.6
+if (yak_column_size($order_meta_table, 'value') <= 255) {
+    $wpdb->query("alter table $order_meta_table modify value varchar(8000)");
 }
 
 if (!isset($current_version)) {

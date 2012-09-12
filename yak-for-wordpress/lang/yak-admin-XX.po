@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: YAK Admin 3.4.4\n"
+"Project-Id-Version: YAK Admin 3.4.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-02-05 17:21+1300\n"
 "PO-Revision-Date: 2009-10-09 17:21+1300\n"
@@ -443,6 +443,9 @@ msgstr ""
 msgid "Include shipping costs in order totals?"
 msgstr ""
 
+msgid "Include the specified products in the promotion, or exclude them."
+msgstr ""
+
 msgid "Increase the quantity"
 msgstr ""
 
@@ -609,6 +612,9 @@ msgid "Product Title"
 msgstr ""
 
 msgid "Products"
+msgstr ""
+
+msgid "Products Inclusion"
 msgstr ""
 
 msgid "Products list"
