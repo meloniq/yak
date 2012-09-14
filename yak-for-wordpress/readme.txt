@@ -1203,7 +1203,7 @@ If you experience this issue, perform the following steps:
 == Upgrade Notice ==
 
 = 3.4.6 =
-
+Bug fix for truncation issue in order meta
 
 = 3.4.5 =
 Adds include/exclude functionality for product-specific promotions.
