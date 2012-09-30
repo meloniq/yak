@@ -972,7 +972,7 @@ if (!function_exists('yak_price_tag')) {
      *
      * embed the product price (type, id, and discount are optional) -- discount defaults to true
      */
-    function yak_price_tag($attrs) {
+    function yak_price_tag($attrs = null) {
         $pp = yak_get_product(null, true);
     
     	extract(shortcode_atts(array(
