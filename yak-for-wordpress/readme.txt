@@ -3,7 +3,7 @@ Contributors: jrbriggs
 Tags: shop, e-commerce, shopping, cart, commerce, selling, paypal, shopping cart, authorize.net, google checkout, stripe, mastercard, MiGS, accounts-receivable
 Requires at least: 3.4
 Tested up to: 3.4.2
-Stable tag: v3.4.6
+Stable tag: v3.4.7
 Donate link: http://afillyateit.com/forums/topic/693
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -431,6 +431,17 @@ If you experience this issue, perform the following steps:
 3. Click the button "Update options"
 
 
+= How do I setup more than one shipping option =
+
+Go to YAK's Shipping Options screen, and select the Basic tab. Enter the types of shipping you support in the "Shipping options" box at the bottom of the screen.  Enter each option separated by a newline:
+
+    > Standard mail
+    > Fedex
+    > UPS
+    
+On the options tab, you will now see a section for each option you've entered where you can enter a fixed total cost for an order, a fixed cost per item (for the first item and then subsequent items), or a cost by weight.
+
+
 == Screenshots ==
 
 1. Creating a YAK product
@@ -438,6 +449,11 @@ If you experience this issue, perform the following steps:
 
 
 == Changelog ==
+
+= Version 3.4.7 =
+
+* Fix minor installation issue, which shows up in WP3.5 beta
+
 
 = Version 3.4.6 =
 
@@ -1201,6 +1217,9 @@ If you experience this issue, perform the following steps:
 
 
 == Upgrade Notice ==
+
+= 3.4.7 =
+Minor bug fixes
 
 = 3.4.6 =
 Bug fix for truncation issue in order meta

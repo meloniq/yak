@@ -476,7 +476,7 @@ if (!function_exists('yak_admin_option_set')) {
 if (!function_exists('yak_calc_version_number')) {
     function yak_calc_version_number($version) {
         if (!isset($version) || empty($version)) {
-            return null;
+            return 0;
         }
         // calculate a version 'number'
         $ver = ereg_replace("[^0-9.]", "", $version);

@@ -232,14 +232,20 @@ if (empty($current_version)) {
 
 $ver = yak_calc_version_number($current_version);
 $_GLOBALS['yak_current_version'] = $ver;
+error_log("YAK installation, current version " . $ver);
 
 if ($ver < 1001002) {
     $wpdb->query("alter table $product_detail_table add column override_price float null");
 }
 
 if ($ver < 1002001) {
-    $wpdb->query("alter table $order_table add column country_code varchar(3)");
-    $wpdb->query("alter table $order_table add column billing_country_code varchar(3)");
+    if (!yak_column_exists($order_table, 'country_code')) {
+        $wpdb->query("alter table $order_table add column country_code varchar(3)");
+    }
+    
+    if (!yak_column_exists($order_table, 'billing_country_code')) {
+        $wpdb->query("alter table $order_table add column billing_country_code varchar(3)");
+    }
 }
 
 if ($ver < 1002007) {
@@ -256,7 +262,9 @@ if ($ver < 1002007) {
 }
 
 if ($ver < 1003001) {
-    $wpdb->query("alter table $order_table add column user_id bigint(20) unsigned");
+    if (!yak_column_exists($order_table, 'user_id')) {
+        $wpdb->query("alter table $order_table add column user_id bigint(20) unsigned");
+    }
 }
 
 if ($ver < 1003009) {
@@ -366,7 +374,9 @@ if ($ver < 2002002) {
 }
 
 if ($ver < 2002005 || !yak_db_column_exists($product_table, 'description')) {
-    $wpdb->query("alter table $product_table add description varchar(255)");
+    if (!yak_column_exists($product_table, 'description')) {
+        $wpdb->query("alter table $product_table add description varchar(255)");
+    }
 }
 
 if ($ver < 2003000) {
@@ -415,16 +425,12 @@ if ($ver < 3000000) {
 if ($ver < 3001000) {
     function yak_activated_plugin($plugin) {
         if ($plugin == 'yak-for-wordpress/yak-for-wordpress.php' && $_GLOBALS['yak_current_version'] < 3001000) {
-            activate_plugin('yak-for-wordpress/yak-ext-accrecv.php');
-            activate_plugin('yak-for-wordpress/yak-ext-authorizenet.php');
-            activate_plugin('yak-for-wordpress/yak-ext-coupons.php');
-            activate_plugin('yak-for-wordpress/yak-ext-google-analytics.php');
-            activate_plugin('yak-for-wordpress/yak-ext-google-checkout.php');
-            activate_plugin('yak-for-wordpress/yak-ext-manualcc.php');
-            activate_plugin('yak-for-wordpress/yak-ext-paypal-pro.php');
-            activate_plugin('yak-for-wordpress/yak-ext-paypal.php');
-            activate_plugin('yak-for-wordpress/yak-ext-publickey-gen.php');
-            activate_plugin('yak-for-wordpress/yak-ext-salestax.php');
+            activate_plugin('yak-ext-accrecv/yak-ext-accrecv.php');
+            activate_plugin('yak-ext-authorizenet/yak-ext-authorizenet.php');
+            activate_plugin('yak-ext-google-checkout/yak-ext-google-checkout.php');
+            activate_plugin('yak-ext-manualcc/yak-ext-manualcc.php');
+            activate_plugin('yak-ext-paypal-pro/yak-ext-paypal-pro.php');
+            activate_plugin('yak-ext-salestax/yak-ext-salestax.php');
         }
     }
     
