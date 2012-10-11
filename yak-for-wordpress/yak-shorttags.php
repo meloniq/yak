@@ -1142,18 +1142,32 @@ if (!function_exists('yak_sku_tag')) {
         $pp = yak_get_product(null, true);
     
     	extract(shortcode_atts(array(
-    		'id' => $pp->ID,
+    		'id' => null,    	    
     		'type' => 'default'
     	), $attrs));
+    	
+    	$count = count($attrs);
+        if ($id == null && $count > 0) {
+    	    $id = $attrs[0];
+    	    if ($count > 1) {
+    	        $type = $attrs[1];
+    	    }
+	    }
+	    
+	    if ($id == null) {
+	        $id = $pp->ID;
+	    }
 
     	$prod_type = yak_get_product_type($id, null, $type);
     	
+    	$sku = null;
+    	$cat_id = 0;
     	if (isset($prod_type)) {
-    	    return $prod_type->sku;
+    	    $sku = $prod_type->sku;
+    	    $cat_id = $prod_type->cat_id;
     	}
-    	else {
-    	    return "";
-    	}
+    	
+    	return yak_get_sku($id, $cat_id, $sku);
     }
 }
 

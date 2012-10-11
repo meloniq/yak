@@ -207,6 +207,11 @@
 	<td>110</td>
 </tr>
 <tr>
+	<td>type</td>
+	<td>//input[contains(@name, 'sku') and contains(@name, '_9')]</td>
+	<td>AAAAABBBBB</td>
+</tr>
+<tr>
 	<td>click</td>
 	<td>content-html</td>
 	<td></td>
@@ -214,12 +219,17 @@
 <tr>
 	<td>type</td>
 	<td>content</td>
-	<td>test multi type product<br /><br />small: [yak_price type=&quot;small&quot;]<br />medium: [yak_price type=&quot;medium&quot;]<br />large: [yak_price type=&quot;large&quot;]<br />x-large: [yak_price type=&quot;x-large&quot;]<br /><br />[yak_buy]</td>
+	<td>test multi type product<br /><br />small: [yak_price type=&quot;small&quot;]<br />medium: [yak_price type=&quot;medium&quot;]<br />large: [yak_price type=&quot;large&quot;]<br />x-large: [yak_price type=&quot;x-large&quot;]<br /><br />SKU small: [yak_sku type=&quot;small&quot;]<br />SKU medium: [yak_sku type=&quot;medium&quot;]<br /><br />[yak_buy]</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
 	<td>publish</td>
 	<td></td>
+</tr>
+<tr>
+	<td>storeValue</td>
+	<td>post_ID</td>
+	<td>multitypeProductId</td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
@@ -244,6 +254,16 @@
 <tr>
 	<td>assertTextPresent</td>
 	<td>x-large: $140.00</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>00000${multitypeProductId}0008</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTextPresent</td>
+	<td>AAAAABBBBB</td>
 	<td></td>
 </tr>
 <tr>

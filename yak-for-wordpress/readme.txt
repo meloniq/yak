@@ -331,9 +331,10 @@ The following tags are available:
 * [yak\_order\_value] – display the total value of the current order
 * [yak\_price] – display the price of the product (including discount if set)
 * [yak\_price discount="false"] – display the price of the product without discount
+* [yak\_quantity type="t"] - display the available quantity of a product (where 't' is the product category/type)
 * [yak\_buy] – display the buy button
-* [yak\_buy\_begin] – include the ‘html form' part of the buy button (use if you want to split up the button code)
-* [yak\_buy\_content] – include the ‘html input' part of the buy button
+* [yak\_buy\_begin] – include the 'html form' part of the buy button (use if you want to split up the button code)
+* [yak\_buy\_content] – include the 'html input' part of the buy button
 * [yak\_buy\_end] – include the end of the html form of the buy button
 * [yak\_cleanup] – cleanup order details (i.e. remove order details)
 * [yak\_paypal\_pdt\_success] – a handler for PayPal's PDT (Payment Data Transfer) response which specifies a message to display after a successful purchase. Use in the form: [yak\_paypal\_pdt\_success]success message goes here[/yak\_paypal\_pdt\_success]
@@ -431,7 +432,7 @@ If you experience this issue, perform the following steps:
 3. Click the button "Update options"
 
 
-= How do I setup more than one shipping option =
+= How do I setup more than one shipping option? =
 
 Go to YAK's Shipping Options screen, and select the Basic tab. Enter the types of shipping you support in the "Shipping options" box at the bottom of the screen.  Enter each option separated by a newline:
 
@@ -440,6 +441,11 @@ Go to YAK's Shipping Options screen, and select the Basic tab. Enter the types o
     > UPS
     
 On the options tab, you will now see a section for each option you've entered where you can enter a fixed total cost for an order, a fixed cost per item (for the first item and then subsequent items), or a cost by weight.
+
+
+= How do I use HTML in my confirmation email? =
+
+As long as your mail message starts with &lt;html&gt; and ends with &lt;/html&gt; then it should automatically generate the correctly encoded mail message.
 
 
 == Screenshots ==
@@ -453,6 +459,8 @@ On the options tab, you will now see a section for each option you've entered wh
 = Version 3.4.7 =
 
 * Fix minor installation issue, which shows up in WP3.5 beta
+* Fix problem with displaying SKU
+* Add check digit calculation for automatically generated SKUs
 
 
 = Version 3.4.6 =

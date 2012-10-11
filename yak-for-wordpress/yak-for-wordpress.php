@@ -549,7 +549,30 @@ if (!function_exists('yak_get_sku')) {
             return $sku;
         }
         else {
-            return str_pad($post_id, 8, '0', STR_PAD_LEFT) . str_pad($cat_id, 4, '0', STR_PAD_LEFT);
+            $num = str_pad($post_id, 7, '0', STR_PAD_LEFT) . str_pad($cat_id, 4, '0', STR_PAD_LEFT);
+            $numarr = str_split($num);
+            
+            // check digit calc (taken from wikipedia).  Assume a number: 03600029145x
+            // add the odd-numbered digits (0 + 6 + 0 + 2 + 1 + 5 = 14),
+            // multiply by three (14 × 3 = 42),
+            // add the even-numbered digits (42 + (3 + 0 + 0 + 9 + 4) = 58),
+            // calculate modulo ten (58 mod 10 = 8),
+            // subtract from ten (10 − 8 = 2).
+            
+            $check = 0;
+            for ($x = 1; $x < count($numarr); $x += 2) {
+                $check += $numarr[$x];
+            }
+            
+            $check *= 3;
+            
+            for ($x = 0; $x < count($numarr); $x += 2) {
+                $check += $numarr[$x];
+            }
+            
+            $check = 10 - ($check % 10);
+            
+            return $num . $check;
         }
     }
 }
