@@ -3,7 +3,7 @@
 Plugin Name: YAK for WordPress
 Plugin URI: http://www.wordpress.org/extend/plugins/yak-for-wordpress/
 Description: A shopping cart plugin for WordPress
-Version: 3.4.7
+Version: 3.4.8
 Author: a filly ate it
 Author URI: http://afillyateit.com/yak-for-wordpress
 
@@ -23,7 +23,7 @@ Author URI: http://afillyateit.com/yak-for-wordpress
     along with this program; if not, write to the Free Software
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
-define('YAK_VERSION_NUMBER', '3.4.7');
+define('YAK_VERSION_NUMBER', '3.4.8');
 
 require_once('yak-model.php');
 require_once('yak-utils.php');

@@ -3,7 +3,7 @@ Contributors: jrbriggs
 Tags: shop, e-commerce, shopping, cart, commerce, selling, paypal, shopping cart, authorize.net, google checkout, stripe, mastercard, MiGS, accounts-receivable
 Requires at least: 3.4
 Tested up to: 3.4.2
-Stable tag: v3.4.7
+Stable tag: v3.4.8
 Donate link: http://afillyateit.com/forums/topic/693
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -345,19 +345,19 @@ The following tags are available:
 * [yak\_ordertracker] – display an order tracker on a page, which a logged in customer can use to view the status of their orders
 
 = What tags can I use in my confirmation emails? =
-[order\_detail] – list of the items the customer has ordered
-[html\_order\_detail] – list of the items the customer has ordered in html format
-[order\_id] – the order number
-[order\_cost] – total cost of the order
-[payment\_type] – the payment type the customer selected
-[shipping\_type] – the shipping option the customer selected
-[shipping\_address] – the customer's shipping address
-[billing\_address] – the customer's billing address
-[html\_shipping\_address] – the customer's shipping address in html format
-[html\_billing\_address] – the customer's billing address in html format
-[name] – the customer's name
-[phone] – the customer's phone number
-[special\_instructions] – any special instructions set by the customer when ordering
+* [order\_detail] – list of the items the customer has ordered
+* [html\_order\_detail] – list of the items the customer has ordered in html format
+* [order\_id] – the order number
+* [order\_cost] – total cost of the order
+* [payment\_type] – the payment type the customer selected
+* [shipping\_type] – the shipping option the customer selected
+* [shipping\_address] – the customer's shipping address
+* [billing\_address] – the customer's billing address
+* [html\_shipping\_address] – the customer's shipping address in html format
+* [html\_billing\_address] – the customer's billing address in html format
+* [name] – the customer's name
+* [phone] – the customer's phone number
+* [special\_instructions] – any special instructions set by the customer when ordering
 
 = How do I change the style of the buy button? =
 
@@ -455,6 +455,11 @@ As long as your mail message starts with &lt;html&gt; and ends with &lt;/html&gt
 
 
 == Changelog ==
+
+= Version 3.4.8 =
+
+* Add support for comma-separated confirmation email addresses (deliver the order notification mail to multiple addresses) - the first address is the primary confirmation mail.
+
 
 = Version 3.4.7 =
 
@@ -1225,6 +1230,9 @@ As long as your mail message starts with &lt;html&gt; and ends with &lt;/html&gt
 
 
 == Upgrade Notice ==
+
+= 3.4.8 =
+TODO
 
 = 3.4.7 =
 Minor bug fixes

@@ -166,8 +166,18 @@ if (!function_exists('yak_send_confirmation_email')) {
             yak_log("Mail message to $email : $mail");
         }
         
-        yak_sendmail($conf_email, $email, $subject, $mail); 
-        yak_sendmail($conf_email, $conf_email, $subject . ' - ' . __('the following email has been sent to ', 'yak') . $email, $mail);
+        if (yak_str_contains($conf_email, ',')) {
+            $conf_emails = explode(',', $conf_email);
+            $conf_email = $conf_emails[0];
+        }
+        else {
+            $conf_emails = array($conf_email);
+        }
+        
+        yak_sendmail($conf_email, $email, $subject, $mail);
+        foreach ($conf_emails as $cemail) {
+            yak_sendmail($conf_email, $cemail, $subject . ' - ' . __('the following email has been sent to ', 'yak') . $email, $mail);
+        }
         yak_insert_orderlog($order_id, "Sent order confirmation to: $email, notification to: $conf_email");
     }
 }
@@ -213,7 +223,17 @@ if (!function_exists('yak_test_confirmation_email')) {
             yak_log("Mail message: $mail");
         }
         
-        yak_sendmail($conf_email, $conf_email, __('Test email: ', 'yak-admin') . $subject, $mail);
+        if (yak_str_contains($conf_email, ',')) {
+            $conf_emails = explode(',', $conf_email);
+            $conf_email = $conf_emails[0];
+        }
+        else {
+            $conf_emails = array($conf_email);
+        }
+        
+        foreach ($conf_emails as $cemail) {
+            yak_sendmail($conf_email, $cemail, __('Test email: ', 'yak-admin') . $subject, $mail);
+        }
     }
 }
 
