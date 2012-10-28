@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: YAK Admin 3.4.7\n"
+"Project-Id-Version: YAK Admin 3.4.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-02-05 17:21+1300\n"
 "PO-Revision-Date: 2009-10-09 17:21+1300\n"
@@ -275,10 +275,10 @@ msgstr ""
 msgid "Email"
 msgstr ""
 
-msgid "Email address from which download messages are sent"
+msgid "Email address (or addresses, comma-separated) to use for the order confirmation. Leave this blank if you don't want to send a confirmation message."
 msgstr ""
 
-msgid "Email address to use for the order confirmation. Leave this blank if you don't want to send a confirmation message."
+msgid "Email address from which download messages are sent"
 msgstr ""
 
 msgid "Empty basket message"
