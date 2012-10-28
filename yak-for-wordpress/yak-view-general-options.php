@@ -111,7 +111,7 @@ $used_options = array();
         <tr valign="top">
             <th scope="row"><?php _e('Confirmation Email', 'yak-admin') ?></th>
             <td><input type="text" name="<?php echo CONFIRMATION_EMAIL_ADDRESS ?>" value="<?php echo $model[CONFIRMATION_EMAIL_ADDRESS] ?>" size="40"
-                    title="<?php _e('Email address to use for the order confirmation. Leave this blank if you don\'t want to send a confirmation message.', 'yak-admin') ?>" /></td>
+                    title="<?php _e('Email address (or addresses, comma-separated) to use for the order confirmation. Leave this blank if you don\'t want to send a confirmation message.', 'yak-admin') ?>" /></td>
         </tr>
         
         <tr valign="top">
