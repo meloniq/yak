@@ -1232,13 +1232,13 @@ As long as your mail message starts with &lt;html&gt; and ends with &lt;/html&gt
 == Upgrade Notice ==
 
 = 3.4.8 =
-TODO
+Add support for comma-separated confirmation addresses.
 
 = 3.4.7 =
-Minor bug fixes
+Minor bug fixes.
 
 = 3.4.6 =
-Bug fix for truncation issue in order meta
+Bug fix for truncation issue in order meta.
 
 = 3.4.5 =
 Adds include/exclude functionality for product-specific promotions.
